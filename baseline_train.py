@@ -9,9 +9,9 @@ from tqdm.auto import tqdm
 import numpy as np
 
 #######################################################
-# Script contains: dataset preprocessing, tokenization and alignment, training loop, evaluation on development set and getting predictions on test set
+# Script contains: dataset preprocessing, tokenization and alignment, training loop and getting predictions on test set
 
-only_trainning = True # Set to True to only run training loop, skipping predictions on test set, False otherwise
+only_trainning = False # train on training data and predict on test set
 
 # Set up
 
