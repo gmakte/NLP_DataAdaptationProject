@@ -1,3 +1,4 @@
+import torch
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 model_name = "mistralai/Mistral-7B-Instruct-v0.3"
