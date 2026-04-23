@@ -13,9 +13,9 @@ print("Loading trained model and tokenizer...")
 model = AutoModelForTokenClassification.from_pretrained("model1")
 tokenizer = AutoTokenizer.from_pretrained("model1")
 
-path_train = "en_ewt-ud-train.iob2"
-path_dev = "en_ewt-ud-dev.iob2"
-path_test = "en_ewt-ud-test-masked.iob2"
+path_train = "data/en_ewt-ud-train.iob2"
+path_dev = "data/en_ewt-ud-dev.iob2"
+path_test = "data/en_ewt-ud-test-masked.iob2"
 
 ####################################################
 
@@ -109,7 +109,7 @@ for tokens in tqdm(test_sentences, desc="Predicting on test set"):
     predicted_labels.append(pred_labels)
 
 # Save to txt
-output_file = "test_predictions.txt"
+output_file = "predictions/test_predictions.txt"
 with open(output_file, "w", encoding="utf-8") as f:
     for tokens, labels in zip(test_sentences, predicted_labels):
         for i, (token, label) in enumerate(zip(tokens, labels)):

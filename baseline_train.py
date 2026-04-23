@@ -15,9 +15,9 @@ only_trainning = False # train on training data and predict on test set
 
 # Set up
 
-path_train = "data/en_ewt-ud-train.iob2"
-path_dev = "data/en_ewt-ud-dev.iob2"
-path_test = "data/en_ewt-ud-test-masked.iob2"
+path_train = "data/en_ewt-ud-train.iob2" #change to synthetic and FIN5 later - train part
+path_dev = "data/en_ewt-ud-dev.iob2" #change to synthetic and FIN5 later - dev part
+path_test = "data/en_ewt-ud-test-masked.iob2" #change to FIN3 later - test part
 
 model_name = "google-bert/bert-base-cased"
 
