@@ -26,7 +26,7 @@ def parse_iob2_file(filepath):
         for line in f:
             line = line.strip()
             if not line or line.startswith("#"):
-                if tokens:
+                if tokens: #tokens is usually empty when the line starts with # 
                     sentences.append(tokens)
                     labels.append(tags)
                     tokens = []
@@ -39,7 +39,7 @@ def parse_iob2_file(filepath):
     return sentences, labels
 
 # Label to id conversion 
-def labels_to_ids(labels, label2id):
+def labels_to_ids(labels, label2id): #labels is a nested list where labels[i][j] is the label for the j-th token in the i-th sentence
     L = []
     for seq in labels:
         seq_ids = []
@@ -68,7 +68,7 @@ dev_dataset = Dataset.from_dict({"tokens": dev_sentences, "ner_tags": dev_label_
 
 # Tokenization and alignment
 
-def tokenize_and_align_labels(examples):
+def tokenize_and_align_labels(examples): #parse some rows of the dataset above
     tokenized_inputs = tokenizer(
         examples["tokens"], # Lists of tokens for each sentence, e.g. [["EU", "rejects", "Germany", "call", "to", "boycott", "British", "lamb", "."]]
         max_length=128, #  Limits the total number of tokens (including special tokens) to 128. Longer sequences are truncated.
@@ -79,7 +79,7 @@ def tokenize_and_align_labels(examples):
     
     all_labels = []
     for i, labels in enumerate(examples["ner_tags"]):
-        word_ids = tokenized_inputs.word_ids(batch_index=i)
+        word_ids = tokenized_inputs.word_ids(batch_index=i) #this maps each subword token back to the original word index, so we can align the labels correctly
         label_ids = []
         prev_word_id = None
         for word_id in word_ids:
@@ -96,9 +96,9 @@ def tokenize_and_align_labels(examples):
 
 # Loading tokenizer, model configuration and data collator
 print("Loading model and tokenizer...")
-model = AutoModelForTokenClassification.from_pretrained("model1")
-tokenizer = AutoTokenizer.from_pretrained("model1")
-data_collator = DataCollatorForTokenClassification(tokenizer)
+model = AutoModelForTokenClassification.from_pretrained("model1") #loads an NER model and automatically builds the correct architecture based on config.json
+tokenizer = AutoTokenizer.from_pretrained("model1") #loads the tokenizer used during training and converts text to token IDs that the model can understand
+data_collator = DataCollatorForTokenClassification(tokenizer) # used to dynamically pad the inputs and labels to the maximum length in a batch during training and evaluation, so all sequences in a batch have the same length 
 
 # Move model to device (CPU/GPU)
 if torch.cuda.is_available():
