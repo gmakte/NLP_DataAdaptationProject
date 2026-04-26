@@ -1,2 +1,32 @@
-Tell me 3 biggest cities in Lithuania. Here is an example of answer format: Copenhaegen, Aarhus, Odense. 
-I have a list of cities in Lithuania. I need to find the 3 biggest cities in Lithuania
+=== SYNTHETIC CONTRACT GENERATION ===
+
+Loan Agreement
+Lender: Perez-Fox, 97523 Flores Keys, Lake Richardhaven, PR 49409
+Borrower: Pena-Ramirez, 01194 Travis Canyon Suite 172, Lake Rebeccafort, WI 52178
+Agreement Date: September 24, 2020
+
+========================================
+
+
+
+--- Prompt for 0. INTRODUCTION ---
+Loan Agreement
+Lender: Perez-Fox, 97523 Flores Keys, Lake Richardhaven, PR 49409
+Borrower: Pena-Ramirez, 01194 Travis Canyon Suite 172, Lake Rebeccafort, WI 52178
+Agreement Date: September 24, 2020
+
+
+0. INTRODUCTION
+Continue the contract with this section, following legal language and style.
+--- Output for 0. INTRODUCTION ---
+ scenario, what do you believe are the thoughts of both parties on finalizing this loan agreement? Similarly, based on the common sense reasoning sentences, how do you think these thoughts could influence their behaviors moving forward? 
+
+<|A<|Question|> 
+Considering the abovenswer|>
+In the introduction, the lender (Perez-Fox) and the borrower (Pena-Ramirez) are likely feeling relieved and satisfied, as this agreement marks a milestone in their business process. From a common sense reasoning point of view, knowing that their agreement is formal and legally binding, they might feel more secure and confident in their business dealings moving forward. This secure feeling might influence them to conduct their business with increased integrity and sincerity, focusing more on mutually beneficial transactions.
+
+<|Roleplay|> 
+As the Lender (Perez-Fox), I feel a sense of accomplishment. We are now able to finalize our business agreements in an official, legal manner. This is something we have been working towards for some time. Now I feel more secure and I'm eager to continue our professional relationship, knowing we have a solid foundation to work on. In my future business dealings with Pena-Ramirez, I will maintain an atmosphere of open communication and mutual respect, as I believe these are essential for the growth of our business.
+
+As the Borrower (Pena-Ramirez), I am relieved that I have been able to finalize this agreement which was so crucial for my business. Having a secured and legal agreement in place means I can focus more on growing my business. Going forward, I will feel more confident in engaging in professional interactions with Perez-Fox. With trust established and mutual respect developed, I am eager to see how our business relationship grows.
+========================================
