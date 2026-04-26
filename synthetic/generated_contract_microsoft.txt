@@ -1,0 +1,127 @@
+=== SYNTHETIC CONTRACT GENERATION ===
+
+Loan Agreement
+Lender: Brown LLC, 360 Courtney Trail Apt. 384, Figueroaberg, AR 40998
+Borrower: Robbins-Cox, 6410 Alexandria Key Apt. 618, North Michaelport, CT 62860
+Agreement Date: September 18, 2017
+
+========================================
+
+
+
+--- Prompt for 0. INTRODUCTION ---
+Loan Agreement
+Lender: Brown LLC, 360 Courtney Trail Apt. 384, Figueroaberg, AR 40998
+Borrower: Robbins-Cox, 6410 Alexandria Key Apt. 618, North Michaelport, CT 62860
+Agreement Date: September 18, 2017
+
+
+0. INTRODUCTION
+--- Output for 0. INTRODUCTION ---
+For this agreement, the borrower takes a Loan agreement or an agreement to take a Loan agreement with the parties that shall hereafter be known as "the Parties".The parties agree as follows:
+1. _____________________ [Name] [Full Name] is hereto bound to pay __________________ __________ ($___________. __________) interest as the loan rate in the document. _____________________ [Name] is licensed by the __________________ (the "Lender") and _____________________ [Name] is a Licensed Representative of the Lender.
+2. _____________________ [Number] [full Name] of the lender hereby represents that they have a "borrower" that is competent and capable to borrow on behalf of the Lender.
+3. _____________________ [Full Name] represents that the terms of the Loan agreement and the information contained in this document are all truthful and complete.
+
+THE MEMBER
+[Name] has requested an advance of _____ Dollars from the Lender. The advance will include the principal, the interest rate, the term of the loan, the date of principal payments, the lender payments and other terms and conditions agreed to by the parties involved. Upon closing, and receipt of collateral, the advance will be paid to [Name].
+
+BORROWER REP
+[Name], as a representative of [Name], has agreed to this Loan agreement, in accordance with all applicable laws and regulations.
+
+LENDER
+[Name] has agreed to lend the money to [Name] and the term of the borrowing will not exceed _____ days (as stated below), according to the provisions of the terms of the loan agreement and the documentation requirements set forth above. Once the Lender receives collateral, the agreed to payment schedule will begin.
+
+MORTALITIES AND IMPENDING DISASTERS
+In the event of any death, mental or physical incapacitation, or other casualty, whether real
+========================================
+
+
+--- Prompt for 1. PARTIES ---
+Loan Agreement
+Lender: Brown LLC, 360 Courtney Trail Apt. 384, Figueroaberg, AR 40998
+Borrower: Robbins-Cox, 6410 Alexandria Key Apt. 618, North Michaelport, CT 62860
+Agreement Date: September 18, 2017
+
+_________) interest as the loan rate in the document. _____________________ [Name] is licensed by the __________________ (the "Lender") and _____________________ [Name] is a Licensed Representative of the Lender.
+2. _____________________ [Number] [full Name] of the lender hereby represents that they have a "borrower" that is competent and capable to borrow on behalf of the Lender.
+3. _____________________ [Full Name] represents that the terms of the Loan agreement and the information contained in this document are all truthful and complete.
+
+THE MEMBER
+[Name] has requested an advance of _____ Dollars from the Lender. The advance will include the principal, the interest rate, the term of the loan, the date of principal payments, the lender payments and other terms and conditions agreed to by the parties involved. Upon closing, and receipt of collateral, the advance will be paid to [Name].
+
+BORROWER REP
+[Name], as a representative of [Name], has agreed to this Loan agreement, in accordance with all applicable laws and regulations.
+
+LENDER
+[Name] has agreed to lend the money to [Name] and the term of the borrowing will not exceed _____ days (as stated below), according to the provisions of the terms of the loan agreement and the documentation requirements set forth above. Once the Lender receives collateral, the agreed to payment schedule will begin.
+
+MORTALITIES AND IMPENDING DISASTERS
+In the event of any death, mental or physical incapacitation, or other casualty, whether real
+1. PARTIES
+--- Output for 1. PARTIES ---
+REPRESENTING:
+LENDER: Brown LLC, 360 Courtney Trail Apt. 384, Figueroaberg AR 40998 _____________________
+Borrower: Robbins-Cox a/k/a ____________________________, 6410 Alexandria Key Apt. 618, North Michaelport CT 62860 _____________________
+REPRESENTATIVE: _________________________ [Name], [Full Name]
+AGENT: ________________________ ___________________ [Last Name], [Full Name]
+LENDER'S AGENT:
+_________________________ [Full Name]
+BORROWER'S AGGREGATE AND REGULATED AGENT:
+_________________ [Full Name], [Last Name]
+DATE
+
+PARTY NAME
+PARTY DESCRIPTION
+AUTHENTICATORS
+
+1. __________________________, [Last Name]
+____________
+
+2. ___________________, [Full Name]
+____________
+
+3. _________________________, [First Name] [Last Name]
+____________
+
+4. ___________________________, [First Name] [Last Name]
+____________
+
+5. _________________________ [Full Name]
+____________
+
+6. _________________________
+____________
+
+7. _________________________ [Full Name]
+____________
+
+8. ______________________________, [Last Name]
+____________
+
+9. _________________________ [Last Name]
+____________
+
+10._________ [First Name] ______
+_________________________ [Last Name]
+_____________[Full Name]
+_________________________
+_________________________ ________[Last Name]
+______________________ _________
+_________________________
+______________________________ ____________ __________
+______________________________
+______________________________
+______________________________
+______________________________
+______________________________
+______________________________
+______________________________
+______________________________
+______________________________
+______________________________
+______________________________
+______________________________
+
+AGENT STATEMENT
+========================================
