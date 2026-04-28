@@ -64,15 +64,16 @@ label2id = {l: i for i, l in enumerate(label_list)} # Converting labels to IDs, 
 id2label = {i: l for l, i in label2id.items()} # Reverse mapping for ID to label, for evalutation later
 
 dev_label_ids = labels_to_ids(dev_labels, label2id)
-dev_dataset = Dataset.from_dict({"tokens": dev_sentences, "ner_tags": dev_label_ids})
+dev_dataset = Dataset.from_dict({"tokens": dev_sentences, "ner_tags": dev_label_ids}) #this one is the Hugging Face Dataset object
 
 # Tokenization and alignment
 
 def tokenize_and_align_labels(examples): #parse some rows of the dataset above
-    tokenized_inputs = tokenizer(
+    #tokenized_inputs is a BatchEncoding object
+    tokenized_inputs = tokenizer( 
         examples["tokens"], # Lists of tokens for each sentence, e.g. [["EU", "rejects", "Germany", "call", "to", "boycott", "British", "lamb", "."]]
         max_length=128, #  Limits the total number of tokens (including special tokens) to 128. Longer sequences are truncated.
-        padding=False, # All sentences keeps their original length, not making all sentences the same length
+        padding=False, # All sentences keeps their original length to avoid wasting memory, we also have data_collator
         truncation=True, # If sequence is longer than max_length, it will be truncated to fit the model's input size.
         is_split_into_words=True # Indicates that the input is already split into words
     )
@@ -83,22 +84,22 @@ def tokenize_and_align_labels(examples): #parse some rows of the dataset above
         label_ids = []
         prev_word_id = None
         for word_id in word_ids:
-            if word_id is None:
-                label_ids.append(-100)
-            elif word_id == prev_word_id:
-                label_ids.append(-100)
+            if word_id is None: #which is for special tokens like [CLS] and [SEP]
+                label_ids.append(-100) # -100 is the default ignore index in PyTorch's CrossEntropyLoss
+            elif word_id == prev_word_id: # subword tokens that belong to the same original word
+                label_ids.append(-100) # we only compute loss on the first subword token of a word, so we set the label for subsequent subword tokens to -100 to ignore them during loss calculation
             else:
                 label_ids.append(labels[word_id])
             prev_word_id = word_id
         all_labels.append(label_ids)
     tokenized_inputs["labels"] = all_labels
-    return tokenized_inputs
+    return tokenized_inputs #format is a dict like structure with "tokens", "ner_tags", "input_ids" (subword token ids), "attention_mask", "labels" (aligned label ids for the first subword token of each word, and -100 for special tokens and subsequent subword tokens)
 
 # Loading tokenizer, model configuration and data collator
 print("Loading model and tokenizer...")
 model = AutoModelForTokenClassification.from_pretrained("model1") #loads an NER model and automatically builds the correct architecture based on config.json
-tokenizer = AutoTokenizer.from_pretrained("model1") #loads the tokenizer used during training and converts text to token IDs that the model can understand
-data_collator = DataCollatorForTokenClassification(tokenizer) # used to dynamically pad the inputs and labels to the maximum length in a batch during training and evaluation, so all sequences in a batch have the same length 
+tokenizer = AutoTokenizer.from_pretrained("model1") #loads the tokenizer used during training 
+data_collator = DataCollatorForTokenClassification(tokenizer) # used to dynamically pad the inputs and labels to the maximum length in a batch, so all sequences in a batch have the same length 
 
 # Move model to device (CPU/GPU)
 if torch.cuda.is_available():
@@ -112,15 +113,15 @@ model.to(device)
 
 # Tokenizing datasets
 print("Tokenizing datasets...")
-tokenized_dev = dev_dataset.map(tokenize_and_align_labels, batched=True, remove_columns=dev_dataset.column_names)
+tokenized_dev = dev_dataset.map(tokenize_and_align_labels, batched=True, remove_columns=dev_dataset.column_names) # batched=True to apply your function to multiple rows at once & speed up processing, and remove original column names to prepare for prediction, now we have "input_ids", "attention_mask", "labels" 
 
-# Creating DataLoader objects for training and development datasets, needed for pyTorch training loop
+# data ready for inference, dataloader will assign rows to batches and handle padding
 print("Creating DataLoader objects...")
 dev_dataloader = DataLoader(tokenized_dev, collate_fn=data_collator, batch_size=batch_size)
 
 # Evaluation on development set
 
-metric = evaluate.load("seqeval")
+metric = evaluate.load("seqeval") # a library for sequence labeling evaluation
 
 def get_labels(predictions, references):
     true_predictions = []
@@ -156,7 +157,7 @@ def compute_metrics(preds, refs):
 
 ### Evaluation loop
 print("Evaluating on development set...")
-model.eval()
+model.eval() #turn training mode off to deactive dropout and other training settings 
 validation_progress_bar = tqdm(range(len(dev_dataloader)), desc="Evaluating")
 # Storage
 all_predictions = []

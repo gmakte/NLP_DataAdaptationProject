@@ -1510,7 +1510,7 @@
 27	2	O
 28	of	O
 29	the	O
-30	French	I-MISC
+30	French	O
 31	Code	O
 32	de	O
 33	la	O
@@ -4364,7 +4364,7 @@
 16	in	O
 17	accordance	O
 18	with	O
-19	French	I-MISC
+19	French	O
 20	law	O
 21	.	O
 
@@ -4386,7 +4386,7 @@
 16	communications	O
 17	shall	O
 18	be	O
-19	English	I-MISC
+19	English	O
 20	.	O
 
 1	17	O
@@ -4514,7 +4514,7 @@
 4	be	O
 5	conducted	O
 6	in	O
-7	English	I-MISC
+7	English	O
 8	and	O
 9	the	O
 10	seat	O
@@ -4699,7 +4699,7 @@
 166	1	O
 167	of	O
 168	the	O
-169	French	I-MISC
+169	French	O
 170	Commercial	O
 171	Code	O
 172	;	O
@@ -4894,7 +4894,7 @@
 26	15	O
 27	of	O
 28	the	O
-29	French	I-MISC
+29	French	O
 30	Commercial	O
 31	Code	O
 32	or	O
@@ -4946,7 +4946,7 @@
 78	6	O
 79	of	O
 80	the	O
-81	French	I-MISC
+81	French	O
 82	Commercial	O
 83	Code	O
 84	or	O
