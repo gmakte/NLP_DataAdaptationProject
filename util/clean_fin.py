@@ -29,8 +29,8 @@
 
 
 ###### 2. MAKE SENTENCES FOR FEEDING THE FEW-SHOT EXAMPLES TO THE LLM FOR SYNTHETIC DATA GENERATION #####
-# from sacremoses import MosesDetokenizer
-# detokenizer = MosesDetokenizer(lang='en')
+from sacremoses import MosesDetokenizer
+detokenizer = MosesDetokenizer(lang='en')
 
 # fin5 = './data/FIN5.txt'
 # fin5_sentences = './data/FIN5_sentences.txt'
@@ -54,7 +54,7 @@
 #         sentence.append(token)
 
 
-##### FIND DIFFERENCES BETWEEN TEST TXT AND PREDICTIONS TXT (THEY ARE NOT THE SAME LENGTH) ######
+##### 3. FIND DIFFERENCES BETWEEN TEST TXT AND PREDICTIONS TXT (THEY ARE NOT THE SAME LENGTH) ######
 def load_sentences(path):
     sentences = []
     current = []
