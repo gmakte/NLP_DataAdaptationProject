@@ -85,59 +85,52 @@ if __name__ == '__main__':
     fp_ul = 0
     fn_ul = 0 
     
-    iter=1
     for gold_ner, pred_ner in zip(gold_ners, pred_ners):
         gold_spans = toSpans(gold_ner)
         pred_spans = toSpans(pred_ner)
-        print(f"sentence {iter}, gold: {gold_spans}, pred: {pred_spans}")
-        print(gold_spans == pred_spans)
-        if iter == 10:
-            break
-        iter += 1
-        
-    #     overlap = len(gold_spans.intersection(pred_spans))  #counting exact matches between gold and predicted spans in a sentence
-    #     tp += overlap
-    #     fp += len(pred_spans) - overlap
-    #     fn += len(gold_spans) - overlap
-        
-    #     overlap_ul = getUnlabeled(gold_spans, pred_spans)
-    #     tp_ul += overlap_ul
-    #     fp_ul += len(pred_spans) - overlap_ul # predicted spans that do NOT match any gold span
-    #     fn_ul += len(gold_spans) - overlap_ul # gold spans that do NOT match any predicted span
-    
-    #     overlap_loose = getLooseOverlap(gold_spans, pred_spans)
-    #     recall_loose_tp += overlap_loose
-    #     recall_loose_fn += len(gold_spans) - overlap_loose
-    
-    #     overlap_loose = getLooseOverlap(pred_spans, gold_spans)
-    #     precision_loose_tp += overlap_loose
-    #     precision_loose_fp += len(pred_spans) - overlap_loose
-    
-    # prec = 0.0 if tp+fp == 0 else tp/(tp+fp)
-    # rec = 0.0 if tp+fn == 0 else tp/(tp+fn)
-    # print('recall:   ', rec)
-    # print('precision:', prec)
-    # f1 = 0.0 if prec+rec == 0.0 else 2 * (prec * rec) / (prec + rec)
-    # print('slot-f1:  ', f1)
-    
-    # tp = tp_ul
-    # fp = fp_ul
-    # fn = fn_ul
-    # print()
-    # print('unlabeled')
-    # prec = 0.0 if tp+fp == 0 else tp/(tp+fp)
-    # rec = 0.0 if tp+fn == 0 else tp/(tp+fn)
-    # print('ul_recall:   ', rec)
-    # print('ul_precision:', prec)
-    # f1 = 0.0 if prec+rec == 0.0 else 2 * (prec * rec) / (prec + rec)
-    # print('ul_slot-f1:  ', f1)
-    
-    # print()
-    # print('loose (partial overlap with same label)')
-    # prec = 0.0 if precision_loose_tp + precision_loose_fp == 0 else precision_loose_tp/(precision_loose_tp+precision_loose_fp)
-    # rec = 0.0 if recall_loose_tp+recall_loose_fn == 0 else recall_loose_tp/(recall_loose_tp+recall_loose_fn)
-    # print('l_recall:   ', rec)
-    # print('l_precision:', prec)
-    # f1 = 0.0 if prec+rec == 0.0 else 2 * (prec * rec) / (prec + rec)
-    # print('l_slot-f1:  ', f1)
+
+        overlap = len(gold_spans.intersection(pred_spans))  # counting exact matches between gold and predicted spans in a sentence
+        tp += overlap
+        fp += len(pred_spans) - overlap
+        fn += len(gold_spans) - overlap
+
+        overlap_ul = getUnlabeled(gold_spans, pred_spans)
+        tp_ul += overlap_ul
+        fp_ul += len(pred_spans) - overlap_ul # predicted spans that do NOT match any gold span
+        fn_ul += len(gold_spans) - overlap_ul # gold spans that do NOT match any predicted span
+
+        overlap_loose = getLooseOverlap(gold_spans, pred_spans)
+        recall_loose_tp += overlap_loose
+        recall_loose_fn += len(gold_spans) - overlap_loose
+
+        overlap_loose = getLooseOverlap(pred_spans, gold_spans)
+        precision_loose_tp += overlap_loose
+        precision_loose_fp += len(pred_spans) - overlap_loose
+
+    print('--- Exact match ---')
+    prec = 0.0 if tp+fp == 0 else tp/(tp+fp)
+    rec = 0.0 if tp+fn == 0 else tp/(tp+fn)
+    print('recall:   ', rec)
+    print('precision:', prec)
+    f1 = 0.0 if prec+rec == 0.0 else 2 * (prec * rec) / (prec + rec)
+    print('slot-f1:  ', f1)
+
+    print('\n--- Unlabeled (ignore entity type) ---')
+    tp = tp_ul
+    fp = fp_ul
+    fn = fn_ul
+    prec = 0.0 if tp+fp == 0 else tp/(tp+fp)
+    rec = 0.0 if tp+fn == 0 else tp/(tp+fn)
+    print('ul_recall:   ', rec)
+    print('ul_precision:', prec)
+    f1 = 0.0 if prec+rec == 0.0 else 2 * (prec * rec) / (prec + rec)
+    print('ul_slot-f1:  ', f1)
+
+    print('\n--- Loose (partial overlap with same label) ---')
+    prec = 0.0 if precision_loose_tp + precision_loose_fp == 0 else precision_loose_tp/(precision_loose_tp+precision_loose_fp)
+    rec = 0.0 if recall_loose_tp+recall_loose_fn == 0 else recall_loose_tp/(recall_loose_tp+recall_loose_fn)
+    print('l_recall:   ', rec)
+    print('l_precision:', prec)
+    f1 = 0.0 if prec+rec == 0.0 else 2 * (prec * rec) / (prec + rec)
+    print('l_slot-f1:  ', f1)
 
