@@ -68,13 +68,11 @@ if __name__ == "__main__":
     Generate a realistic, fully specified loan agreement.
 
     Requirements:
-
     - Start with a formal opening paragraph introducing:
     - the agreement type
     - a specific date (e.g., "January 14, 2021")
     - the parties, defined with roles in parentheses (e.g., "Bank", "Borrower")
-
-    - Use numbered sections (e.g., 1, 2, 3)
+    - Use numbered sections (e.g., 1, 2, 3), and when appropriate use hierarchical numbering (e.g., 1.1, 1.2)
     - Include at least the following sections:
         - Loan Terms
         - Interest and Fees
@@ -93,20 +91,28 @@ if __name__ == "__main__":
 
     Style:
     - Use formal legal language
-    - Use long, structured sentences
+    - Use long, structured sentences with occasional redundancy typical of legal documents
     - Use phrases like "WHEREAS" and "NOW, THEREFORE" where appropriate
+    - Do not indent all lines uniformly; use natural document formatting
 
     Constraints:
     - Use fully fictional names, companies, and addresses
+    - Include multiple realistic entities such as:
+        - company names
+        - addresses
+        - dates
+        - monetary amounts
+        - interest rates
+    - Ensure key entities appear multiple times across sections
     - Do NOT use placeholders like "____", "________", or blanks
     - Always provide concrete values for:
         - dates
         - monetary amounts
         - interest rates
         - names and addresses
-        - signatures (include names and titles, no empty lines)
-    - Do NOT include separators like "-----"
-    - Avoid repetition in the contract content
+        - signatures (include names and titles only; no blank signature lines)
+    - Do NOT include separators like "-----" or repeat the instructions
+    - Avoid excessive repetition while maintaining legal clarity
     - Keep length around {args.max_new_tokens} tokens
 
     Output only the contract text.
