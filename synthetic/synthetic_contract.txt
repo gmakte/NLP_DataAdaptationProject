@@ -1,79 +1,87 @@
-You are a legal document generator.
-
-    Generate a realistic loan agreement.
-
-    Requirements:
-
-    - Start with a formal opening paragraph introducing:
-    - the agreement type
-    - the date
-    - the parties (e.g., "Bank", "Borrower" defined in parentheses)
-    - Use numbered sections (e.g., 1, 2, 3)
-    - Include at least the following sections:
-    - Loan Terms
-    - Interest and Fees
-    - Default and Remedies
-    - Signatures
-
-    You may add additional sections, but:
-    - Maintain consistent numbering
-    - Use clear section headings
-    - Keep formatting consistent
-
-    Style:
-    - Use formal legal language
-    - Use long, structured sentences
-    - Follow patterns like "WHEREAS", "NOW, THEREFORE"
-
-    Constraints:
-    - Use fully fictional names, companies, and addresses
-    - Avoid repetition
-    - Keep length around 2000 tokens
-
-    Output only the contract text.
-    --------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
     LOAN AGREEMENT
 
-    THIS LOAN AGREEMENT ("Agreement") is entered into on this _______ day of ________, 20__, by and between AB Bank ("Bank"), a limited liability company organized and existing under the laws of the State of Delaware, with its principal place of business at 123 Main Street, Anytown, USA 12345, and John Doe ("Borrower"), an individual residing at 456 Park Avenue, Anytown, USA 56789.
+    January 14, 2021
 
-    1. Loan Terms
+    BETWEEN:
 
-    A. The Bank hereby agrees to lend the Borrower the principal sum of $______ ("Principal Amount") under the terms and conditions of this Agreement.
+    XYZ Bank (hereinafter referred to as "Lender"), a duly incorporated bank
+    organized and existing under the laws of the State of Delaware, with its
+    principal place of business at 123 Main Street, Anytown, USA 12345;
 
-    B. The loan shall be repaid in equal monthly installments commencing on the first day of the calendar month next following the date hereof and continuing until the Principal Amount, together with accrued interest, has been fully repaid.
+    AND:
 
-    2. Interest and Fees
+    John Doe (hereinafter referred to as "Borrower"), a natural person,
+    residing at 456 Park Avenue, Anytown, USA 56789.
 
-    A. The Borrower shall pay interest on the Principal Amount at an annual rate of _______% per annum ("Interest Rate").
+    WHEREAS, Lender desires to extend credit to Borrower in the amount of
+    One Hundred Thousand Dollars ($100,000); and
 
-    B. The Borrower shall also pay a loan origination fee equal to _______% of the Principal Amount.
+    NOW, THEREFORE, in consideration of the mutual covenants and conditions
+    contained herein, the parties agree as follows:
 
-    3. Default and Remedies
+    1. LOAN TERMS
 
-    A. In the event of default by the Borrower under the terms of this Agreement, the Bank shall have the right to declare all or any portion of the Principal Amount, together with accrued and unpaid interest, immediately due and payable.
+    a. Lender shall extend to Borrower a loan in the principal amount of
+       One Hundred Thousand Dollars ($100,000), with interest at the rate of
+       8% per annum, compounded semi-annually.
 
-    B. The Bank may, at its option, exercise any of the following remedies in the event of default: (i) foreclosure on any property securing the loan, (ii) filing a suit for recovery of the Principal Amount and accrued interest, (iii) engaging in any other legal proceedings it deems necessary, or (iv) taking any other action it deems appropriate to collect the Principal Amount and accrued interest.
+    b. The loan shall be due and payable in full on January 14, 2023.
 
-    4. Miscellaneous
+    c. Borrower may prepay the loan in whole or in part at any time without
+       penalty.
 
-    A. This Agreement contains the entire understanding of the parties with respect to the subject matter hereof and supersedes all prior negotiations, understandings, and agreements between the parties.
+    2. INTEREST AND FEES
 
-    B. This Agreement may not be amended except in writing signed by both parties.
+    a. Borrower agrees to pay Lender interest on the outstanding principal
+       balance of the loan as set forth in Section 1(a).
 
-    C. This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware.
+    b. Borrower shall pay a one-time origination fee equal to 2% of the
+       principal amount of the loan, due upon disbursement of the loan.
 
-    D. This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+    3. DEFAULT AND REMEDIES
 
-    IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+    a. In the event Borrower fails to make any payment when due, the entire
+       outstanding balance of the loan, including accrued and unpaid interest,
+       shall become immediately due and payable.
 
-    AB Bank:
+    b. Lender may, without limiting any other rights or remedies available to
+       it, declare all or any part of the outstanding loan balance and any
+       accrued but unpaid interest to be immediately due and payable, exercise
+       any rights of setoff, repossession, or foreclosure to which it may be
+       entitled, and take any other action to protect its interests.
 
-    By: _______________
-    Name: _______________
-    Title: _______________
+    4. SECURITY
 
-    Borrower:
+    This loan shall be secured by a first priority lien on all of Borrower's
+    assets, as described in the Security Agreement executed by the parties
+    concurrently with this Agreement.
 
-    By: _______________
-    Name: _______________
+    5. MISCELLANEOUS
+
+    a. This Agreement may not be amended or modified except by a written
+       instrument executed by both parties.
+
+    b. This Agreement shall be governed by and construed in accordance with
+       the laws of the State of Delaware.
+
+    c. This Agreement constitutes the entire agreement between the parties
+       concerning the subject matter hereof and supersedes all prior
+       negotiations, understandings, and agreements between the parties,
+       whether written or oral.
+
+    IN WITNESS WHEREOF, the parties have executed this Agreement as of the
+    date first above written.
+
+    ________________________
+    XYZ Bank (Lender)
+    By: ____________________
+    Name: John Smith
+    Title: Vice President
+
+    ________________________
+    John Doe (Borrower)
+    By: ____________________
+    Name: Jane Doe
+    Title: Borrower
