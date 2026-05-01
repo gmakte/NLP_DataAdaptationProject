@@ -7,7 +7,8 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
-    torch_dtype = torch.float16, #to make memory efficient
+    # torch_dtype = torch.float16, #to make memory efficient
+    load_in_4bit=True #quantize the model for more memory efficiency
     trust_remote_code = False #to ensure security when loading code from the model repository,
     device_map = "auto" #to automatically place model layers on available devices (e.g., GPU)
 )
