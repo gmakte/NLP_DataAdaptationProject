@@ -11,19 +11,19 @@ import numpy as np
 #######################################################
 # Script contains: dataset preprocessing, tokenization and alignment, training loop and getting predictions on test set
 
-only_trainning = False # train on training data and predict on test set
+only_trainning = True # train on training data and predict on test set
 
 # Set up
 
-path_train = "data/en_ewt-ud-train.iob2" #change to synthetic and FIN5 later - train part
-path_dev = "data/en_ewt-ud-dev.iob2" #change to synthetic and FIN5 later - dev part
-path_test = "data/en_ewt-ud-test-masked.iob2" #change to FIN3 later - test part
+path_train = "data/FIN5_train.txt" #change to synthetic and FIN5 later - train part
+path_dev = "data/FIN5_dev.txt" #change to synthetic and FIN5 later - dev part
+path_test = "data/FIN3_fixed.txt" #change to FIN3 later - test part
 
 model_name = "google-bert/bert-base-cased"
 
 learning_rate = 2e-5
-num_train_epochs = 3
-batch_size = 12
+num_train_epochs = 8
+batch_size = 15
 
 set_seed(42)
 
@@ -185,8 +185,8 @@ for epoch in range(num_train_epochs):
 
 if only_trainning:
     # Save the trained model and tokenizer in model1 folder (gitignore since it is huge)
-    model.save_pretrained("model1")
-    tokenizer.save_pretrained("model1")
+    model.save_pretrained("model2")
+    tokenizer.save_pretrained("model2")
     print("Model and tokenizer saved to model1 folder")
     print("Training complete, skipping predictions on test set since only_trainning is set to True")
 
