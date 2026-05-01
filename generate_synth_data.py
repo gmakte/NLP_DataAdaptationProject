@@ -35,7 +35,7 @@ if __name__ == "__main__":
         print("Loading model in full precision mode...\n")
         model = AutoModelForCausalLM.from_pretrained(
             args.model_name,
-            torch_dtype = torch.float16, #to make memory efficient
+            dtype = torch.float16, #to make memory efficient
             trust_remote_code = False, #to ensure security when loading code from the model repository,
             device_map = "auto" #to automatically place model layers on available devices (e.g., GPU)
         )
