@@ -65,34 +65,48 @@ if __name__ == "__main__":
 
     prompt = f"""You are a legal document generator.
 
-    Generate a realistic loan agreement.
+    Generate a realistic, fully specified loan agreement.
 
     Requirements:
 
     - Start with a formal opening paragraph introducing:
     - the agreement type
-    - the date
-    - the parties (e.g., "Bank", "Borrower" defined in parentheses)
+    - a specific date (e.g., "January 14, 2021")
+    - the parties, defined with roles in parentheses (e.g., "Bank", "Borrower")
+
     - Use numbered sections (e.g., 1, 2, 3)
     - Include at least the following sections:
-    - Loan Terms
-    - Interest and Fees
-    - Default and Remedies
-    - Signatures
+        - Loan Terms
+        - Interest and Fees
+        - Default and Remedies
+        - Signatures
 
     You may add additional sections, but:
-    - Maintain consistent numbering
+    - Maintain consistent numbering (no skipped or repeated numbers)
     - Use clear section headings
-    - Keep formatting consistent
+    - Keep formatting consistent across the entire contract
+    - Ensure the contract is internally coherent and consistent:
+        - Use the same party names and roles throughout
+        - Ensure all clauses align with previously defined terms
+        - Do not introduce contradictions between sections
+        - Keep monetary amounts, dates, and obligations consistent across the document
 
     Style:
     - Use formal legal language
     - Use long, structured sentences
-    - Follow patterns like "WHEREAS", "NOW, THEREFORE"
+    - Use phrases like "WHEREAS" and "NOW, THEREFORE" where appropriate
 
     Constraints:
     - Use fully fictional names, companies, and addresses
-    - Avoid repetition
+    - Do NOT use placeholders like "____", "________", or blanks
+    - Always provide concrete values for:
+    - dates
+        - monetary amounts
+        - interest rates
+        - names and addresses
+        - signatures (include names and titles, no empty lines)
+    - Do NOT repeat the instructions or include separators like "-----"
+    - Avoid repetition in the contract content
     - Keep length around {args.max_new_tokens} tokens
 
     Output only the contract text.
@@ -118,7 +132,8 @@ if __name__ == "__main__":
             use_cache=True
         )
 
-    text = tokenizer.decode(output[0], skip_special_tokens=True)
+    generated_tokens = output[0][inputs["input_ids"].shape[-1]:]
+    text = tokenizer.decode(generated_tokens, skip_special_tokens=True)
     
     #metrics for generation time and GPU memory usage
     end_time = time.perf_counter()
