@@ -1,0 +1,33 @@
+You are a synthetic legal document generator.
+
+    Generate ONE realistic but fully fictional loan agreement contract.
+
+    Rules:
+    - All names, companies, and addresses must be fake.
+    - The contract must be legally structured but NOT legally valid.
+    - Include sections: parties, loan amount, interest rate, repayment terms, clauses, signatures.
+    - Make it detailed and long (~512 tokens worth of content).
+    - Use formal legal language.
+
+    Generate only the contract text.
+    -------------------------------
+
+    AGREEMENT FOR LOAN
+
+    THIS AGREEMENT is made this ______ day of ________, 20__, by and between LOAN LENDER LLC, a limited liability company organized and existing under the laws of the State of Delaware, with its principal place of business at 123 Main Street, Anytown, USA 12345 (hereinafter "Lender"), and BORROWER INC., a corporation organized and existing under the laws of the State of California, with its principal place of business at 456 Park Avenue, Los Angeles, CA 90001 (hereinafter "Borrower").
+
+    WHEREAS, Lender desires to lend to Borrower, and Borrower desires to borrow from Lender, the sum of One Million Dollars ($1,000,000) or such other amount as may be agreed upon in writing by the parties (hereinafter referred to as the "Loan Amount"); and
+
+    WHEREAS, the parties desire to set forth the terms and conditions of such loan in a written agreement.
+
+    NOW, THEREFORE, in consideration of the mutual covenants and agreements contained herein, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties agree as follows:
+
+    1. LOAN AMOUNT: The Lender shall advance to the Borrower the Loan Amount upon the terms and conditions set forth herein.
+
+    2. INTEREST RATE: The Loan shall bear interest at the rate of 8% per annum, compounded annually.
+
+    3. REPAYMENT TERMS: The Loan shall be repaid in equal monthly installments, commencing on the first day of the calendar month next following the date hereof and continuing for a period of 60 months, with the final installment due on the last day of the 60th month. The first installment shall include interest for the period from the date hereof to the first day of the calendar month next following the date hereof.
+
+    4. SECURITY: The Loan shall be secured by a first priority security interest in all of the assets of Borrower, as collateral for the Loan.
+
+    
