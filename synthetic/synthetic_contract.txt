@@ -1,33 +1,79 @@
-You are a synthetic legal document generator.
+You are a legal document generator.
 
-    Generate ONE realistic but fully fictional loan agreement contract.
+    Generate a realistic loan agreement.
 
-    Rules:
-    - All names, companies, and addresses must be fake.
-    - The contract must be legally structured but NOT legally valid.
-    - Include sections: parties, loan amount, interest rate, repayment terms, clauses, signatures.
-    - Make it detailed and long (~512 tokens worth of content).
-    - Use formal legal language.
+    Requirements:
 
-    Generate only the contract text.
-    -------------------------------
+    - Start with a formal opening paragraph introducing:
+    - the agreement type
+    - the date
+    - the parties (e.g., "Bank", "Borrower" defined in parentheses)
+    - Use numbered sections (e.g., 1, 2, 3)
+    - Include at least the following sections:
+    - Loan Terms
+    - Interest and Fees
+    - Default and Remedies
+    - Signatures
 
-    AGREEMENT FOR LOAN
+    You may add additional sections, but:
+    - Maintain consistent numbering
+    - Use clear section headings
+    - Keep formatting consistent
 
-    THIS AGREEMENT is made this ______ day of ________, 20__, by and between LOAN LENDER LLC, a limited liability company organized and existing under the laws of the State of Delaware, with its principal place of business at 123 Main Street, Anytown, USA 12345 (hereinafter "Lender"), and BORROWER INC., a corporation organized and existing under the laws of the State of California, with its principal place of business at 456 Park Avenue, Los Angeles, CA 90001 (hereinafter "Borrower").
+    Style:
+    - Use formal legal language
+    - Use long, structured sentences
+    - Follow patterns like "WHEREAS", "NOW, THEREFORE"
 
-    WHEREAS, Lender desires to lend to Borrower, and Borrower desires to borrow from Lender, the sum of One Million Dollars ($1,000,000) or such other amount as may be agreed upon in writing by the parties (hereinafter referred to as the "Loan Amount"); and
+    Constraints:
+    - Use fully fictional names, companies, and addresses
+    - Avoid repetition
+    - Keep length around 2000 tokens
 
-    WHEREAS, the parties desire to set forth the terms and conditions of such loan in a written agreement.
+    Output only the contract text.
+    --------------------------------------------------------------------------------
 
-    NOW, THEREFORE, in consideration of the mutual covenants and agreements contained herein, and for other good and valuable consideration, the receipt and sufficiency of which are hereby acknowledged, the parties agree as follows:
+    LOAN AGREEMENT
 
-    1. LOAN AMOUNT: The Lender shall advance to the Borrower the Loan Amount upon the terms and conditions set forth herein.
+    THIS LOAN AGREEMENT ("Agreement") is entered into on this _______ day of ________, 20__, by and between AB Bank ("Bank"), a limited liability company organized and existing under the laws of the State of Delaware, with its principal place of business at 123 Main Street, Anytown, USA 12345, and John Doe ("Borrower"), an individual residing at 456 Park Avenue, Anytown, USA 56789.
 
-    2. INTEREST RATE: The Loan shall bear interest at the rate of 8% per annum, compounded annually.
+    1. Loan Terms
 
-    3. REPAYMENT TERMS: The Loan shall be repaid in equal monthly installments, commencing on the first day of the calendar month next following the date hereof and continuing for a period of 60 months, with the final installment due on the last day of the 60th month. The first installment shall include interest for the period from the date hereof to the first day of the calendar month next following the date hereof.
+    A. The Bank hereby agrees to lend the Borrower the principal sum of $______ ("Principal Amount") under the terms and conditions of this Agreement.
 
-    4. SECURITY: The Loan shall be secured by a first priority security interest in all of the assets of Borrower, as collateral for the Loan.
+    B. The loan shall be repaid in equal monthly installments commencing on the first day of the calendar month next following the date hereof and continuing until the Principal Amount, together with accrued interest, has been fully repaid.
 
-    
+    2. Interest and Fees
+
+    A. The Borrower shall pay interest on the Principal Amount at an annual rate of _______% per annum ("Interest Rate").
+
+    B. The Borrower shall also pay a loan origination fee equal to _______% of the Principal Amount.
+
+    3. Default and Remedies
+
+    A. In the event of default by the Borrower under the terms of this Agreement, the Bank shall have the right to declare all or any portion of the Principal Amount, together with accrued and unpaid interest, immediately due and payable.
+
+    B. The Bank may, at its option, exercise any of the following remedies in the event of default: (i) foreclosure on any property securing the loan, (ii) filing a suit for recovery of the Principal Amount and accrued interest, (iii) engaging in any other legal proceedings it deems necessary, or (iv) taking any other action it deems appropriate to collect the Principal Amount and accrued interest.
+
+    4. Miscellaneous
+
+    A. This Agreement contains the entire understanding of the parties with respect to the subject matter hereof and supersedes all prior negotiations, understandings, and agreements between the parties.
+
+    B. This Agreement may not be amended except in writing signed by both parties.
+
+    C. This Agreement shall be governed by and construed in accordance with the laws of the State of Delaware.
+
+    D. This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+    IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first written above.
+
+    AB Bank:
+
+    By: _______________
+    Name: _______________
+    Title: _______________
+
+    Borrower:
+
+    By: _______________
+    Name: _______________
