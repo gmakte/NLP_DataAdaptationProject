@@ -6,7 +6,7 @@ import time
 from datetime import timedelta
 
 import torch
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
@@ -16,6 +16,8 @@ if __name__ == "__main__":
     parser.add_argument("--max_new_tokens", type=int, default=512)
     parser.add_argument("--output_dir", default="synthetic/")
     parser.add_argument("--output_file", default="synthetic_contract.txt")
+    parser.add_argument("--example_start", default=2, type=int)
+    parser.add_argument("--example_end", default=5, type=int)
 
 
     args = parser.parse_args()
@@ -23,12 +25,19 @@ if __name__ == "__main__":
     tokenizer = AutoTokenizer.from_pretrained(args.model_name)
 
     if args.quantized:
+        bnb_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_compute_dtype=torch.float16,
+            bnb_4bit_use_double_quant=True,
+            bnb_4bit_quant_type="nf4"
+        )
+
         print("Loading model in 4-bit quantized mode...\n")
+
         model = AutoModelForCausalLM.from_pretrained(
             args.model_name,
-            load_in_4bit=True, #quantize the model for more memory efficiency
-            trust_remote_code = False, #to ensure security when loading code from the model repository,
-            device_map = "auto" #to automatically place model layers on available devices (e.g., GPU)
+            quantization_config=bnb_config,
+            device_map="auto"
         )
 
     else:
@@ -43,21 +52,50 @@ if __name__ == "__main__":
     # disable training behavior
     model.eval()
 
-    # device = "cuda" if torch.cuda.is_available() else "cpu"
-    # model.to(device)
+    # examples = []
+    # with open("data/FIN5_sentences.txt", "r", encoding="utf-8") as f:
+    #     i=1
+        
+    #     for line in f:
+    #         if i >= args.example_start and i <= args.example_end:
+    #             examples.append(line.strip())
+    #         i += 1
+    
+    # example_text ='\n'.join(examples)
 
-    prompt = f"""You are a synthetic legal document generator.
+    prompt = f"""You are a legal document generator.
 
-    Generate ONE realistic but fully fictional loan agreement contract.
+    Generate a realistic loan agreement.
 
-    Rules:
-    - All names, companies, and addresses must be fake.
-    - The contract must be legally structured but NOT legally valid.
-    - Include sections: parties, loan amount, interest rate, repayment terms, clauses, signatures.
-    - Make it detailed and long (~{args.max_new_tokens} tokens worth of content).
-    - Use formal legal language.
+    Requirements:
 
-    Generate only the contract text.
+    - Start with a formal opening paragraph introducing:
+    - the agreement type
+    - the date
+    - the parties (e.g., "Bank", "Borrower" defined in parentheses)
+    - Use numbered sections (e.g., 1, 2, 3)
+    - Include at least the following sections:
+    - Loan Terms
+    - Interest and Fees
+    - Default and Remedies
+    - Signatures
+
+    You may add additional sections, but:
+    - Maintain consistent numbering
+    - Use clear section headings
+    - Keep formatting consistent
+
+    Style:
+    - Use formal legal language
+    - Use long, structured sentences
+    - Follow patterns like "WHEREAS", "NOW, THEREFORE"
+
+    Constraints:
+    - Use fully fictional names, companies, and addresses
+    - Avoid repetition
+    - Keep length around {args.max_new_tokens} tokens
+
+    Output only the contract text.
     """
 
     print("Generating synthetic data...\n")
