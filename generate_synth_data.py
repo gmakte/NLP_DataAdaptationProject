@@ -100,12 +100,12 @@ if __name__ == "__main__":
     - Use fully fictional names, companies, and addresses
     - Do NOT use placeholders like "____", "________", or blanks
     - Always provide concrete values for:
-    - dates
+        - dates
         - monetary amounts
         - interest rates
         - names and addresses
         - signatures (include names and titles, no empty lines)
-    - Do NOT repeat the instructions or include separators like "-----"
+    - Do NOT include separators like "-----"
     - Avoid repetition in the contract content
     - Keep length around {args.max_new_tokens} tokens
 
