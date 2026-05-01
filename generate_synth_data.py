@@ -7,12 +7,13 @@ tokenizer = AutoTokenizer.from_pretrained(model_name)
 
 model = AutoModelForCausalLM.from_pretrained(
     model_name,
-    dtype = torch.float16, #to make memory efficient
-    trust_remote_code = False #to ensure security when loading code from the model repository 
+    torch_dtype = torch.float16, #to make memory efficient
+    trust_remote_code = False #to ensure security when loading code from the model repository,
+    device_map = "auto" #to automatically place model layers on available devices (e.g., GPU)
 )
 
-device = "cuda" if torch.cuda.is_available() else "cpu"
-model.to(device)
+# device = "cuda" if torch.cuda.is_available() else "cpu"
+# model.to(device)
 
 prompt = """
 You are a synthetic legal document generator.
@@ -32,16 +33,18 @@ Generate only the contract text.
 inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 
 # Generate text
-output = model.generate(
-    **inputs,
-    max_new_tokens=2000,
-    temperature=0.8,
-    top_p=0.95,
-    do_sample=True
-)
+with torch.no_grad(): #telling not to track gradients since we're only generating text, not training
+    output = model.generate(
+        **inputs,
+        max_new_tokens=512,
+        temperature=0.8,
+        top_p=0.95,
+        do_sample=True,
+        use_cache=True
+    )
 
 text = tokenizer.decode(output[0], skip_special_tokens=True)
 
 # Save to file
-with open("synthetic_contract.txt", "w", encoding="utf-8") as f:
+with open("synthetic/synthetic_contract.txt", "w", encoding="utf-8") as f:
     f.write(text)
