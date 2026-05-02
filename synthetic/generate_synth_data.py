@@ -94,6 +94,7 @@ if __name__ == "__main__":
         output = model.generate(
             **inputs,
             min_new_tokens=args.min_new_tokens,
+            max_new_tokens=args.min_new_tokens + 500, #allow some buffer beyond minimum
             temperature=0.8,
             top_p=0.95,
             do_sample=True,
