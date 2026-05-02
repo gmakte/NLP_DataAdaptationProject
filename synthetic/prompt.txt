@@ -1,3 +1,5 @@
+You are a legal document generator.
+
 Generate a realistic, fully specified corporate loan agreement between a financial institution and one or more corporate borrowers.
 
 Requirements:
