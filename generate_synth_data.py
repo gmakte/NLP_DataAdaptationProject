@@ -13,7 +13,7 @@ if __name__ == "__main__":
 
     parser.add_argument("--model_name", default="mistralai/Mistral-7B-Instruct-v0.3")
     parser.add_argument("--quantized", default=False, action="store_true", help="Whether to load the model in 4-bit quantized mode for memory efficiency.")
-    parser.add_argument("--max_new_tokens", type=int, default=512)
+    parser.add_argument("--min_new_tokens", type=int, default=512)
     parser.add_argument("--output_dir", default="synthetic/")
     parser.add_argument("--output_file", default="synthetic_contract.txt")
     parser.add_argument("--example_start", default=2, type=int)
@@ -131,7 +131,7 @@ if __name__ == "__main__":
     with torch.no_grad(): #telling not to track gradients since we're only generating text, not training
         output = model.generate(
             **inputs,
-            max_new_tokens=args.max_new_tokens,
+            min_new_tokens=args.min_new_tokens,
             temperature=0.8,
             top_p=0.95,
             do_sample=True,
