@@ -20,11 +20,11 @@ if __name__ == "__main__":
     args = parser.parse_args()
     if args.model_name.lower() == "mistral":
         model_name = "mistralai/Mistral-7B-Instruct-v0.3"
-    elif args.model.lower() == "llama":
+    elif args.model_name.lower() == "llama":
         model_name = "meta-llama/Meta-Llama-3-8B-Instruct"
-    elif args.model.lower() == "qwen":
+    elif args.model_name.lower() == "qwen":
         model_name = "Qwen/Qwen2.5-7B-Instruct"
-    elif args.model.lower() == "deepseek":
+    elif args.model_name.lower() == "deepseek":
         model_name = "deepseek-ai/deepseek-llm-7b-chat"
     else:
         raise ValueError(f"Unsupported model name: {args.model_name}. Supported options are: mistral, llama, qwen, deepseek.")
