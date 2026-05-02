@@ -1,5 +1,4 @@
 import argparse
-import json
 import os
 
 import time
@@ -16,7 +15,7 @@ if __name__ == "__main__":
     parser.add_argument("--min_new_tokens", type=int, default=2000)
     parser.add_argument("--output_dir", default="contracts/")
     parser.add_argument("--output_file", default="synthetic_contract.txt")
-    
+
 
     args = parser.parse_args()
     if args.model_name.lower() == "mistral":
