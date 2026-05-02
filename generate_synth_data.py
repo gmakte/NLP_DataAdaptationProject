@@ -45,7 +45,7 @@ if __name__ == "__main__":
         model = AutoModelForCausalLM.from_pretrained(
             args.model_name,
             dtype = torch.float16, #to make memory efficient
-            trust_remote_code = False, #to ensure security when loading code from the model repository,
+            trust_remote_code = True, # since we are only loading well-known models and some require custom code execution
             device_map = "auto" #to automatically place model layers on available devices (e.g., GPU)
         )
         
