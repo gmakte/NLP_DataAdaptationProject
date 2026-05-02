@@ -12,7 +12,7 @@ if __name__ == "__main__":
 
     parser.add_argument("--model_name", default="mistral")
     parser.add_argument("--quantized", default=False, action="store_true", help="Whether to load the model in 4-bit quantized mode for memory efficiency.")
-    parser.add_argument("--min_new_tokens", type=int, default=2000)
+    parser.add_argument("--max_new_tokens", type=int, default=2000)
     parser.add_argument("--output_dir", default="contracts/")
     parser.add_argument("--output_file", default="synthetic_contract.txt")
 
@@ -64,7 +64,7 @@ if __name__ == "__main__":
         prompt_template = f.read()
 
     prompt = prompt_template.format(
-        min_new_tokens=args.min_new_tokens
+        max_new_tokens=args.max_new_tokens
     )
 
     # format prompt according to model requirements
@@ -93,8 +93,7 @@ if __name__ == "__main__":
     with torch.no_grad(): #telling not to track gradients since we're only generating text, not training
         output = model.generate(
             **inputs,
-            min_new_tokens=args.min_new_tokens,
-            max_new_tokens=args.min_new_tokens + 500, #allow some buffer beyond minimum
+            max_new_tokens=args.max_new_tokens, 
             temperature=0.8,
             top_p=0.95,
             do_sample=True,

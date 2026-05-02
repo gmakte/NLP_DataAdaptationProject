@@ -36,15 +36,16 @@ Constraints:
 - Include jurisdictions (e.g., Delaware, England and Wales, Ireland)
 - Use multiple corporate entity names and ensure they appear consistently across the document
 - Ensure key entities appear multiple times across sections
-- Do NOT use placeholders like "____", "________", or blanks
 - Always provide concrete values for:
     - dates
     - monetary amounts
     - interest rates
     - names and addresses
     - signatures (include names and titles only; no blank signature lines)
+- Do NOT use placeholders like "____", "________", or blanks
 - Do NOT include separators like "-----" or repeat the instructions
-- Avoid excessive repetition while maintaining legal clarity
-- Keep length around {min_new_tokens} tokens
+- Do NOT include disclaimers, warnings, or statements such as "this document is not legal advice"
+- End the document immediately after the signature section
+- Keep length around {max_new_tokens} tokens
 
 Output only the contract text.
