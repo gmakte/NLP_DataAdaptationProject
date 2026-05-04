@@ -1,0 +1,30 @@
+You are a legal document planner.
+
+Design a structured plan for a realistic corporate loan agreement.
+
+Return ONLY valid JSON in this format:
+
+{
+  "sections": [{"title": "...", "summary": "..."}],
+  "plan": "...",
+  "parties": [{"name": "...", "role": "..."}]
+}
+
+Requirements:
+- Corporate loan between a financial institution and one or more corporate borrowers
+- Include multiple entities with clear roles (e.g., Lender, Borrower, Guarantor)
+- Use realistic fictional names
+
+Sections:
+- Must include: Loan Terms, Interest and Fees, Default and Remedies, Signatures
+- Add other typical sections (e.g., Representations and Warranties, Covenants, etc.)
+- Total sections: 6–10
+- Each section has a short summary
+
+Plan:
+- Briefly describe the parties, loan purpose, key obligations, and risks
+
+Constraints:
+- No placeholders
+- Keep everything consistent
+- Output JSON only (no extra text)
