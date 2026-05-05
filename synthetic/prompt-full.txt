@@ -32,7 +32,8 @@ Style:
 - Do not indent all lines uniformly; use natural document formatting
 
 Constraints:
-- Use fully fictional names, companies, and addresses
+- Company names must be fictional but realistic and professional, similar to real-world legal entities
+- Prefer multi-word, specific names (e.g., "Northbridge Capital Partners Limited")
 - Include jurisdictions (e.g., Delaware, England and Wales, Ireland)
 - Use multiple corporate entity names and ensure they appear consistently across the document
 - Ensure key entities appear multiple times across sections
