@@ -137,7 +137,10 @@ def generate_sectioned(model, tokenizer, model_name, args):
     parties = plan_output["parties"]
     parties_list ="\n".join([f"- {p['name']} ({p['role']})" for p in parties])
 
-    print(f"Plan generation complete.\n\nPlan description:\n{plan}\n\nSections:\n{section_list}\n\nParties:\n{parties_list}\n")
+    jurisdiction = plan_output.get("jurisdiction", "Not specified")
+    date = plan_output.get("date", "Not specified")
+
+    print(f"Plan generation complete.\n\nPlan description:\n{plan}\n\nSections:\n{section_list}\n\nParties:\n{parties_list}\n\nJurisdiction:\n{jurisdiction}\n\nDate:\n{date}")
 
     full_text = ""
 
@@ -154,6 +157,8 @@ def generate_sectioned(model, tokenizer, model_name, args):
         section_prompt = section_template.format(
             global_plan=plan,
             parties=parties_list,
+            jurisdiction=jurisdiction,
+            date=date,
             sections_list=section_list, 
             section_title=title,
             section_description=summary,
@@ -193,7 +198,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument("--model_name", default="mistral")
-    parser.add_argument("--quantized", default=False, action="store_true", help="Whether to load the model in 4-bit quantized mode for memory efficiency.")
+    parser.add_argument("--quantized", action="store_true", help="Whether to load the model in 4-bit quantized mode for memory efficiency.")
     parser.add_argument("--sectioned", action="store_true")
     parser.add_argument("--max_new_tokens", type=int, default=2000)
     parser.add_argument("--output_dir", default="contracts/")

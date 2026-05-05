@@ -6,6 +6,12 @@ GLOBAL PLAN:
 PARTIES:
 {parties}
 
+JURISDICTION:
+{jurisdiction}
+
+DATE:
+{date}
+
 ALL SECTIONS:
 {sections_list}
 
@@ -32,4 +38,5 @@ STYLE:
 CONSTRAINTS:
 - Do NOT repeat previous sections
 - Do NOT include explanations
-- Output only the content of this section
+- Output ONLY the body text of this section
+- Do NOT include the section title or numbering
