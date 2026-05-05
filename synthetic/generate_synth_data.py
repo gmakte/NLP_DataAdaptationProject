@@ -23,7 +23,7 @@ def generate(model, tokenizer, model_name, prompt, role, max_new_tokens):
         ]
         inputs = tokenizer.apply_chat_template(messages, return_tensors="pt").to(model.device)
     else:
-        inputs = tokenizer(prompt, return_tensors="pt", truncation=True, max_length=1024).to(model.device)
+        inputs = tokenizer(prompt, return_tensors="pt").to(model.device)
 
     
     # prepare to track generation time        
