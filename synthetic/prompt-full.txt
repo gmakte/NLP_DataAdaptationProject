@@ -1,0 +1,52 @@
+You are a legal document generator.
+
+Generate a realistic, fully specified corporate loan agreement between a financial institution and one or more corporate borrowers.
+
+Requirements:
+- Start with a formal opening paragraph introducing:
+- the agreement type
+- a specific date (e.g., "January 14, 2021")
+- include multiple corporate entities where appropriate (e.g., parent companies, subsidiaries, affiliates)
+- clearly define roles and reuse them consistently throughout the agreement (e.g., "Borrowers", "Lender")
+- Use numbered sections (e.g., 1, 2, 3), and when appropriate use hierarchical numbering (e.g., 1.1, 1.2)
+- Include at least the following sections:
+    - Loan Terms
+    - Interest and Fees
+    - Default and Remedies
+    - Signatures
+
+You may add additional sections, but:
+- Maintain consistent numbering (no skipped or repeated numbers)
+- Use clear section headings
+- Keep formatting consistent across the entire contract
+- Ensure the contract is internally coherent and consistent:
+    - Use the same party names and roles throughout
+    - Ensure all clauses align with previously defined terms
+    - Do not introduce contradictions between sections
+    - Keep monetary amounts, dates, and obligations consistent across the document
+
+Style:
+- Use formal legal language
+- Use long, structured sentences with occasional redundancy typical of legal documents
+- Use phrases like "WHEREAS" and "NOW, THEREFORE" where appropriate
+- Do not indent all lines uniformly; use natural document formatting
+
+Constraints:
+- Company names must be fictional but realistic and professional, similar to real-world legal entities
+- Prefer multi-word, specific names (e.g., "Northbridge Capital Partners Limited")
+- Include jurisdictions (e.g., Delaware, England and Wales, Ireland)
+- Use multiple corporate entity names and ensure they appear consistently across the document
+- Ensure key entities appear multiple times across sections
+- Always provide concrete values for:
+    - dates
+    - monetary amounts
+    - interest rates
+    - names and addresses
+    - signatures (include names and titles only; no blank signature lines)
+- Do NOT use placeholders like "____", "________", or blanks
+- Do NOT include separators like "-----" or repeat the instructions
+- Do NOT include disclaimers, warnings, or statements such as "this document is not legal advice"
+- End the document immediately after the signature section
+- Keep length around {max_new_tokens} tokens
+
+Output only the contract text.
