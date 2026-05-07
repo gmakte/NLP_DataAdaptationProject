@@ -126,7 +126,14 @@ def tokenize_and_align_labels(examples):
 # Loading tokenizer, model configuration and data collator
 print(f"Loading {model_name} model and tokenizer...")
 tokenizer = AutoTokenizer.from_pretrained(model_name, use_fast=True) # Tool that prepares text for BERT, using faster implementation
-config = AutoConfig.from_pretrained(model_name, num_labels=len(label_list), id2label=id2label, label2id=label2id) # Loads configuration for pretrained model, setting how many NER labels there are, provided conext with rest
+config = AutoConfig.from_pretrained(
+    model_name,
+    num_labels=len(label_list),
+    id2label=id2label,
+    label2id=label2id,
+    hidden_dropout_prob=0.2,  # Dropout in hidden layers
+    attention_probs_dropout_prob=0.2  # Dropout in attention layers
+) # Loads configuration for pretrained model, setting how many NER labels there are, provided conext with rest
 data_collator = DataCollatorForTokenClassification(tokenizer)
 
 # Tokenizing datasets
