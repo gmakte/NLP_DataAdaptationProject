@@ -3,10 +3,10 @@ from datasets import Dataset
 from transformers import (AutoTokenizer, AutoModelForTokenClassification, DataCollatorForTokenClassification, AutoConfig, set_seed)
 from torch.utils.data import DataLoader
 import torch
-import random
-import evaluate
+# import random
+# import evaluate
 from tqdm.auto import tqdm
-import numpy as np
+# import numpy as np
 
 #######################################################
 # Script contains: dataset preprocessing, tokenization and alignment, training loop and getting predictions on test set
@@ -24,6 +24,7 @@ model_name = "google-bert/bert-base-cased"
 learning_rate = 2e-5
 num_train_epochs = 8
 batch_size = 15
+max_length = 256
 
 set_seed(42)
 
@@ -160,6 +161,10 @@ optimizer = torch.optim.AdamW(model.parameters(), lr=learning_rate)
 ####################################################
 # Training loop
 print("Starting training...")
+
+# Track losses for each epoch
+epoch_losses = {}
+
 model.train()
 for epoch in range(num_train_epochs):
     total_loss = 0
@@ -181,13 +186,19 @@ for epoch in range(num_train_epochs):
         total_loss += loss.item()
         pbar.set_postfix({"loss": loss.item()})
     avg_loss = total_loss / len(train_dataloader)
+    # Track average loss per epoch
+    epoch_losses[epoch + 1] = avg_loss
     print(f"Epoch {epoch+1} average loss: {avg_loss:.4f}")
 
+
 if only_trainning:
-    # Save the trained model and tokenizer in model1 folder (gitignore since it is huge)
-    model.save_pretrained("model2")
-    tokenizer.save_pretrained("model2")
-    print("Model and tokenizer saved to model1 folder")
+    # Save training losses to a text file
+    with open("results/training_losses_FIN5.txt", "w") as f:
+        f.write(str(epoch_losses))
+    # Save the trained model and tokenizer in model3 folder (gitignore since it is huge)
+    model.save_pretrained("model3")
+    tokenizer.save_pretrained("model3")
+    print("Model and tokenizer saved to model3 folder")
     print("Training complete, skipping predictions on test set since only_trainning is set to True")
 
 ##############################################################################
@@ -203,7 +214,7 @@ if not only_trainning:
         # Had to tokenize each sentence to get predictions for each sentence, since test set is masked and has no labels, so cannot use DataLoader with collate function like before
         # Also not using defined function since it is in different designn
         # No batch processing
-        inputs = tokenizer(tokens, is_split_into_words=True, return_tensors="pt", truncation=True, max_length=128)
+        inputs = tokenizer(tokens, is_split_into_words=True, return_tensors="pt", truncation=True, max_length=max_length)
         inputs = {k: v.to(model.device) for k, v in inputs.items()}
         with torch.no_grad():
             outputs = model(**inputs)
