@@ -24,7 +24,7 @@ model_name = "google-bert/bert-base-cased"
 learning_rate = 2e-5
 num_train_epochs = 8
 batch_size = 15
-max_length = 256
+max_length = 128
 
 set_seed(42)
 
@@ -193,12 +193,12 @@ for epoch in range(num_train_epochs):
 
 if only_trainning:
     # Save training losses to a text file
-    with open("results/training_losses_FIN5.txt", "w") as f:
+    with open("results/training_losses_FIN5_128.txt", "w") as f:
         f.write(str(epoch_losses))
     # Save the trained model and tokenizer in model3 folder (gitignore since it is huge)
-    model.save_pretrained("model3")
-    tokenizer.save_pretrained("model3")
-    print("Model and tokenizer saved to model3 folder")
+    model.save_pretrained("model5")
+    tokenizer.save_pretrained("model5")
+    print("Model and tokenizer saved to model5 folder")
     print("Training complete, skipping predictions on test set since only_trainning is set to True")
 
 ##############################################################################
