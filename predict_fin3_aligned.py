@@ -2,8 +2,8 @@ from transformers import AutoTokenizer, AutoModelForTokenClassification
 import torch
 
 input_path = "data/FIN5_dev.txt"
-output_path = "predictions/preds_fin5dev_model2.txt"
-model_dir = "model2"
+output_path = "predictions/preds_fin5_128_model6.txt"
+model_dir = "model6"
 
 model = AutoModelForTokenClassification.from_pretrained(model_dir)
 tokenizer = AutoTokenizer.from_pretrained(model_dir, use_fast=True)
