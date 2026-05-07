@@ -98,7 +98,7 @@ dev_dataset = Dataset.from_dict({"tokens": dev_sentences, "ner_tags": dev_label_
 def tokenize_and_align_labels(examples):
     tokenized_inputs = tokenizer(
         examples["tokens"], # Lists of tokens for each sentence, e.g. [["EU", "rejects", "Germany", "call", "to", "boycott", "British", "lamb", "."]]
-        max_length=128, #  Limits the total number of tokens (including special tokens) to 128. Longer sequences are truncated.
+        max_length=max_length, #  Limits the total number of tokens (including special tokens) to 128. Longer sequences are truncated.
         padding=False, # All sentences keeps their original length, not making all sentences the same length
         truncation=True, # If sequence is longer than max_length, it will be truncated to fit the model's input size.
         is_split_into_words=True # Indicates that the input is already split into words
@@ -196,9 +196,9 @@ if only_trainning:
     with open("results/training_losses_FIN5full_256.txt", "w") as f:
         f.write(str(epoch_losses))
     # Save the trained model and tokenizer in model3 folder (gitignore since it is huge)
-    model.save_pretrained("model8")
-    tokenizer.save_pretrained("model8")
-    print("Model and tokenizer saved to model8 folder")
+    model.save_pretrained("model9")
+    tokenizer.save_pretrained("model9")
+    print("Model and tokenizer saved to model9 folder")
     print("Training complete, skipping predictions on test set since only_trainning is set to True")
 
 ##############################################################################
