@@ -131,8 +131,8 @@ config = AutoConfig.from_pretrained(
     num_labels=len(label_list),
     id2label=id2label,
     label2id=label2id,
-    hidden_dropout_prob=0.2,  # Dropout in hidden layers
-    attention_probs_dropout_prob=0.2  # Dropout in attention layers
+    # hidden_dropout_prob=0.2,  # Dropout in hidden layers
+    # attention_probs_dropout_prob=0.2  # Dropout in attention layers
 ) # Loads configuration for pretrained model, setting how many NER labels there are, provided conext with rest
 data_collator = DataCollatorForTokenClassification(tokenizer)
 
