@@ -13,15 +13,16 @@ Return ONLY valid JSON in this format:
 
 Requirements:
 - Corporate loan between a financial institution and corporate borrowers
-- Include multiple entities with clear roles (examples: Lender, Borrower, Guarantor...)
+- Include multiple entities with clear roles (examples: Lender, Borrower and so on)
 - Use realistic, fully specified company names
 
 Sections:
-- Must include (mandatory sections): Introductory Clause, Parties, Loan Terms, Definitions, Representations and Warranties, Interest and Fees, Default and Remedies, Signatures
-- You can change the title of mandatory sections
+- Must include mandatory sections: Introduciton, Parties, Loan Terms, Definitions, Representations and Warranties, Interest and Fees, Default and Remedies, Signatures
+- You can change the title of mandatory sections to synonym words
 - You must add other sections typical for loan agreements along with mandatory sections
 - Total main sections: 10-12
 - Each section has a short summary
+- In signature section use actual entities and not placeholders
 
 Constraints:
 - DO NOT generate a loan contract template, generate real contract between parties

@@ -111,10 +111,10 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, pl
     # Insert the fake details into the prompt (if the template supports it)
     # If not, append a context block at the top
     context_block = f"""
-    You can use the following information to generate plan:
-    
+    Use the following information to generate plan:
+
     Lender: generate fake organization name (Contact: {fake_contact_lender['address']}, {fake_contact_lender['email']}, {fake_contact_lender['phone']})
-    Borrower: generate fake organization name (Contact: {fake_contact_borrower['address']}, {fake_contact_borrower['email']}, {fake_contact_borrower['phone']})
+    Borrower: generate fake company name (Contact: {fake_contact_borrower['address']}, {fake_contact_borrower['email']}, {fake_contact_borrower['phone']})
     Jurisdiction: {fake_jurisdiction}
     Agreement Date: {fake_agreement_date}
     Interest Rate: {fake_interest_rate}
@@ -122,7 +122,7 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, pl
     plan_prompt = f"""
         You are a legal document planner.
         
-        Design a structured plan for a realistic corporate loan agreement.
+        Design a structured plan for a realistic corporate loan agreement between organizations.
 
         {context_block}
 

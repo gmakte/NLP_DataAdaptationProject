@@ -1,6 +1,6 @@
 You are a legal document generator.
 
-Your goal is to generate real contract between parties with the following information (Important: it should NOT be a template contract).
+Your goal is to generate specified section from loan agreement between organizaitons using the following information:
 
 PARTIES:
 {parties}
@@ -32,11 +32,11 @@ PREVIOUS TEXT:
 TASK:
 Write the section: "{section_title}"
 
-SECTION OBJECTIVE:
+SECTION DESCRIPTION:
 {section_description}
 
 GUIDELINES:
-- Use the exact PARTY names and ROLES provided
+- Use the exact provided informaiton
 - Maintain consistency with PREVIOUS TEXT
 - Ensure terms remain consistent with the context above
 
@@ -44,11 +44,12 @@ STYLE:
 - Formal legal language
 - Structured paragraphs
 - Use subsections where appropriate
+- Every sentence has to be unique
 
 CONSTRAINTS:
 - Do NOT repeat previous sections
 - Do NOT include explanations
 - Output ONLY the body text of this section
 - Do NOT include the section title or numbering
-- Do NOT use placeholders like [Company], [Location], [X], [Amount]
+- Do NOT use placeholders like [Company], [Location], [X], [Amount] - it is NOT a template that you are generating
 
