@@ -13,7 +13,7 @@ from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 #################### ---------HELPER FUNCTIONS--------- ################################
 
 # general function to generate text given a prompt, model and tokenizer
-def generate(model, tokenizer, model_name, prompt, role, max_new_tokens, use_chat_template):
+def generate(model, tokenizer, model_name, prompt, role, max_new_tokens, use_chat_template, temperature=0.6):
     # format prompt according to model requirements
     if use_chat_template:
         messages = [
@@ -32,8 +32,8 @@ def generate(model, tokenizer, model_name, prompt, role, max_new_tokens, use_cha
     with torch.no_grad():  #telling not to track gradients since we're only generating text, not training
         output = model.generate(
             **inputs, #tokenized prompt inputs
-            max_new_tokens=max_new_tokens, #set max tokens to genrate
-            temperature=0.6, #control randomness
+            max_new_tokens=max_new_tokens, #set max tokens to generate
+            temperature=temperature, #control randomness
             top_p=0.8, #increase word selection diversity
             do_sample=True, #used with top_p
             use_cache=True, #speed up the process by caching past key values
@@ -55,7 +55,7 @@ def generate(model, tokenizer, model_name, prompt, role, max_new_tokens, use_cha
 
 
 # generate the entire contract in one go using the full prompt
-def generate_full(model, tokenizer, model_name, args, use_chat_template):
+def generate_full(model, tokenizer, model_name, args, use_chat_template, temperature=0.6):
     # load prompt template from file
     with open("prompt-full.txt", "r", encoding="utf-8") as f:
         prompt_template = f.read()
@@ -69,7 +69,7 @@ def generate_full(model, tokenizer, model_name, args, use_chat_template):
         torch.cuda.reset_peak_memory_stats()
 
     print("Generating full contract...\n")
-    output = generate(model, tokenizer, model_name, prompt, role="legal text generator", max_new_tokens=args.max_new_tokens, use_chat_template=use_chat_template)
+    output = generate(model, tokenizer, model_name, prompt, role="legal text generator", max_new_tokens=args.max_new_tokens, use_chat_template=use_chat_template, temperature=temperature)
 
     if torch.cuda.is_available():
         gpu_mem_alloc = torch.cuda.max_memory_allocated() / (1024**3)
@@ -84,7 +84,7 @@ def generate_full(model, tokenizer, model_name, args, use_chat_template):
 
 
 # generate the contract section by section using the plan and sections generated from the model
-def generate_sectioned(model, tokenizer, model_name, args, use_chat_template):
+def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, plan_temperature=0.9, section_temperature=0.6):
     print("Generating plan...\n")
 
     with open("prompt-plan.txt", "r", encoding="utf-8") as f:
@@ -97,7 +97,7 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template):
     # ask the llm to generate a valid plan in json format, if not successful retry 3 times before giving up
     for attempt in range(3):
         try:
-            raw_output = generate(model, tokenizer, model_name, plan_prompt, role="planner", max_new_tokens=args.max_new_tokens, use_chat_template=use_chat_template)
+            raw_output = generate(model, tokenizer, model_name, plan_prompt, role="planner", max_new_tokens=args.max_new_tokens, use_chat_template=use_chat_template, temperature=plan_temperature)
             print(f"[Attempt {attempt+1}] Raw plan output:\n{raw_output[:500]}\n")
             
             raw_output = extract_json(raw_output)
@@ -183,8 +183,7 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template):
             prev_text=full_text[-1500:]
         )
 
-
-        section_text = generate(model, tokenizer, model_name, section_prompt, role="generator", max_new_tokens=args.max_new_tokens, use_chat_template=use_chat_template)
+        section_text = generate(model, tokenizer, model_name, section_prompt, role="generator", max_new_tokens=args.max_new_tokens, use_chat_template=use_chat_template, temperature=section_temperature)
 
         # Remove repeated section title if present at the start of the generated text
         section_text_stripped = section_text.strip()
@@ -230,6 +229,8 @@ if __name__ == "__main__":
     parser.add_argument("--max_new_tokens", type=int, default=2000)
     parser.add_argument("--output_dir", default="contracts/")
     parser.add_argument("--output_file", required=True)
+    parser.add_argument("--plan_temperature", type=float, default=0.9)
+    parser.add_argument("--section_temperature", type=float, default=0.6)
 
 
     args = parser.parse_args()
@@ -291,9 +292,12 @@ if __name__ == "__main__":
     model.eval()
 
     if args.sectioned:
-        text = generate_sectioned(model, tokenizer, model_name, args, use_chat_template)
+        text = generate_sectioned(
+            model, tokenizer, model_name, args, use_chat_template,
+            plan_temperature=args.plan_temperature, section_temperature=args.section_temperature
+        )
     else:
-        text = generate_full(model, tokenizer, model_name, args, use_chat_template)
+        text = generate_full(model, tokenizer, model_name, args, use_chat_template, temperature=args.section_temperature)
     
     # create output dir from args
     os.makedirs(args.output_dir, exist_ok=True)
