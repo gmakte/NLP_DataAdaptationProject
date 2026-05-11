@@ -207,7 +207,7 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, pl
             sections_list=section_list,
             section_title=title,
             section_description=summary,
-            prev_text=full_text[-1500:]
+            #prev_text=full_text[-1500:]
         )
 
         section_text = generate(model, tokenizer, model_name, section_prompt, role="generator", max_new_tokens=args.max_new_tokens, use_chat_template=use_chat_template, temperature=section_temperature)

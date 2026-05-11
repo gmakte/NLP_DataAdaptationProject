@@ -26,9 +26,6 @@ CONTACT INFORMATION:
 ALL SECTIONS:
 {sections_list}
 
-PREVIOUS TEXT:
-{prev_text}
-
 TASK:
 Write the section: "{section_title}"
 
@@ -37,7 +34,6 @@ SECTION DESCRIPTION:
 
 GUIDELINES:
 - Use the exact provided informaiton
-- Maintain consistency with PREVIOUS TEXT
 - Ensure terms remain consistent with the context above
 
 STYLE:
