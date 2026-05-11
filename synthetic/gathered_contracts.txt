@@ -39,29 +39,6 @@ The Loan Amount shall be repaid in equal installments over a period of Five (5) 
 
 The Loan Amount is intended for working capital purposes.
 
-TASK:
-Write the section: "4. Definitions"
-
-SECTION OBJECTIVE:
-Defines key terms used throughout the agreement.
-
-GUIDELINES:
-- Follow the GLOBAL PLAN closely
-- Use the exact PARTY names and ROLES provided
-- Maintain consistency with PREVIOUS TEXT
-- Ensure terms (dates, amounts, roles, interest rate, loan purpose, replayment terms and so on) remain consistent with the context above
-
-STYLE:
-- Formal legal language
-- Structured paragraphs
-- Use subsections where appropriate
-
-CONSTRAINTS:
-- Do NOT repeat previous sections
-- Do NOT include explanations
-- Output ONLY the body text of this section
-- Do NOT include the section title or numbering
-
 4. Definitions
 
 For the purposes of this Agreement, the following terms shall have the following meanings:
@@ -82,30 +59,7 @@ For the purposes of this Agreement, the following terms shall have the following
 
 (h) "Term" means the period commencing on the Agreement Date and ending on the Repayment Date.
 
-TASK:
-Write the section: "5. Representations and Warranties/R&Ws"
-
-SECTION OBJECTIVE:
-Sets out the representations and warranties of both parties.
-
-GUIDELINES:
-- Follow the GLOBAL PLAN closely
-- Use the exact PARTY names and ROLES provided
-- Maintain consistency with PREVIOUS TEXT
-- Ensure terms (dates, amounts, roles, interest rate, loan purpose, replayment terms and so on) remain consistent with the context above
-
-STYLE:
-- Formal legal language
-- Structured paragraphs
-- Use subsections where appropriate
-
-CONSTRAINTS:
-- Do NOT repeat previous sections
-- Do NOT include explanations
-- Output ONLY the body text of this section
-- Do NOT include the section title or numbering
-
-5. Representations and Warranties/R&Ws
+5. Representations and Warranties
 
 (a) Borrower's Representations and Warranties
 
@@ -143,146 +97,7 @@ Goldman Sachs Bank, USA is a national banking association duly organized, validl
 
 This Agreement has been duly authorized, executed, and delivered by Goldman Sachs Bank, USA and constitutes a legal, valid, and binding obligation of Goldman Sachs Bank, USA, enforceable against Goldman Sachs Bank, USA in accordance with its terms, except as enforcement may be limited by bankruptcy, insolvency, or similar laws affecting creditors' rights generally.
 
-TASK:
-Write the section: "6. Interest and Fees"
-
-SECTION OBJECTIVE:
-Defines the interest rate, fees, and payment terms.
-
-GUIDELINES:
-- Follow the GLOBAL PLAN closely
-- Use the exact PARTY names and ROLES provided
-- Maintain consistency with PREVIOUS TEXT
-- Ensure terms (dates, amounts, roles, interest rate, loan purpose, replayment terms and so on) remain consistent with the context above
-
-STYLE:
-- Formal legal language
-- Structured paragraphs
-- Use subsections where appropriate
-
-CONSTRAINTS:
-- Do NOT repeat previous sections
-- Do NOT include explanations
-- Output ONLY the body text of this section
-- Do NOT include the section title or
-
-3. Loan Terms/The Loan
-TASK:
-Write the section: "5. Representations and Warranties/R&Ws"
-
-SECTION OBJECTIVE:
-Defines the representations and warranties made by both parties.
-
-GUIDELINES:
-- Follow the GLOBAL PLAN closely
-- Use the exact PARTY names and ROLES provided
-- Maintain consistency with PREVIOUS TEXT
-- Ensure terms (dates, amounts, roles, interest rate, loan purpose, replayment terms and so on) remain consistent with the context above
-
-STYLE:
-- Formal legal language
-- Structured paragraphs
-- Use subsections where appropriate
-
-CONSTRAINTS:
-- Do NOT repeat previous sections
-- Do NOT include explanations
-- Output ONLY the body text of this section
-- Do NOT include the section title or numbering
-
-TASK:
-Write the section: "7. Default and Remedies/Termination"
-
-SECTION OBJECTIVE:
-Defines the conditions for default, the remedies available to the lender, and the termination of the agreement.
-
-GUIDELINES:
-- Follow the GLOBAL PLAN closely
-- Use the exact PARTY names and ROLES provided
-- Maintain consistency with PREVIOUS TEXT
-- Ensure terms (dates, amounts, roles, interest rate, loan purpose, replayment terms and so on) remain consistent with the context above
-
-STYLE:
-- Formal legal language
-- Structured paragraphs
-- Use subsections where appropriate
-
-CONSTRAINTS:
-- Do NOT repeat previous sections
-- Do NOT include explanations
-- Output ONLY the body text of this section
-- Do NOT include the section title or numbering
-
-TASK:
-Write the section: "8. Security"
-
-SECTION OBJECTIVE:
-Defines the security provided by the borrower and the rights of the lender in case of default.
-
-GUIDELINES:
-- Follow the GLOBAL PLAN closely
-- Use the exact PARTY names and ROLES provided
-- Maintain consistency with PREVIOUS TEXT
-- Ensure terms (dates, amounts, roles, interest rate, loan purpose, replayment terms and so on) remain consistent with the context above
-
-STYLE:
-- Formal legal language
-- Structured paragraphs
-- Use subsections where appropriate
-
-CONSTRAINTS:
-- Do NOT repeat previous sections
-- Do NOT include explanations
-- Output ONLY the body text of this section
-- Do NOT include the section title or numbering
-
-TASK:
-Write the section: "9. Governing Law"
-
-SECTION OBJECTIVE:
-Defines the jurisdiction and governing law for the agreement.
-
-GUIDELINES:
-- Follow the GLOBAL PLAN closely
-- Use the exact PARTY names and ROLES provided
-- Maintain consistency with PREVIOUS TEXT
-- Ensure terms (dates, amounts, roles, interest rate, loan purpose, replayment terms and so on) remain consistent with the context above
-
-STYLE:
-- Formal legal language
-- Structured paragraphs
-- Use subsections where appropriate
-
-CONSTRAINTS:
-- Do NOT repeat previous sections
-- Do NOT include explanations
-- Output ONLY the body text of this section
-- Do NOT include the section title or numbering
-
-TASK:
-Write the section: "10. Signatures"
-
-SECTION OBJECTIVE:
-Defines the signatures required from both parties to make the agreement valid.
-
-GUIDELINES:
-- Follow the GLOBAL PLAN closely
-- Use the exact PARTY names and ROLES provided
-- Maintain consistency with PREVIOUS TEXT
-- Ensure terms (dates, amounts, roles, interest rate, loan purpose, replayment terms and so on) remain consistent with the context above
-
-STYLE:
-- Formal legal language
-- Structured paragraphs
-- Use subsections where appropriate
-
-CONSTRAINTS:
-- Do NOT repeat previous sections
-- Do NOT include explanations
-- Output ONLY the body text of this section
-- Do NOT include the section title or numbering
-
-SECTION 6. Interest and Fees
+6. Interest and Fees
 
 6.1 Interest Rate
 The interest rate on the Loan shall be 5% per annum, calculated on the daily balance outstanding.
@@ -293,45 +108,7 @@ The Borrower shall pay all fees and expenses incurred by the Lender in connectio
 6.3 Payment Terms
 The Borrower shall make payments on the Loan on a monthly basis, commencing on the first day of the month following the Disbursement Date and continuing on the first day of each month thereafter, until the Loan is fully repaid.
 
-SECTION 3. Loan Terms/The Loan
-
-3.1 Loan Amount
-The Loan shall consist of a principal amount of $10,000,000.
-
-3.2 Disbursement Date
-The Loan shall be disbursed on the date of this Agreement.
-
-3.3 Loan Purpose
-The Loan proceeds shall be used for working capital purposes by the Borrower.
-
-SECTION 5. Representations and Warranties/R&Ws
-
-5.1 Borrower's Representations and Warranties
-
-(a) Existence and Authority
-Acme Inc., USA is a corporation duly organized, validly existing, and in good standing under the laws of the United States of America. Acme Inc., USA has the power and authority to execute and deliver this Agreement and to perform its obligations hereunder.
-
-(b) Authorization
-This Agreement has been duly authorized, executed, and delivered by Acme Inc., USA and constitutes a legal, valid, and binding obligation of Acme Inc., USA, enforceable against Acme Inc., USA in accordance with its terms, except as enforcement may be limited by bankruptcy, insolvency, or similar laws affecting creditors' rights generally.
-
-(c) Loan Purpose
-The Loan proceeds shall be used solely for the purposes set forth in Section 3.3.
-
-(d) Guarantee
-Acme Inc., USA has provided a guarantee for the Loan from its subsidiary, Acme Corp., USA.
-
-(e) No Default
-There is no Default under this Agreement.
-
-5.2 Lender's Representations and Warranties
-
-(i) Existence and Authority
-Goldman Sachs Bank, USA is a national banking association duly organized, validly existing, and in good standing under the laws of the United States of America. Goldman Sachs Bank, USA has the power and authority to execute and deliver this Agreement and to perform its obligations hereunder.
-
-(ii) Authorization
-This Agreement has been duly authorized, executed, and delivered by Goldman Sachs Bank, USA and constitutes a legal, valid, and binding obligation of Goldman Sachs Bank, USA, enforceable against Goldman Sachs Bank, USA in accordance with its terms, except as enforcement may be limited by bankruptcy, insolvency, or similar laws affecting creditors' rights generally.
-
-SECTION 7. Default and Remedies/Termination
+7. Default and Remedies
 
 7.1 Default
 A Default under this Agreement shall occur if any of the following events occur:
@@ -348,220 +125,6 @@ In the event of a Default, Goldman Sachs Bank, USA shall have the right to decla
 
 7.3 Termination
 Upon the occurrence of a Default, this Agreement shall terminate, except that the provisions relating to representations and warranties, Default, remedies, security, governing law, and signatures shall survive the termination of this Agreement.
-
-SECTION 8. Security
-
-8.1 Security Interest
-As
-
-4. Definitions
-In this Agreement, the following terms shall have the meanings set forth below:
-
-(a) "Agreement" means this Loan Agreement, dated as of January 1, 2023, between Goldman Sachs Bank, USA and Acme Inc., USA, as amended from time to time.
-
-(b) "Borrower" means Acme Inc., USA, a corporation organized and existing under the laws of the State of Delaware, with its principal place of business at 123 Main Street, Anytown, USA 12345.
-
-(c) "Guarantor" means Acme Corp., USA, a corporation organized and existing under the laws of the State of Delaware, with its principal place of business at 456 Elm Street, Anytown, USA 56789.
-
-(d) "Loan" means the loan in the principal amount of $10,000,000, made by Goldman Sachs Bank, USA to the Borrower, to be used for working capital purposes.
-
-(e) "Interest Rate" means an annual interest rate of 5%.
-
-(f) "Repayment Terms" means the loan is to be repaid over a period of 5 years.
-
-(g) "Default" means any of the events described in Section 7.1.
-
-(h) "Governing Law" means the laws of the State of New York, USA.
-
-(i) "Lender" means Goldman Sachs Bank, USA, a national banking association organized and existing under the laws of the United States of America, with its principal place of business at One New York Plaza, New York, NY 10004, USA.
-
-(j) "Security" means any collateral, pledge, lien, or other security interest granted by the Borrower to secure the Loan.
-
-(k) "Signatures" means the signatures of the duly authorized representatives of the Lender and the Borrower set forth on the signature pages attached hereto.
-
-5. Representations and Warranties/R&Ws
-(a) The Borrower represents and warrants to the Lender that:
-
-(i) The Borrower is a corporation duly organized, validly existing, and in good standing under the laws of the State of Delaware, and has the power and authority to enter into this Agreement and to carry out its obligations hereunder.
-
-(ii) The Borrower has full power and authority to execute and deliver this Agreement and to perform its obligations hereunder, and has taken all necessary action to authorize the execution, delivery, and performance of this Agreement.
-
-(iii) The execution, delivery, and performance of this Agreement by the Borrower have been duly authorized by all necessary corporate action on the part of the Borrower.
-
-(iv) This Agreement has been duly executed and delivered by the Borrower and constitutes the legal, valid, and binding obligation of the Borrower, enforceable against the Borrower in accordance with its terms, except as may be limited by applicable bankruptcy, insolvency, reorganization, moratorium, or other laws of general application affecting the enforcement of creditors' rights generally.
-
-(v) The Borrower has no outstanding liens, encumbrances, or other restrictions on its ability to enter into this Agreement or to perform its obligations hereunder.
-
-(vi) The Borrower has no pending or threatened litigation, arbitration, or other legal proceedings that would materially affect its ability to repay the Loan.
-
-(vii) The Borrower has provided accurate and complete information in all documents and statements provided to the Lender in connection with this Agreement.
-
-(viii) The Borrower is not in default under any material agreement to which it is a party or by which it is bound.
-
-(ix) The Loan will be used by the Borrower for working capital purposes.
-
-(b) The Guarantor represents and warrants to the Lender that:
-
-(i) The Guarantor is a corporation duly organized, validly existing, and in good standing under the laws of the State of Delaware, and has the power and authority to enter into this Agreement and to carry out its obligations hereunder.
-
-(ii) The Guarantor has full power and authority to execute and deliver this Agreement and to perform its obligations hereunder, and has taken all necessary action to authorize the execution, delivery, and performance of this Agreement.
-
-(iii) The execution, delivery, and performance of this Agreement by the Guarantor have been duly authorized by all necessary corporate action on the part of the Guarantor.
-
-(iv) This Agreement has been duly executed and delivered by the Guarantor and constitutes the legal, valid, and binding obligation of the Guarantor, enforceable against the Guarantor in accordance with its terms, except as may be limited by applicable bankruptcy, insolvency, reorganization, moratorium, or other laws of general application affecting the enforcement of creditors' rights generally.
-
-(v) The Guarantor has no outstanding liens, encumbrances, or other restrictions on its ability to enter into this Agreement or to perform its obligations hereunder.
-
-(vi) The Guarantor has no pending or threatened litigation, arbitration, or other legal proceedings that would materially affect its ability to perform its obligations under this Agreement.
-
-(vii) The Guarantor has provided accurate and complete information in all documents and statements provided to the Lender in connection with this Agreement.
-
-(viii) The Guarantor is not in default under any material agreement to which it is a party or by which it is bound.
-
-(ix) The Guarantor is providing the guarantee for the Loan from its subsidiary, Acme Inc., USA.
-
-(c) The Lender represents and warrants to the Borrower and the Guarantor that:
-
-(i) The Lender is a national banking association duly organized, validly existing, and in good standing under the laws of the United States of America, and has the power and authority to enter into this Agreement and to carry out its obligations hereunder.
-
-(ii) The Lender has full power and authority to execute and deliver this Agreement and to perform its obligations hereunder, and has taken all necessary action to authorize the execution, delivery, and performance of this Agreement.
-
-(iii) The execution, delivery, and performance of this Agreement by the Lender have been duly authorized by all necessary corporate action on the part of the Lender.
-
-(iv) This Agreement has been duly executed and delivered by the Lender and constitutes the legal, valid, and binding obligation of the Lender, enforceable against the Lender in accordance with its terms, except as may be limited by applicable bankruptcy, insolvency, reorganization, moratorium, or other laws of general application affecting the enforcement of creditors' rights generally.
-
-(v) The Lender has no outstanding liens, encumbrances, or other restrictions on its ability to enter into this Agreement or to perform its obligations hereunder.
-
-(vi) The Lender has no pending or threatened litigation, arbitration, or other legal proceedings that would materially affect its ability to perform its obligations under this Agreement.
-
-(vii) The Lender has provided accurate and complete information in all documents and statements provided to the Borrower and the Guarantor in connection with this Agreement.
-
-(viii) The Lender is not in default under any material agreement to which it is a party or by which it is bound.
-
-(ix) The Lender has the right to seize the assets of both Acme Inc., USA and Acme Corp., USA to recover the Loan amount in case of default.
-
-6. Interest and Fees
-TEXT:
-(i) The Borrower shall pay interest on the outstanding principal amount of the Loan at the rate of 5% per annum, calculated on a 360-day year, and compounded semi-annually.
-
-(ii) The Borrower shall pay all fees and charges incurred in connection with this Agreement and the Loan, including, but not limited to, origination fees, processing fees, and legal fees.
-
-(iii) The Borrower shall pay all fees and charges incurred in connection with the security provided under Section 8 of this Agreement.
-
-(iv) The Borrower shall pay all fees and charges incurred in connection with any renewal, extension, or modification of this Agreement or the Loan.
-
-(v) The Borrower shall pay all fees and charges incurred in connection with any default under this Agreement or the Loan, including, but not limited to, reasonable attorneys' fees and costs of collection.
-
-(vi) The Borrower shall pay all fees and charges incurred in connection with any dispute or litigation arising out of or in connection with this Agreement or the Loan.
-
-(vii) The Borrower shall pay all fees and charges incurred in connection with any audit or review of the Borrower's financial statements or records in connection with this Agreement or the Loan.
-
-(viii) The Borrower shall pay all fees and charges incurred in connection with any investigation or examination of the Borrower by any governmental authority in connection with this Agreement or the Loan.
-
-(ix) The Borrower shall pay all fees and charges incurred in connection with any transfer, assignment, or sale of this Agreement or the Loan.
-
-(x) The Borrower shall pay all fees and charges incurred in connection with any other matter or transaction in connection with this Agreement or the Loan.
-
-(xi) The Borrower shall pay all fees and charges incurred in connection with the guarantee provided by Acme Corp., USA under this Agreement.
-
-(xii) The Borrower shall pay all fees and charges incurred in connection with any other matter or transaction in connection with the guarantee provided by Acme Corp., USA under this Agreement.
-
-(xiii) The Borrower shall pay all fees and charges incurred in connection with any dispute or litigation arising out of or in connection with the guarantee provided by Acme Corp., USA under this Agreement.
-
-(xiv) The Borrower shall pay all fees and charges incurred in connection with any audit or review of Acme Corp., USA's financial statements or records in connection with this Agreement or the Loan.
-
-(xv) The Borrower shall pay all fees and charges incurred in connection with any investigation or examination of Acme Corp., USA by any governmental authority in connection with this Agreement or the Loan.
-
-(xvi) The Borrower shall pay all fees and charges incurred in connection with any transfer, assignment, or sale of this Agreement or the Loan as they relate to Acme Corp., USA.
-
-(xvii) The Borrower shall pay all fees and charges incurred in connection with any other matter or transaction in connection with Acme Corp., USA as they relate to this Agreement or the Loan.
-
-(xviii) The Borrower shall pay all fees and charges incurred in connection with the enforcement of this Agreement or the Loan, including, but not limited to, reasonable attorneys' fees and costs of collection.
-
-(xix) The Borrower shall pay all fees and charges incurred in connection with any dispute or litigation arising out of or in connection with the enforcement of this Agreement or the Loan.
-
-(xx) The Borrower shall pay all fees and charges incurred in connection with any audit or review of the Borrower's or Acme Corp., USA's financial statements or records in connection with the enforcement of this Agreement or the Loan.
-
-(xxi) The Borrower shall pay all fees and charges incurred in connection with any investigation or examination of the Borrower or Acme Corp., USA by any governmental authority in connection with the enforcement of this Agreement or the Loan.
-
-(xxii) The Borrower shall pay all fees and charges incurred in connection with any transfer, assignment, or sale of this Agreement or the Loan as they relate to the enforcement of this Agreement or the Loan.
-
-(xxiii) The Borrower shall pay all fees and charges incurred in connection with any other matter or transaction in connection with the enforcement of this Agreement or the Loan.
-
-(xxiv) The Borrower shall pay all fees and charges incurred in connection with any dispute or litigation arising out of or in connection with the enforcement of this Agreement or the Loan as they relate to Acme Corp., USA.
-
-(xxv) The Borrower shall pay all fees and charges incurred in connection with any audit or review of Acme Corp., USA's financial statements or records in connection with the enforcement of this Agreement or the Loan as they relate to Acme Corp., USA.
-
-(xxvi) The Borrower shall pay all fees and charges incurred in connection with any investigation or examination of Acme Corp., USA by any governmental authority in connection with the enforcement of this Agreement or the Loan as they relate to Acme Corp., USA.
-
-(xxvii) The Borrower shall pay all fees and charges incurred in connection with any transfer, assignment, or sale of this Agreement or the Loan as they relate to the enforcement of this Agreement or the Loan as they relate to Acme Corp., USA.
-
-(xxviii) The Borrower shall pay all fees and charges incurred in connection with any other matter or transaction in connection with the enforcement of this Agreement or the Loan as they relate to Acme Corp., USA.
-
-(xxix) The Borrower shall pay all fees and charges incurred in connection with the collection of any amounts due under this Agreement or the Loan.
-
-(xxx) The Borrower shall pay all fees and charges incurred in connection with the collection of any amounts due under this Agreement or the Loan as they relate to Acme Corp., USA.
-
-(xxxi) The Borrower shall pay all fees and charges incurred in connection with any dispute or litigation arising out of or in connection with the collection of any amounts due under this Agreement or the Loan.
-
-(xxxii) The Borrower shall pay all fees and charges incurred in connection with any audit or review of the Borrower's or Acme Corp., USA's financial statements or records in connection with the collection of any amounts due under this Agreement or the Loan.
-
-(xxxiii) The Borrower shall pay all fees and charges incurred in connection with any investigation or examination of the Borrower or Acme Corp., USA by any governmental authority in connection with the collection of any amounts due under this Agreement or the Loan.
-
-(xxxiv) The Borrower shall pay all fees and charges incurred in connection with any transfer, assignment, or sale of this Agreement or the Loan as they relate to the collection of any amounts due under this Agreement or the Loan.
-
-(xxxv) The Borrower shall pay all fees and charges incurred in connection with any other matter or transaction in connection with the collection of any amounts due under this Agreement or the Loan.
-
-(xxxvi) The Borrower shall pay all fees and charges incurred in connection with the enforcement of any guarantee or security interest granted by Acme Corp., USA under this Agreement or the Loan.
-
-(xxxvii) The Borrower shall pay all fees and charges incurred in connection with the enforcement of any guarantee or security interest granted by Acme Corp., USA under this Agreement or the Loan as they relate to Acme Corp., USA.
-
-(xxxviii) The Borrower shall pay all fees and charges incurred in connection with any dispute or litigation arising out of or in connection with the enforcement of any guarantee or security interest granted by Acme Corp., USA under this Agreement or the Loan.
-
-(xxxix) The Borrower shall pay all fees and charges incurred in connection with any audit or review of Acme Corp., USA's financial statements or records in connection with the enforcement of any guarantee or security interest granted by Acme Corp., USA under this Agreement or the Loan.
-
-(xl) The Borrower shall pay all fees and charges incurred in connection with any investigation or examination of Acme Corp., USA by any governmental authority in connection with the enforcement of any guarantee or security interest granted by Acme Corp., USA under this Agreement or the Loan.
-
-(xli) The Borrower shall pay all fees and charges incurred in connection with any transfer,
-
-7. Default and Remedies/Termination
-TEXT:
-(i) The Borrower shall be in default under this Agreement if the Borrower fails to make any payment when due, or breaches any of its other obligations under this Agreement.
-
-(ii) Upon the occurrence of an Event of Default, the Lender may declare all amounts outstanding under this Agreement to be immediately due and payable.
-
-(iii) The Lender shall have the right to exercise any of its remedies under applicable law, including, without limitation, the right to foreclose on any collateral, to seize and sell the same, to appoint a receiver, and to take any other action necessary to protect its interests.
-
-(iv) In the event of default, the Lender may also take legal action against the Borrower and the Guarantor to recover the outstanding amounts, including the principal, accrued interest, fees, and costs.
-
-(v) In the event of default, the Lender may also terminate this Agreement with immediate effect.
-
-(vi) Upon termination, all rights and obligations of the parties under this Agreement shall cease, except for the rights and obligations of the parties with respect to any amounts due and payable prior to termination, any guarantees or security interests granted by the Guarantor, and any other provisions that by their nature survive termination.
-
-(vii) The Borrower shall pay all fees and charges incurred in connection with the enforcement of any guarantee or security interest granted by Acme Corp., USA under this Agreement or the Loan as they relate to the Event of Default.
-
-(viii) The Borrower shall pay all fees and charges incurred in connection with any dispute or litigation arising out of or in connection with the enforcement of any guarantee or security interest granted by Acme Corp., USA under this Agreement or the Loan as they relate to the Event of Default.
-
-(ix) The Borrower shall pay all fees and charges incurred in connection with any audit or review of Acme Corp., USA's financial statements or records in connection with the enforcement of any guarantee or security interest granted by Acme Corp., USA under this Agreement or the Loan as they relate to the Event of Default.
-
-(x) The Borrower shall pay all fees and charges incurred in connection with any investigation or examination of Acme Corp., USA by any governmental authority in connection with the enforcement of any guarantee or security interest granted by Acme Corp., USA under this Agreement or the Loan as they relate to the Event of Default.
-
-(xi) The Borrower shall pay all fees and charges incurred in connection with any transfer, sale, or other disposition of any collateral, including, without limitation, fees and charges for appraisals, environmental assessments, and title insurance.
-
-(xii) The Borrower shall pay all fees and charges incurred in connection with any bankruptcy or insolvency proceedings involving the Borrower, Acme Corp., USA, or any of their respective affiliates.
-
-(xiii) The Borrower shall pay all fees and charges incurred in connection with any restructuring, workout, or other similar proceedings involving the Borrower, Acme Corp., USA, or any of their respective affiliates.
-
-(xiv) The Borrower shall pay all fees and charges incurred in connection with any other matter or transaction in connection with the collection of any amounts due under this Agreement or the Loan as they relate to the Event of Default.
-
-(xv) The Borrower shall pay all fees and charges incurred in connection with any dispute or litigation arising out of or in connection with the enforcement of any guarantee or security interest granted by Acme Corp., USA under this Agreement or the Loan as they relate to the Event of Default.
-
-(xvi) The Borrower shall pay all fees and charges incurred in connection with any audit or review of Acme Corp., USA's financial statements or records in connection with the enforcement of any guarantee or security interest granted by Acme Corp., USA under this Agreement or the Loan as they relate to the Event of Default.
-
-(xvii) The Borrower shall pay all fees and charges incurred in connection with any investigation or examination of Acme Corp., USA by any governmental authority in connection with the enforcement of any guarantee or security interest granted by Acme Corp., USA under this Agreement or the Loan as they relate to the Event of Default.
-
-8. Security
-SECTION TEXT:
 
 8. Security
 
@@ -580,7 +143,7 @@ SECTION TEXT:
 (vii) In the event of any default under this Agreement or the Loan, the Borrower and Acme Corp., USA shall pay all reasonable costs and expenses, including, without limitation, attorneys' fees and expenses, incurred by the Lender in connection with the enforcement of the liens granted hereunder.
 
 9. Governing Law
-TEXT:
+
 (i) This Agreement shall be governed by, and construed in accordance with, the laws of the State of New York, without giving effect to its conflict of laws principles.
 
 (ii) The Borrower and the Lender irrevocably submit to the exclusive jurisdiction of the courts of the State of New York, and the United States District Court for the Southern District of New York, for the resolution of any disputes arising out of or in connection with this Agreement or the Loan.
@@ -594,24 +157,6 @@ TEXT:
 (vi) The Borrower and the Lender agree that nothing contained herein shall affect any right either of them may have to serve process in any other manner permitted by law.
 
 10. Signatures
-TEXT:
-Goldman Sachs Bank, USA, by its duly authorized officer:
-
-______________________________
-John Doe
-Senior Vice President
-
-Acme Inc., USA, by its duly authorized officer:
-
-______________________________
-Jane Smith
-Chief Financial Officer
-
-Acme Corp., USA, by its duly authorized officer:
-
-______________________________
-Bob Johnson
-Vice President
 
 This Agreement is executed as of the date first above written.
 
@@ -638,3 +183,556 @@ ACME CORP., USA
 By: ___________________________
 Name: Bob Johnson
 Title: Vice President
+
+- DOCSTART -
+
+1. Introductory Clause
+1.
+
+The Parties, USNV Barnett (hereinafter "Lender") and 13980 Price Mall, South Kimberlybury, IN 04257 (hereinafter "Borrower"), being desirous of establishing a mutually beneficial relationship, have entered into this Loan Agreement (the "Agreement") on the date hereof, in North Crystalland, Falkland Islands (Malvinas), with the following terms and conditions:
+
+[...]
+
+(Continue with the following sections as per the guidelines provided)
+
+2. Parties
+2.1 Lender
+
+The Lender party to this Agreement is USNV Barnett, a limited liability company duly organized and existing under the laws of the United States of America, with its principal place of business located at 1234 Main Street, Anytown, USA 12345.
+
+2.2 Borrower
+
+The Borrower party to this Agreement is 13980 Price Mall, South Kimberlybury, IN 04257, a limited liability company duly organized and existing under the laws of the North Crystalland, Falkland Islands (Malvinas), with its principal place of business located at 13980 Price Mall, South Kimberlybury, IN 04257, North Crystalland, Falkland Islands (Malvinas).
+
+2.3 Guarantors
+
+(If applicable)
+
+(Insert text for any additional guarantors involved in the agreement)
+
+2.4 Lender's Counsel
+
+(Insert text for the Lender's counsel, if applicable)
+
+2.5 Borrower's Counsel
+
+(Insert text for the Borrower's counsel, if applicable)
+
+3. Guarantors
+EXAMPLE OUTPUT:
+
+3. Guarantors
+3.1 Guarantor A
+
+Guarantor A, a limited liability company duly organized and existing under the laws of the United States of America, with its principal place of business located at 5678 Elm Street, Anytown, USA 12345, hereby guarantees the performance and observance by the Borrower of all of its obligations under this Agreement.
+
+3.2 Guarantor B
+
+Guarantor B, an individual residing at 9012 Pine Street, Anytown, USA 12345, hereby guarantees the performance and observance by the Borrower of all of its obligations under this Agreement.
+
+ANSWER:
+
+3. Guarantors
+3.1 Guarantor X
+
+Guarantor X, a limited liability company duly organized and existing under the laws of the North Crystalland, Falkland Islands (Malvinas), with its principal place of business located at 9876 Cedar Street, South Kimberlybury, IN 04257, North Crystalland, Falkland Islands (Malvinas), hereby guarantees the performance and observance by the Borrower of all of its obligations under this Agreement.
+
+(If applicable)
+3.2 Guarantor Y
+
+Guarantor Y, an individual residing at 3210 Oak Street, South Kimberlybury, IN 04257, North Crystalland, Falkland Islands (Malvinas), hereby guarantees the performance and observance by the Borrower of all of its obligations under this Agreement.
+
+4. Loan Terms
+ANSWER:
+
+4. Loan Terms
+
+4.1 Loan Amount
+The Lender shall lend the Borrower the sum of One Million Dollars (US$1,000,000.00) for the purpose of general business purposes.
+
+4.2 Repayment Terms
+The Borrower shall make monthly repayments of the Loan Amount, together with any accrued interest, for a term of five (5) years commencing on August 8, 2025.
+
+4.3 Interest Rate
+The Loan shall bear interest at an annual rate of twelve percent (12%).
+
+4.4 Loan Term
+The term of the Loan shall be five (5) years, commencing on June 8, 2025 and ending on June 8, 2030.
+
+5. Definitions
+ANSWER:
+5. Definitions
+
+In this Agreement, the following terms shall have the meanings set forth below:
+
+"Agreement" means this Loan Agreement, dated as of June 8, 2025, between the Lender and the Borrower, as amended or supplemented from time to time.
+
+"Borrower" means 13980 Price Mall, South Kimberlybury, IN 04257, a legal entity duly organized and existing under the laws of the North Crystalland, Falkland Islands (Malvinas), with its principal place of business located at 13980 Price Mall, South Kimberlybury, IN 04257, North Crystalland, Falkland Islands (Malvinas).
+
+"Guarantor" means any person or entity that has executed a Guaranty in connection with the Loan.
+
+"Guaranty" means a written agreement executed by a Guarantor, guaranteeing the performance and observance by the Borrower of all of its obligations under this Agreement.
+
+"Interest Rate" means the annual rate of twelve percent (12%).
+
+"Lender" means USNV Barnett, a legal entity duly organized and existing under the laws of the United States of America, with its principal place of business located at 2100 West Laurel Street, Suite 300, Tallahassee, Florida 32303, United States of America.
+
+"Loan" means the loan made by the Lender to the Borrower in the amount of One Million Dollars (US$1,000,000.00) for the purpose of general business purposes.
+
+"Loan Amount" means the principal amount of the Loan, which is One Million Dollars (US$1,000,000.00).
+
+"Loan Term" means the term of the Loan, which is five (5) years, commencing on June 8, 2025 and ending on June 8, 2030.
+
+"Repayment Terms" means the terms under which the Borrower shall make monthly repayments of the Loan Amount, together with any accrued interest, for a term of five (5) years commencing on August 8, 2025.
+
+"Repayment Schedule" means the schedule attached hereto as Exhibit A, setting forth the dates and amounts of the Borrower's monthly repayments.
+
+"Repayment Date" means the date on which each monthly repayment is due.
+
+"Interest" means the amount payable by the Borrower to the Lender in respect of the Loan, calculated at the Interest Rate.
+
+"Fees" means any fees, charges, or expenses payable by the Borrower to the Lender in connection with the Loan.
+
+6. Representations and Warranties
+6.1 The Borrower hereby represents and warrants to the Lender that:
+
+6.1.1 The Borrower is a duly organized and existing legal entity under the laws of North Crystalland, Falkland Islands (Malvinas), with its principal place of business located at 13980 Price Mall, South Kimberlybury, IN 04257.
+
+6.1.2 The Borrower has full power, authority, and capacity to execute, deliver, and perform this Agreement and to consummate the transactions contemplated hereby.
+
+6.1.3 The execution, delivery, and performance of this Agreement by the Borrower have been duly authorized by all necessary action on the part of the Borrower.
+
+6.1.4 This Agreement constitutes a legal, valid, and binding obligation of the Borrower, enforceable against the Borrower in accordance with its terms.
+
+6.2 The Lender hereby represents and warrants to the Borrower that:
+
+6.2.1 USNV Barnett is a duly organized and existing legal entity under the laws of the United States of America, with its principal place of business located at 2100 West Laurel Street, Suite 300, Tallahassee, Florida 32303, United States of America.
+
+6.2.2 USNV Barnett has full power, authority, and capacity to execute, deliver, and perform this Agreement and to consummate the transactions contemplated hereby.
+
+6.2.3 The execution, delivery, and performance of this Agreement by USNV Barnett have been duly authorized by all necessary action on the part of USNV Barnett.
+
+6.2.4 This Agreement constitutes a legal, valid, and binding obligation of USNV Barnett, enforceable against USNV Barnett in accordance with its terms.
+
+7. Conditions Precedent
+SECTION 7:
+
+7.1 The following conditions precedent shall apply to the disbursement of the Loan:
+
+7.1.1 The Borrower shall have duly executed this Agreement and delivered it to the Lender.
+
+7.1.2 The Borrower shall have provided the Lender with all required documents and information, including but not limited to:
+
+7.1.2.1 A complete set of financial statements for the Borrower, including balance sheets, income statements, and cash flow statements for the preceding three fiscal years;
+
+7.1.2.2 A current business plan for the Borrower;
+
+7.1.2.3 A current list of all outstanding debts and liabilities of the Borrower;
+
+7.1.2.4 Any other documents or information requested by the Lender in connection with the Loan.
+
+7.1.3 The Lender shall have received satisfactory evidence of the Borrower's ability to repay the Loan in accordance with the repayment terms set forth in this Agreement.
+
+7.1.4 The Borrower shall have obtained all necessary approvals, permits, licenses, and consents required under the laws of North Crystalland, Falkland Islands (Malvinas) for the purpose of the Loan and the transactions contemplated hereby.
+
+7.1.5 The Borrower shall have complied with all applicable laws, regulations, and governmental requirements in connection with the Loan and the transactions contemplated hereby.
+
+7.1.6 The Borrower shall have provided the Lender with evidence of any guaranties or other security arrangements for the Loan.
+
+7.1.7 The Borrower shall have paid all fees and expenses incurred by the Lender in connection with the Loan, including but not limited to legal fees, appraisal fees, and credit report fees.
+
+7.1.8 The Borrower shall have complied with all conditions precedent set forth in any commitment letter or other agreement between the Borrower and the Lender in connection with the Loan.
+
+7.2 The Lender shall have the right, in its sole discretion, to waive any of the conditions precedent set forth in this Section 7, in whole or in part. The waiver by the Lender of any of the conditions precedent shall not operate as a waiver of any other condition precedent or any other provision of this Agreement.
+
+7.3 The failure of the Borrower to satisfy any of the conditions precedent set forth in this Section 7 shall result in the Lender's right to terminate this Agreement and the Loan shall not be disbursed. In such case, the Borrower shall promptly return all documents and other materials delivered to the Borrower by the Lender in connection with the Loan.
+
+8. Interest and Fees
+8.1 Interest: The Borrower shall pay interest on the Loan at a rate of 12% per annum, calculated on the daily balance of the Loan and compounded monthly.
+
+  8.2 Fees: The Borrower shall pay all fees and expenses incurred by the Lender in connection with the Loan, including but not limited to:
+
+    8.2.1 Origination fee in the amount of 2% of the Loan principal.
+
+    8.2.2 Documentation fee in the amount of $1,500.
+
+    8.2.3 Processing fee in the amount of $500.
+
+  8.3 Late Fees: If the Borrower fails to make any payment when due, the Borrower shall pay a late fee in the amount of 5% of the overdue amount, or the maximum amount allowed by law, whichever is less.
+
+  8.4 Other Charges: The Borrower shall pay any other charges, fees, or expenses incurred by the Lender in connection with the Loan, including but not limited to attorney's fees, court costs, and expenses incurred in the collection of any amounts due under this Agreement.
+
+  8.5 Payment of Fees and Charges: The Borrower shall pay all fees and charges described in this Section 8 concurrently with the disbursement of the Loan. If the Loan is not disbursed, the Borrower shall pay all fees and charges described in this Section 8 upon the request of the Lender.
+
+  8.6 Interest on Late Payments: If any amount due under this Agreement is not paid when due, the Borrower shall pay interest on such overdue amount at the rate of 12% per annum, calculated on a daily basis.
+
+  8.7 Application of Payments: Payments made by the Borrower under this Agreement shall first be applied to any late fees, interest, and other charges due under this Agreement, and then to the principal of the Loan and any accrued and unpaid interest.
+
+9. Default and Remedies
+9.1 Default: The Borrower shall be deemed to be in default under this Agreement if the Borrower fails to make any payment when due, breaches any of its representations and warranties, or commits any other material breach of this Agreement.
+
+9.2 Acceleration: Upon the occurrence of an Event of Default, the Lender may declare all amounts owing under this Agreement immediately due and payable.
+
+9.3 Remedies: In the event of a default, in addition to any other remedies available at law or in equity, the Lender shall have the right to:
+
+    9.3.1 Accelerate the Loan and any accrued and unpaid interest, fees, and charges;
+
+    9.3.2 Exercise any rights of setoff, lien, or other security interest granted to the Lender under this Agreement;
+
+    9.3.3 Commence legal proceedings against the Borrower for the recovery of any amounts due under this Agreement, together with all costs, expenses, and attorney's fees incurred in such proceedings;
+
+    9.3.4 Take possession of any collateral securing the Loan; and
+
+    9.3.5 Sell, assign, or transfer the Loan or any part thereof to a third party.
+
+9.4 Waiver: The failure of the Lender to exercise any right or remedy under this Agreement shall not constitute a waiver of such right or remedy. Any waiver of a default under this Agreement must be in writing and signed by the Lender.
+
+9.5 Cure: The Borrower may cure any default under this Agreement by paying all amounts due, together with any late fees, interest, and expenses, within 30 days of receipt of notice of default from the Lender.
+
+9.6 Further Assurances: The Borrower shall execute and deliver, or cause to be executed and delivered, such further instruments and documents, and shall take such further action as the Lender may reasonably require, from time to time, to carry out the purposes and intent of this Agreement and to assist the Lender in the exercise of its rights and remedies under this Agreement.
+
+10. Assignment and Transfer
+10.1 The Lender shall have the right to assign, transfer, or delegate all or any part of its rights and obligations under this Agreement without the consent of the Borrower, provided that the assignee agrees in writing to be bound by the terms and conditions of this Agreement.
+
+    10.2 The Borrower shall not assign, transfer, or otherwise dispose of all or any part of its rights and obligations under this Agreement without the prior written consent of the Lender, which consent shall not be unreasonably withheld. Any assignment or transfer by the Borrower shall be subject to the assignee's acceptance in writing of the terms and conditions of this Agreement and the Lender's right to accelerate the Loan and any accrued and unpaid interest, fees, and charges upon such assignment or transfer.
+
+    10.3 In the event of an assignment or transfer by the Lender, the Borrower shall remain liable for the full repayment of the Loan and all accrued and unpaid interest, fees, and charges. In the event of an assignment or transfer by the Borrower, the assignee shall assume the Borrower's obligations under this Agreement and the Loan shall be payable to the assignee.
+
+    10.4 The Lender may, without the consent of the Borrower, transfer or assign any collateral securing the Loan to a third party, provided that the third party agrees in writing to be bound by the terms and conditions of this Agreement.
+
+    10.5 Any assignment or transfer under this Section shall be effective upon notice to the other party.
+
+    10.6 The rights and remedies of the Lender under this Agreement shall not be affected by any assignment or transfer of the Loan or any collateral securing the Loan.
+
+11. Notices
+TEXT:
+11. Notices
+
+    11.1 All notices, requests, demands, and other communications required or permitted under this Agreement shall be in writing and shall be deemed to have been duly given when delivered in person or sent by registered or certified mail, return receipt requested, postage prepaid, or by facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, to the following addresses:
+
+        - If to the Lender:
+            - USNV Barnett
+            - Attn: Elizabeth Hutchinson
+            - 2000 1st Street South
+            - Tallahassee, FL 32301
+            - Email: elizabethhutchinson@example.net
+            - Phone: (850) 477-3344 x0722
+
+        - If to the Borrower:
+            - 13980 Price Mall, South Kimberlybury, IN 04257
+            - Attn: William Smith
+            - Email: william69@example.com
+            - Phone: (752) 732-5433 x68829
+
+    11.2 Either party may change its address for the giving of notice by giving notice of such change to the other party in accordance with this Section.
+
+    11.3 Any party may give notice to the other party by personal delivery, by registered or certified mail, return receipt requested, postage prepaid, or by facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, at any time during normal business hours of the recipient.
+
+    11.4 If notice is given by personal delivery, it shall be deemed to have been given on the date of delivery. If notice is given by registered or certified mail, it shall be deemed to have been given three (3) days after the date of mailing. If notice is given by facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, it shall be deemed to have been given on the date of transmission.
+
+    11.5 If the day on which any notice is to be given is not a Business Day, then the notice shall be deemed to have been given on the next Business Day.
+
+    11.6 All notices given under this Agreement shall be addressed to the parties at the addresses set forth in Section 11.1, or to such other address as a party may have specified by notice in accordance with this Section.
+
+    11.7 In the event that any notice is given under this Agreement by facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, the sender shall promptly confirm receipt of the notice by the recipient by written confirmation.
+
+    11.8 Any party may, by written notice to the other party, require that all notices under this Agreement be given in a specified manner, and any such requirement shall be effective upon receipt of the notice.
+
+    11.9 This Section shall not affect any other means of giving notice provided by law.
+
+12. Governing Law
+TEXT:
+This Agreement shall be governed by and construed in accordance with the laws of North Crystalland, Falkland Islands (Malvinas), without giving effect to any choice of law provision or conflict of law provisions that would require the application of the laws of any other jurisdiction. The parties hereby irrevocably submit to the exclusive jurisdiction of the courts of North Crystalland, Falkland Islands (Malvinas) for the resolution of any disputes arising out of or in connection with this Agreement.
+
+The parties agree that service of any legal process in connection with any such dispute may be effected by personal delivery, registered or certified mail, facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, at any time during normal business hours of the recipient.
+
+13. Miscellaneous Provisions
+TEXT:
+- 13.1 This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior negotiations, understandings, and agreements between the parties, whether written or oral.
+
+- 13.2 No modification, amendment, or waiver of any provision of this Agreement shall be effective unless in writing and signed by the party against whom enforcement of such modification, amendment, or waiver is sought.
+
+- 13.3 If any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions of this Agreement shall remain in full force and effect.
+
+- 13.4 This Agreement may not be assigned by either party without the prior written consent of the other party, except that USNV Barnett may assign its rights and obligations under this Agreement to any affiliate or successor in interest without the Borrower's consent.
+
+- 13.5 This Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and permitted assigns.
+
+- 13.6 The headings in this Agreement are for convenience only and shall not affect the interpretation of this Agreement.
+
+- 13.7 The parties acknowledge that they have required and shall require the execution of this Agreement as a condition to entering into any loan agreement or any other agreement related to the subject matter hereof.
+
+- 13.8 The parties have participated jointly in the negotiation and drafting of this Agreement. In the event an ambiguity or question of intent or interpretation arises, this Agreement shall be construed as if drafted jointly by the parties and no presumption or burden of proof shall arise favoring or disfavoring any party by virtue of the authorship of any provision of this Agreement.
+
+- 13.9 The Borrower acknowledges that it has had the opportunity to seek independent legal advice and has executed this Agreement voluntarily and without duress or coercion.
+
+- 13.10 The parties agree that this Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+- 13.11 The parties agree that facsimile, email, or other electronic transmission of signed copies of this Agreement shall be deemed to constitute original execution of this Agreement for all purposes.
+
+- 13.12 The parties confirm that they have read and understood this Agreement, that they are executing this Agreement voluntarily, and that they have been given a reasonable opportunity to consult with legal counsel prior to executing this Agreement.
+
+- 13.13 The parties acknowledge that they have had the opportunity to ask questions and receive explanations regarding the terms and conditions of this Agreement, and that they fully understand the terms and conditions of this Agreement.
+
+- 13.14 The parties further acknowledge that they have executed this Agreement as of the date first above written, and that they have done so with full knowledge of its contents, and that they have signed this Agreement freely and voluntarily, without any duress or undue influence on the part of any other person or entity.
+
+- 13.15 The parties agree that the original of this Agreement, which contains the signatures of the parties, shall be kept in the files of USNV Barnett and shall be the controlling copy of this Agreement.
+
+- 13.16 The parties agree that any questions concerning the construction, validity, enforcement, or interpretation of this Agreement shall be submitted to a mutually agreed upon mediator for resolution.
+
+- 13.17 The parties agree that any dispute arising out of or relating to this Agreement that cannot be resolved through mediation shall be resolved by binding arbitration in accordance with the rules of the International Centre for Dispute Resolution. The arbitration shall take place in North Crystalland, Falkland Islands (Malvinas), and the parties agree to be bound by the arbitrator's decision.
+
+- 13.18 The parties agree that the prevailing party in any arbitration or litigation arising out of or relating to this Agreement shall be entitled to recover its reasonable attorneys' fees and costs from the non-prevailing party.
+
+- 13.19 The parties agree that this Agreement may not be terminated except in accordance with the provisions of this Agreement.
+
+- 13.20 The parties agree that any notice required or permitted under this Agreement may be given by facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, at any time during normal business hours of the recipient.
+
+- 13.21 The parties agree that this Agreement may be executed in multiple counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+- 13.22 The parties agree that the terms of this Agreement may not be modified, amended, or waived except in writing and signed by the party against whom enforcement of such modification, amendment, or waiver is sought.
+
+- 13.23 The parties agree that this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and permitted assigns.
+
+- 13.24 The parties agree that this Agreement shall be governed by and construed in accordance with the laws of North Crystalland, Falkland Islands (Malvinas), without giving effect to any choice of law provision or conflict of law provisions that would require the application of the laws of any other jurisdiction.
+
+- 13.25 The parties agree that any dispute arising out of or in connection with this Agreement shall be subject to the exclusive jurisdiction of the courts of North Crystalland, Falkland Islands (Malvinas).
+
+- 13.26 The parties agree that service of any legal process in connection with any such dispute may be effected by personal delivery, registered or certified mail, facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, at any time during normal business hours of the recipient.
+
+- 13.27 The parties agree that the failure of any party to exercise or enforce any right or provision of this Agreement shall not constitute a waiver of such right or provision.
+
+- 13.28 The parties agree that any waiver of any provision of this Agreement shall only be effective if in writing and signed by the party granting such waiver.
+
+- 13.29 The parties agree that this Agreement may not be assigned by either party without the prior written consent of the other party, except that USNV Barnett may assign its rights and obligations under this Agreement to any affiliate or successor in interest without the Borrower's consent.
+
+- 13.30 The parties agree that this Agreement may not be amended or modified except in writing and signed by both parties.
+
+- 13.31 The parties agree that this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and permitted assigns.
+
+- 13.32 The parties agree that this Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+- 13.33 The parties agree that any questions concerning the construction, validity, enforcement, or interpretation of this Agreement shall be submitted to a mutually agreed upon mediator for resolution.
+
+- 13.34 The parties agree that any dispute arising out of or relating to this Agreement that cannot be resolved through mediation shall be resolved by binding arbitration in accordance with the rules of the International Centre for Dispute Resolution. The arbitration shall take place in North Crystalland, Falkland Islands (Malvinas), and the parties agree to be bound by the arbitrator's decision.
+
+- 13.35 The parties agree that the prevailing party in any arbitration or litigation arising out of or relating to this Agreement shall be entitled to recover its reasonable attorneys' fees and costs from the non-prevailing party.
+
+- 13.36 The parties agree that this Agreement may not be terminated except in accordance with the provisions of this Agreement.
+
+- 13.37 The parties agree that any notice required or permitted under this Agreement may be given by facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, at any time during normal business hours of the recipient.
+
+- 13.38 The parties agree that this Agreement may be executed in multiple counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+- 13.39 The parties agree that the terms of this Agreement may not be modified, amended, or waived except in writing and signed by the party against whom enforcement of such modification, amendment, or waiver is sought.
+
+- 13.40 The parties agree that this Agreement shall be binding upon and inure to the benefit of
+
+14. Signatures
+---
+
+The Lender and the Borrower have executed this Agreement as of the date first written above.
+
+Lender:
+
+______________________________
+Name:
+Title:
+
+Borrower:
+
+______________________________
+Name:
+Title:
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first above written.
+
+______________________________
+USNV Barnett
+By: _______________________
+Its: _______________________
+
+______________________________
+13980 Price Mall, South Kimberlybury, IN 04257
+By: _______________________
+Its: _______________________
+
+---
+
+If there are multiple guarantors, add a subsection for each one:
+
+Guarantor 1:
+
+______________________________
+Name:
+Title:
+
+Guarantor 2:
+
+______________________________
+Name:
+Title:
+
+---
+
+This agreement is governed by and shall be construed in accordance with the laws of North Crystalland, Falkland Islands (Malvinas), without giving effect to any choice of law provision or rule that would cause the application of the laws of any jurisdiction other than North Crystalland.
+
+---
+
+The parties agree that the terms of this Agreement may not be modified, amended, or waived except in writing and signed by the party against whom enforcement of such modification, amendment, or waiver is sought.
+
+---
+
+The parties agree that this Agreement may not be terminated except in accordance with the provisions of this Agreement.
+
+---
+
+The parties agree that any notice required or permitted under this Agreement may be given by facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, at any time during normal business hours of the recipient.
+
+---
+
+The parties agree that this Agreement may be executed in multiple counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+---
+
+The parties agree that this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
+
+---
+
+The parties agree that the terms of this Agreement may not be assigned by either party without the prior written consent of the other party, except that the Lender may assign its rights and delegate its obligations under this Agreement to any affiliate or successor.
+
+---
+
+The parties agree that this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
+
+---
+
+The parties agree that this Agreement may not be terminated except in accordance with the provisions of this Agreement.
+
+---
+
+The parties agree that any dispute arising out of or relating to this Agreement that cannot be resolved through mediation shall be resolved by binding arbitration in accordance with the rules of the International Centre for Dispute Resolution. The arbitration shall take place in North Crystalland, Falkland Islands (Malvinas), and the parties agree to be bound by the arbitrator's decision.
+
+---
+
+The parties agree that the prevailing party in any arbitration or litigation arising out of or relating to this Agreement shall be entitled to recover its reasonable attorneys' fees and costs from the non-prevailing party.
+
+---
+
+The parties agree that this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
+
+---
+
+The parties agree that this Agreement may not be terminated except in accordance with the provisions of this Agreement.
+
+---
+
+The parties agree that any notice required or permitted under this Agreement may be given by facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, at any time during normal business hours of the recipient.
+
+---
+
+The parties agree that this Agreement may be executed in multiple counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+---
+
+The parties agree that this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
+
+---
+
+The parties agree that this Agreement may not be assigned by either party without the prior written consent of the other party, except that the Lender may assign its rights and delegate its obligations under this Agreement to any affiliate or successor.
+
+---
+
+The parties agree that this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
+
+---
+
+The parties agree that this Agreement may not be terminated except in accordance with the provisions of this Agreement.
+
+---
+
+The parties agree that any dispute arising out of or relating to this Agreement that cannot be resolved through mediation shall be resolved by binding arbitration in accordance with the rules of the International Centre for Dispute Resolution. The arbitration shall take place in North Crystalland, Falkland Islands (Malvinas), and the parties agree to be bound by the arbitrator's decision.
+
+---
+
+The parties agree that the prevailing party in any arbitration or litigation arising out of or relating to this Agreement shall be entitled to recover its reasonable attorneys' fees and costs from the non-prevailing party.
+
+---
+
+The parties agree that this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
+
+---
+
+The parties agree that this Agreement may not be terminated except in accordance with the provisions of this Agreement.
+
+---
+
+The parties agree that any notice required or permitted under this Agreement may be given by facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, at any time during normal business hours of the recipient.
+
+---
+
+The parties agree that this Agreement may be executed in multiple counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+---
+
+The parties agree that this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
+
+---
+
+The parties agree that this Agreement may not be assigned by either party without the prior written consent of the other party, except that the Lender may assign its rights and delegate its obligations under this Agreement to any affiliate or successor.
+
+---
+
+The parties agree that this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
+
+---
+
+The parties agree that this Agreement may not be terminated except in accordance with the provisions of this Agreement.
+
+---
+
+The parties agree that any dispute arising out of or relating to this Agreement that cannot be resolved through mediation shall be resolved by binding arbitration in accordance with the rules of the International Centre for Dispute Resolution. The arbitration shall take place in North Crystalland, Falkland Islands (Malvinas), and the parties agree to be bound by the arbitrator's decision.
+
+---
+
+The parties agree that the prevailing party in any arbitration or litigation arising out of or relating to this Agreement shall be entitled to recover its reasonable attorneys' fees and costs from the non-prevailing party.
+
+---
+
+The parties agree that this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
+
+---
+
+The parties agree that this Agreement may not be terminated except in accordance with the provisions of this Agreement.
+
+---
+
+The parties agree that any notice required or permitted under this Agreement may be given by facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, at any time during normal business hours of the recipient.
+
+---
+
+The parties agree that this Agreement may be executed in multiple counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+---
+
+The parties agree that this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
+
+---
+
+The parties agree that this Agreement may not be assigned by either party without the prior written consent of the other party, except that the Lender may assign its rights and delegate its obligations under this Agreement to any affiliate or successor.
+
+---
+
+The parties agree that this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
+
+---
+
+The parties agree that this Agreement may not be terminated except in accordance with the provisions of this Agreement.
+
+---
+
+The parties agree that any dispute arising out of or relating to this Agreement that cannot be resolved through mediation shall be resolved by binding arbitration in accordance with the rules of the International Centre for Dispute Resolution. The arbitration shall take place in North Crystalland, Falkland Islands (Malvinas), and the parties agree to be bound by the arbitrator's decision.
+
+---
+
+The parties agree that the prevailing party in any arbitration or litigation arising out of or
