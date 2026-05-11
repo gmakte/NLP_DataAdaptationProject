@@ -1,0 +1,183 @@
+1. Introductory Clause
+
+This Agreement is entered into as of January 1, 2023, by and between Goldman Sachs Bank, USA, a national banking association organized and existing under the laws of the United States of America, with its principal place of business at One New York Plaza, New York, NY 10004, USA (hereinafter referred to as "Lender"), and Acme Inc., a corporation organized and existing under the laws of the United States of America, with its principal place of business at 123 Main Street, Anytown, USA 12345 (hereinafter referred to as "Borrower"). The Borrower is also acting on behalf of its subsidiary, Acme Corp., a corporation organized and existing under the laws of the United States of America, with its principal place of business at 456 Elm Street, Anytown, USA 56789 (hereinafter referred to as "Guarantor").
+
+The Lender is willing to lend to the Borrower, and the Borrower is willing to borrow from the Lender, the sum of Ten Million United States Dollars ($10,000,000) (the "Loan Amount"), to be used for working capital purposes. The Loan Amount shall bear interest at a rate of Five Percent (5%) per annum, payable semi-annually in arrears, and shall be repaid in equal installments over a period of Five (5) years, commencing on January 1, 2024. The Loan Amount and all interest thereon shall be payable in lawful money of the United States of America.
+
+2. Parties
+(a) Goldman Sachs Bank, USA (Lender)
+
+Goldman Sachs Bank, USA, a national banking association organized and existing under the laws of the United States of America, with its principal place of business at One New York Plaza, New York, NY 10004, USA, is the lender under this Agreement.
+
+(b) Acme Inc., USA (Borrower)
+
+Acme Inc., a corporation organized and existing under the laws of the United States of America, with its principal place of business at 123 Main Street, Anytown, USA 12345, is the borrower under this Agreement.
+
+(c) Acme Corp., USA (Guarantor)
+
+Acme Corp., a corporation organized and existing under the laws of the United States of America, with its principal place of business at 456 Elm Street, Anytown, USA 56789, is the guarantor under this Agreement.
+
+The Borrower is also acting on behalf of the Guarantor for the purposes of this Agreement.
+
+3. Loan Terms/The Loan
+
+(a) Loan Amount
+
+The Lender agrees to lend to the Borrower the sum of Ten Million United States Dollars ($10,000,000) (the "Loan Amount").
+
+(b) Interest Rate
+
+The Loan Amount shall bear interest at a rate of Five Percent (5%) per annum, payable semi-annually in arrears.
+
+(c) Repayment Terms
+
+The Loan Amount shall be repaid in equal installments over a period of Five (5) years, commencing on January 1, 2024.
+
+(d) Purpose of the Loan
+
+The Loan Amount is intended for working capital purposes.
+
+4. Definitions
+
+For the purposes of this Agreement, the following terms shall have the following meanings:
+
+(a) "Agreement" means this Loan Agreement, as amended from time to time.
+
+(b) "Borrower" means Acme Inc., a corporation organized and existing under the laws of the United States of America, with its principal place of business at 123 Main Street, Anytown, USA 12345.
+
+(c) "Default" means any failure by the Borrower to make any payment when due, or any other breach of any of the terms, covenants, or conditions of this Agreement.
+
+(d) "Guarantor" means Acme Corp., a corporation organized and existing under the laws of the United States of America, with its principal place of business at 456 Elm Street, Anytown, USA 56789.
+
+(e) "Lender" means Goldman Sachs Bank, USA, a national banking association organized and existing under the laws of the United States of America, with its principal place of business at One New York Plaza, New York, NY 10004, USA.
+
+(f) "Loan Amount" means the sum of Ten Million United States Dollars ($10,000,000) to be lent to the Borrower under this Agreement.
+
+(g) "Repayment Date" means January 1, 2029.
+
+(h) "Term" means the period commencing on the Agreement Date and ending on the Repayment Date.
+
+5. Representations and Warranties
+
+(a) Borrower's Representations and Warranties
+
+The Borrower represents and warrants to the Lender as follows:
+
+(i) Existence and Authority
+
+The Borrower is a corporation duly organized, validly existing, and in good standing under the laws of the jurisdiction of its incorporation. The Borrower has the power and authority to execute and deliver this Agreement and to perform its obligations hereunder.
+
+(ii) Authorization
+
+This Agreement has been duly authorized, executed, and delivered by the Borrower and constitutes a legal, valid, and binding obligation of the Borrower, enforceable against the Borrower in accordance with its terms, except as enforcement may be limited by bankruptcy, insolvency, or similar laws affecting creditors' rights generally.
+
+(iii) Loan Purpose
+
+The Loan Amount will be used solely for working capital purposes.
+
+(iv) Guarantor
+
+The Guarantor has been duly authorized to guarantee the Borrower's obligations under this Agreement.
+
+(v) No Default
+
+As of the date hereof, there is no Default under this Agreement.
+
+(b) Lender's Representations and Warranties
+
+The Lender represents and warrants to the Borrower as follows:
+
+(i) Existence and Authority
+
+Goldman Sachs Bank, USA is a national banking association duly organized, validly existing, and in good standing under the laws of the United States of America. Goldman Sachs Bank, USA has the power and authority to execute and deliver this Agreement and to perform its obligations hereunder.
+
+(ii) Authorization
+
+This Agreement has been duly authorized, executed, and delivered by Goldman Sachs Bank, USA and constitutes a legal, valid, and binding obligation of Goldman Sachs Bank, USA, enforceable against Goldman Sachs Bank, USA in accordance with its terms, except as enforcement may be limited by bankruptcy, insolvency, or similar laws affecting creditors' rights generally.
+
+6. Interest and Fees
+
+6.1 Interest Rate
+The interest rate on the Loan shall be 5% per annum, calculated on the daily balance outstanding.
+
+6.2 Fees
+The Borrower shall pay all fees and expenses incurred by the Lender in connection with the Loan, including but not limited to, commitment fees, processing fees, and legal fees.
+
+6.3 Payment Terms
+The Borrower shall make payments on the Loan on a monthly basis, commencing on the first day of the month following the Disbursement Date and continuing on the first day of each month thereafter, until the Loan is fully repaid.
+
+7. Default and Remedies
+
+7.1 Default
+A Default under this Agreement shall occur if any of the following events occur:
+
+(a) The Borrower fails to make any payment when due;
+(b) The Borrower breaches any of its representations and warranties contained in this Agreement;
+(c) The Borrower becomes insolvent or makes an assignment for the benefit of creditors;
+(d) The Borrower files a petition under any bankruptcy or insolvency laws, or has a petition filed against it under any bankruptcy or insolvency laws, and the petition is not dismissed within sixty (60) days;
+(e) The Borrower disposes of, or attempts to dispose of, any of its assets outside the ordinary course of business; or
+(f) The Borrower fails to perform any other material obligation under this Agreement.
+
+7.2 Remedies
+In the event of a Default, Goldman Sachs Bank, USA shall have the right to declare all amounts outstanding under this Agreement immediately due and payable, and to exercise any and all rights and remedies available to it under applicable law, including the right to foreclose on any security provided for the Loan, and to seize and sell the assets of both Acme Inc., USA and Acme Corp., USA to recover the Loan amount.
+
+7.3 Termination
+Upon the occurrence of a Default, this Agreement shall terminate, except that the provisions relating to representations and warranties, Default, remedies, security, governing law, and signatures shall survive the termination of this Agreement.
+
+8. Security
+
+(i) As security for the payment and performance of the Borrower's obligations under this Agreement and the Loan, the Borrower hereby grants to the Lender a first priority lien on all of the Borrower's assets, present and future, whether now owned or hereafter acquired, wherever located, including, without limitation, all of the Borrower's accounts, chattel paper, documents, instruments, equipment, fixtures, vehicles, inventory, intellectual property, and all other personal property, and all of the Borrower's right, title, and interest in and to the same, including, without limitation, all of the Borrower's accounts receivable, contract rights, and other intangible property.
+
+(ii) The Borrower hereby grants to the Lender a second priority lien on all of the assets of Acme Corp., USA, present and future, whether now owned or hereafter acquired, wherever located, including, without limitation, all of Acme Corp., USA's accounts, chattel paper, documents, instruments, equipment, fixtures, vehicles, inventory, intellectual property, and all other personal property, and all of Acme Corp., USA's right, title, and interest in and to the same, including, without limitation, all of Acme Corp., USA's accounts receivable, contract rights, and other intangible property.
+
+(iii) The Borrower and Acme Corp., USA hereby irrevocably authorize the Lender to enter upon the Borrower's and Acme Corp., USA's premises, and to take possession of, sell, and dispose of any of the assets securing the Loan, in the event of the Borrower's default under this Agreement or the Loan.
+
+(iv) The Borrower and Acme Corp., USA agree to execute and deliver such additional documents and instruments, and to take such further action as the Lender may reasonably request, in order to further secure the Loan and to evidence the liens granted hereunder.
+
+(v) The liens granted hereunder shall be subordinate only to the liens of the Borrower's and Acme Corp., USA's respective creditors in the ordinary course of business, and the liens granted hereunder shall not be affected by any subsequent consolidation, merger, reorganization, or sale of the Borrower or Acme Corp., USA, or any of their respective subsidiaries.
+
+(vi) The Borrower and Acme Corp., USA shall keep the Lender fully and currently informed of the location and condition of the assets securing the Loan, and shall promptly notify the Lender of any change in the location or condition of such assets.
+
+(vii) In the event of any default under this Agreement or the Loan, the Borrower and Acme Corp., USA shall pay all reasonable costs and expenses, including, without limitation, attorneys' fees and expenses, incurred by the Lender in connection with the enforcement of the liens granted hereunder.
+
+9. Governing Law
+
+(i) This Agreement shall be governed by, and construed in accordance with, the laws of the State of New York, without giving effect to its conflict of laws principles.
+
+(ii) The Borrower and the Lender irrevocably submit to the exclusive jurisdiction of the courts of the State of New York, and the United States District Court for the Southern District of New York, for the resolution of any disputes arising out of or in connection with this Agreement or the Loan.
+
+(iii) Each party irrevocably waives any objection it may now or hereafter have to the laying of venue of any action, suit or proceeding brought in any such court and any claim that any such action, suit or proceeding brought in any such court has been brought in an inconvenient forum.
+
+(iv) The Borrower and the Lender agree that a final judgment in any such action, suit or proceeding shall be conclusive and may be enforced in other jurisdictions by suit on the judgment or in any other manner provided by law.
+
+(v) The Borrower and the Lender agree that service of process in any such action, suit or proceeding may be effected by mailing a copy thereof by registered or certified mail, postage prepaid, to the respective addresses set forth in Section 10 of this Agreement, or to such other address as the party to be served may have furnished to the other party in writing in accordance herewith.
+
+(vi) The Borrower and the Lender agree that nothing contained herein shall affect any right either of them may have to serve process in any other manner permitted by law.
+
+10. Signatures
+
+This Agreement is executed as of the date first above written.
+
+The Lender acknowledges receipt of the representations, warranties, covenants and agreements of the Borrower contained herein and agrees to extend credit to the Borrower on the terms and conditions set forth herein. The Borrower acknowledges its obligations under this Agreement and agrees to perform its obligations hereunder in accordance with its terms.
+
+The Guarantor acknowledges its obligations under this Agreement and agrees to perform its obligations hereunder in accordance with its terms. The Guarantor further agrees that in the event of default by the Borrower, it will pay and perform all the obligations of the Borrower under this Agreement.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first above written.
+
+GOLDMAN SACHS BANK, USA
+
+By: ___________________________
+Name: John Doe
+Title: Senior Vice President
+
+ACME INC., USA
+
+By: ___________________________
+Name: Jane Smith
+Title: Chief Financial Officer
+
+ACME CORP., USA
+
+By: ___________________________
+Name: Bob Johnson
+Title: Vice President

@@ -1,0 +1,181 @@
+1. Introduction
+
+This Agreement is made on the 9th day of September, 1991, between The Bank of Cote d'Ivoire (hereinafter referred to as the "Lender") and XYZ Corporation (hereinafter referred to as the "Borrower"), with respect to a loan in the principal amount of [LOAN AMOUNT] (the "Loan"), to be used by the Borrower for the purpose of financing the expansion of its manufacturing facilities. The Lender agrees to make the Loan to the Borrower on the terms and conditions set forth herein.
+
+2. Parties
+
+The Lender and the Borrower, being the parties hereto, hereby agree as follows:
+
+2.1 The Lender:
+- is a bank duly incorporated and existing under the laws of Cote d'Ivoire;
+- is headquartered at 6266 Cook Hollow, Port Barbara, WV 43865;
+- is represented by Rebecca Smith, with email address rebecca95@example.net, phone number +1-578-219-7160;
+
+2.2 The Borrower:
+- is a corporation duly incorporated and existing under the laws of the United States of America;
+- is headquartered at 4161 Rebecca Mill, Taylorland, PR 59443;
+- is represented by Katherine Roberts, with email address katherineroberts@example.net, phone number +1-523-345-8498;
+
+2.3 The Borrower acknowledges that the Loan is being made to it for the purpose of financing the expansion of its manufacturing facilities, and the Borrower represents and warrants that it has the authority to enter into this Agreement and to use the Loan for the purpose stated herein.
+
+2.4 The Borrower further represents and warrants that it has no outstanding indebtedness to the Lender, and that it has no liens, charges, or encumbrances on its assets.
+
+2.5 The Borrower agrees to repay the Loan in monthly installments over a period of 5 years, at an interest rate of 11%.
+
+3. Loan Terms
+
+3.1 The Lender agrees to lend to the Borrower the sum of One Hundred Million United States Dollars (US$100,000,000) for the purpose of financing the expansion of the Borrower's manufacturing facilities.
+
+3.2 The Borrower will repay the Loan in monthly installments over a period of 5 years, starting on the first day of the month following the date of this Agreement (the "Loan Date").
+
+3.3 The interest rate on the Loan will be 11% per annum, calculated on a 360-day year.
+
+3.4 The first payment will be due on the first day of the month following the Loan Date, and will consist of the principal amount of the Loan, divided by 60, plus interest for the period from the Loan Date to the due date of the first payment. Subsequent payments will consist of the principal amount of the Loan, divided by 60, plus interest for the preceding month.
+
+3.5 The Borrower may prepay all or any part of the Loan at any time without penalty. However, if the Borrower prepays more than 25% of the Loan in any calendar year, it will be subject to a prepayment fee equal to 1% of the prepaid amount.
+
+3.6 The Loan will be governed by the laws of Cote d'Ivoire. Any disputes arising out of or in connection with this Agreement will be resolved by the courts of Cote d'Ivoire.
+
+3.7 The Borrower acknowledges and agrees that the Loan is a non-recourse loan, and that the Lender's sole remedy in the event of default by the Borrower will be to seek recovery of the outstanding principal and interest on the Loan from the assets of the Borrower pledged as security for the Loan (as described in Section 7).
+
+3.8 The Borrower represents and warrants that it has no outstanding indebtedness to the Lender, and that it has no liens, charges, or encumbrances on its assets, except for the security pledged for the Loan as described in Section 7.
+
+4. Definitions
+
+(a) "Agreement" means this Corporate Loan Agreement between The Bank of Cote d'Ivoire and XYZ Corporation dated as of September 9, 1991.
+
+(b) "Borrower" means XYZ Corporation.
+
+(c) "Lender" means The Bank of Cote d'Ivoire.
+
+(d) "Loan" means the loan made by the Lender to the Borrower in the principal amount of [amount] for the purpose of financing the expansion of the Borrower's manufacturing facilities.
+
+(e) "Interest Rate" means the annual interest rate of 11% on the Loan.
+
+(f) "Repayment Terms" means the Borrower will repay the Loan in monthly installments over a period of 5 years.
+
+(g) "Security" means the assets of the Borrower pledged as security for the Loan, as described in Section 7.
+
+(h) "Default" means the Borrower's failure to make any payment when due, or any other breach of its covenants under this Agreement.
+
+(i) "Termination" means the termination of this Agreement in accordance with its terms.
+
+(j) "Miscellaneous" means Section 11 of this Agreement.
+
+5. Representations and Warranties
+
+(a) The Lender represents and warrants to the Borrower that it has full power and authority to enter into this Agreement and to perform its obligations hereunder.
+
+(b) The Borrower represents and warrants to the Lender that it has full power and authority to enter into this Agreement and to perform its obligations hereunder, and that the execution, delivery, and performance of this Agreement have been duly authorized by all necessary corporate action on its part.
+
+6. Covenants
+
+The Borrower covenants and agrees as follows:
+
+(a) The Borrower shall use the Loan solely for the purpose of financing the expansion of its manufacturing facilities.
+
+(b) The Borrower shall maintain complete and accurate books and records of account with respect to the Loan and shall make such books and records available to the Lender upon request.
+
+(c) The Borrower shall pay the Loan in monthly installments over a period of 5 years, commencing on October 1, 1991.
+
+(d) The Borrower shall pay interest on the outstanding principal balance of the Loan at the rate of 11% per annum, calculated on the basis of a 360-day year.
+
+
+7. Security
+
+(vv) The Borrower hereby pledges and grants a security interest in all of its present and future assets, whether now owned or hereafter acquired, to secure the Loan. The Borrower shall execute and deliver such documents and take such actions as the Lender may reasonably require to perfect and maintain the security interest.
+
+(ww) In the event of a default under this Agreement, the Lender shall have the right to take possession of, sell, and apply the proceeds of the sale of the collateral to satisfy the outstanding Loan balance, together with accrued interest and fees.
+
+(yy) The Borrower represents and warrants that it has good and marketable title to the collateral, free and clear of all liens, encumbrances, and other claims, except for any liens or encumbrances created by this Agreement.
+
+(zz) The Borrower shall maintain the collateral in good condition and shall keep the Lender informed of the location of the collateral.
+
+(aa) The Borrower shall, at the Lender's request, deliver to the Lender any collateral that is not in the Lender's possession, and the Lender may, at its option, take possession of such collateral.
+
+(bb) The Borrower shall pay all expenses incurred by the Lender in connection with the collateral, including, but not limited to, reasonable attorneys' fees and expenses incurred in perfecting, maintaining, and enforcing the security interest.
+
+8. Interest and Fees
+
+The Borrower shall pay interest on the outstanding principal amount of the loan at the rate of 11% per annum, calculated on the basis of a 360-day year. The Borrower shall pay the interest on the first day of each calendar month, in arrears.
+
+The Lender may charge the Borrower reasonable fees for any services performed in connection with the loan, including, but not limited to, fees for processing the loan application, wire transfer fees, and fees for any other services provided by the Lender. The Borrower shall be responsible for paying all fees and expenses incurred by the Lender in connection with the loan, including, but not limited to, reasonable attorneys' fees and expenses incurred in perfecting, maintaining, and enforcing the security interest.
+
+The Borrower shall also be responsible for paying any other costs, expenses, or fees incurred by the Lender in connection with the loan, including, but not limited to, appraisal fees, legal fees, and title search fees. The Borrower shall promptly reimburse the Lender for any such costs, expenses, or fees upon demand.
+
+The Borrower shall pay all taxes, duties, and other governmental charges imposed in connection with the loan, including, but not limited to, taxes on the interest, fees, and other charges payable under this Agreement. The Borrower shall also be responsible for paying any penalties or fines imposed by any governmental authority in connection with the loan.
+
+The Borrower shall pay all fees and expenses incurred by the Lender in connection with the collateral, including, but not limited to, reasonable attorneys' fees and expenses incurred in perfecting, maintaining, and enforcing the security interest. The Borrower shall promptly reimburse the Lender for any such fees and expenses upon demand.
+
+The Borrower shall pay all fees and expenses incurred by the Lender in connection with any litigation, arbitration, or other dispute resolution proceedings arising out of or in connection with this Agreement, including, but not limited to, reasonable attorneys' fees and expenses. The Borrower shall promptly reimburse the Lender for any such fees and expenses upon demand.
+
+9. Default
+
+Upon any default by the Borrower under this Agreement, the Lender shall have the right, without prejudice to any other rights or remedies available to it:
+
+a. To declare all or any part of the outstanding principal amount, together with accrued and unpaid interest, immediately due and payable;
+
+b. To exercise any rights of set-off, pledge, lien, or other security interest granted by the Borrower in this Agreement or any other agreement between the parties;
+
+c. To take any other action to protect its interests, including, but not limited to, instituting legal proceedings for the recovery of any amounts due or for the enforcement of the security interest.
+
+The Borrower shall promptly reimburse the Lender for any costs, expenses, or attorneys' fees incurred by the Lender in connection with any action taken under this section.
+
+10. Termination
+
+Upon the occurrence of any of the following events, this Agreement may be terminated:
+
+a. The Borrower fails to make any payment when due, or fails to perform any other material obligation under this Agreement.
+
+b. The Borrower files a petition for bankruptcy or insolvency, or makes an assignment for the benefit of creditors, or has a receiver, trustee, custodian, or similar agent appointed for it or any of its properties.
+
+c. The Borrower breaches any of the representations and warranties made in this Agreement and such breach is not cured within thirty (30) days after written notice from the Lender.
+
+d. The Lender determines, in its sole discretion, that it is no longer willing or able to extend credit to the Borrower.
+
+Upon termination, the Borrower shall immediately repay all outstanding principal, accrued interest, and any other amounts owing under this Agreement. The Borrower shall also promptly return all documents and other property of the Lender. The Lender shall have the right to exercise any rights and remedies it may have under applicable law, including, but not limited to, the right to foreclose on any security interest granted by the Borrower.
+
+11. Miscellaneous
+
+- This Agreement is governed by the laws of Cote d'Ivoire.
+- Any notice required or permitted under this Agreement shall be in writing and shall be deemed to have been duly given when delivered in person, sent by registered or certified mail, or sent by facsimile or email, to the address or facsimile number or email address of the party to be notified as set forth in this Agreement or as subsequently modified by written notice.
+- In the event of any dispute arising out of or in connection with this Agreement, the parties shall first attempt to resolve such dispute through good faith negotiations. If the parties are unable to resolve the dispute through such negotiations, the dispute shall be resolved by binding arbitration in accordance with the rules of the International Chamber of Commerce. The arbitration shall take place in Abidjan, Cote d'Ivoire, and the language of the arbitration shall be English. The decision of the arbitrator shall be final and binding on the parties.
+- This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior negotiations, understandings, and agreements between the parties. This Agreement may not be amended or modified except by a written instrument executed by both parties.
+- This Agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and assigns.
+- This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+- The headings in this Agreement are for convenience only and shall not affect the construction or interpretation of this Agreement.
+- The failure by either party to enforce any provision of this Agreement shall not constitute a waiver of such provision or of any other provision hereof.
+- This Agreement shall be deemed severable, and the invalidity or unenforceability of any provision hereof shall not affect the validity or enforceability of any other provision hereof.
+- This Agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and assigns.
+- This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+- The parties hereto acknowledge and agree that they have required the services of an attorney in connection with this Agreement and the transactions contemplated hereby.
+- This Agreement shall be governed by and construed in accordance with the laws of Cote d'Ivoire, without giving effect to its conflicts of law principles.
+- The parties hereto hereby irrevocably submit to the jurisdiction of the courts of Cote d'Ivoire for the purpose of any suit, action, or proceeding arising out of or relating to this Agreement.
+- The parties hereto agree that this Agreement may be executed in two or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+- The parties hereto further agree that facsimile or electronic signatures shall be deemed to have the same legal effect as original signatures for all purposes.
+- This Agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and assigns.
+- The parties hereto acknowledge and agree that they have had the opportunity to review this Agreement with their respective counsel and have executed this Agreement voluntarily and without coercion.
+- The Borrower acknowledges and agrees that the Lender has relied upon the representations, warranties, and covenants made by the Borrower in this Agreement in extending credit to the Borrower.
+- This Agreement shall be deemed to have been entered into on the date first above written.
+- The Borrower acknowledges and agrees that the Lender has relied upon the representations, warranties, and covenants made by the Borrower in this Agreement in extending credit to the Borrower.
+- The Borrower acknowledges and agrees that the Lender has relied upon the representations, warranties, and covenants made by the Borrower in this Agreement in extending credit to the Borrower.
+
+12. Signatures
+
+The parties have executed this Agreement as of the date first written above.
+
+The Borrower:
+
+XYZ Corporation
+By: _________________________
+Name: _________________________
+Title: _________________________
+
+The Lender:
+
+The Bank of Cote d'Ivoire
+By: _________________________
+Name: _________________________
+Title: _________________________
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first above written.
