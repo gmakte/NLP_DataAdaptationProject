@@ -203,9 +203,9 @@ if only_trainning:
     with open("results/training_losses_FIN5full_256.txt", "w") as f:
         f.write(str(epoch_losses))
     # Save the trained model and tokenizer in model3 folder (gitignore since it is huge)
-    model.save_pretrained("model11")
-    tokenizer.save_pretrained("model11")
-    print("Model and tokenizer saved to model11 folder")
+    model.save_pretrained("model12")
+    tokenizer.save_pretrained("model12")
+    print("Model and tokenizer saved to model12 folder")
     print("Training complete, skipping predictions on test set since only_trainning is set to True")
 
 ##############################################################################
