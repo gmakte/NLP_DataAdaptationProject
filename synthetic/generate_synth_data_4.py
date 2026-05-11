@@ -143,7 +143,7 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, pl
             if not isinstance(plan_output, dict):
                 raise ValueError("Plan is not a JSON object")
 
-            required_keys = ["plan", "sections", "parties", "loan_purpose", "interest_rate", "replayment_terms"]
+            required_keys = ["plan", "sections", "parties", "loan_purpose", "replayment_terms", "contact_information"]
             if not all(k in plan_output for k in required_keys):
                 raise ValueError("Missing required keys")
             

@@ -7,7 +7,7 @@ Return ONLY valid JSON in this format:
   "parties": [{"name": "...", "role": "..."}],
   "loan_purpose": "...",
   "replayment_terms": "...",
-  "contact informaiton": "..." 
+  "contact_informaiton": "..." 
 }
 
 Requirements:
