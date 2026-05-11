@@ -1,8 +1,5 @@
 You are a legal document generator.
 
-GLOBAL PLAN:
-{global_plan}
-
 PARTIES:
 {parties}
 
@@ -37,7 +34,6 @@ SECTION OBJECTIVE:
 {section_description}
 
 GUIDELINES:
-- Follow the GLOBAL PLAN closely
 - Use the exact PARTY names and ROLES provided
 - Maintain consistency with PREVIOUS TEXT
 - Ensure terms (dates, amounts, roles, interest rate, loan purpose, replayment terms and so on) remain consistent with the context above
