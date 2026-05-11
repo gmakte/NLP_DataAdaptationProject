@@ -9,20 +9,25 @@ Return ONLY valid JSON in this format:
   "plan": "...",
   "parties": [{"name": "...", "role": "..."}],
   "jurisdiction": "...",
-  "agreement_date": "..."
+  "loan_purpose": "...",
+  "agreement_date": "...",
+  "interest_rate": "...",
+  "replayment_terms": "...",
+  "contact informaiton": "..." 
 }
 
 Requirements:
 - Corporate loan between a financial institution and one or more corporate borrowers
-- Include multiple entities with clear roles (e.g., Lender, Borrower, Guarantor)
-- Use realistic, fully specified company names (e.g., "Thinkplus Investments Limited")
-- Include a real-world location (e.g., "London, United Kingdom")
-- Include a specific agreement date (e.g., "March 15, 2024")
+- Include multiple entities with clear roles (examples: Lender, Borrower, Guarantor...)
+- Use realistic, fully specified company names
+- Include a real-world location
+- Include a specific agreement date
 
 Sections:
-- Must include: Introductory Clause, Loan Terms, Interest and Fees, Default and Remedies, Signatures
-- Add other typical sections (e.g., Representations and Warranties, Covenants, etc.)
-- Total sections: 6–10
+- Must include (mandatory sections): Introductory Clause/Introduction, Parties, Loan Terms/The Loan, Definitions, Representations and Warranties/R&Ws, Interest and Fees, Default and Remedies/Termination, Signatures
+- You can change the title of mandatory sections
+- You must add other sections typical for loan agreements along with mandatory sections
+- Total sections: 10-15
 - Each section has a short summary
 
 Plan:
@@ -32,6 +37,8 @@ Plan:
   - Loan purpose
   - Jurisdiction
   - Key obligations and risks
+  - Adress details and contacts
+  - Witnesses and their contacts
 - The plan MUST explicitly mention the parties by name
 
 Constraints:

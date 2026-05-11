@@ -9,8 +9,20 @@ PARTIES:
 JURISDICTION:
 {jurisdiction}
 
-DATE:
-{date}
+AGREEMENT DATE:
+{agreement_date}
+
+LOAN PURPOSE:
+{loan_purpose}
+
+INTEREST RATE:
+{interest_rate}
+
+REPLAYMENT TERMS:
+{replayment_terms}
+
+CONTACT INFORMATION:
+{contact_information}
 
 ALL SECTIONS:
 {sections_list}
@@ -28,7 +40,7 @@ GUIDELINES:
 - Follow the GLOBAL PLAN closely
 - Use the exact PARTY names and ROLES provided
 - Maintain consistency with PREVIOUS TEXT
-- Ensure terms (dates, amounts, roles) remain consistent
+- Ensure terms (dates, amounts, roles, interest rate, loan purpose, replayment terms and so on) remain consistent with the context above
 
 STYLE:
 - Formal legal language

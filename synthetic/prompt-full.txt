@@ -5,7 +5,7 @@ Generate a realistic, fully specified corporate loan agreement between a financi
 Requirements:
 - Start with a formal opening paragraph introducing:
 - the agreement type
-- a specific date (e.g., "January 14, 2021")
+- a specific date
 - include multiple corporate entities where appropriate (e.g., parent companies, subsidiaries, affiliates)
 - clearly define roles and reuse them consistently throughout the agreement (e.g., "Borrowers", "Lender")
 - Use numbered sections (e.g., 1, 2, 3), and when appropriate use hierarchical numbering (e.g., 1.1, 1.2)
@@ -30,11 +30,12 @@ Style:
 - Use long, structured sentences with occasional redundancy typical of legal documents
 - Use phrases like "WHEREAS" and "NOW, THEREFORE" where appropriate
 - Do not indent all lines uniformly; use natural document formatting
+- Do not use placeholders
 
 Constraints:
 - Company names must be fictional but realistic and professional, similar to real-world legal entities
-- Prefer multi-word, specific names (e.g., "Northbridge Capital Partners Limited")
-- Include jurisdictions (e.g., Delaware, England and Wales, Ireland)
+- Prefer multi-word, specific names
+- Include jurisdictions
 - Use multiple corporate entity names and ensure they appear consistently across the document
 - Ensure key entities appear multiple times across sections
 - Always provide concrete values for:
@@ -48,5 +49,7 @@ Constraints:
 - Do NOT include disclaimers, warnings, or statements such as "this document is not legal advice"
 - End the document immediately after the signature section
 - Keep length around {max_new_tokens} tokens
+- Do not repeat the section title or include phrases like 'solution:' or 'response:' in the output
+- Only generate the content of the section.
 
 Output only the contract text.

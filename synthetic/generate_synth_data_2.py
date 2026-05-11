@@ -31,16 +31,16 @@ def generate(model, tokenizer, model_name, prompt, role, max_new_tokens, use_cha
     # generate text
     with torch.no_grad():  #telling not to track gradients since we're only generating text, not training
         output = model.generate(
-            **inputs,
-            max_new_tokens=max_new_tokens,
-            temperature=0.6,
-            top_p=0.95,
-            do_sample=True,
-            use_cache=True,
-            eos_token_id=tokenizer.eos_token_id
+            **inputs, #tokenized prompt inputs
+            max_new_tokens=max_new_tokens, #set max tokens to genrate
+            temperature=0.6, #control randomness
+            top_p=0.8, #increase word selection diversity
+            do_sample=True, #used with top_p
+            use_cache=True, #speed up the process by caching past key values
+            eos_token_id=tokenizer.eos_token_id #stop generation when EOS token is produced
         )
 
-    input_len = inputs["input_ids"].shape[-1]
+    input_len = inputs["input_ids"].shape[-1] #number of tokens in the input prompt, to know where the generated tokens start
     generated_tokens = output[0][input_len:]
     text = tokenizer.decode(generated_tokens, skip_special_tokens=True)
 
@@ -69,7 +69,7 @@ def generate_full(model, tokenizer, model_name, args, use_chat_template):
         torch.cuda.reset_peak_memory_stats()
 
     print("Generating full contract...\n")
-    output = generate(model, tokenizer, model_name, prompt, role="generator", max_new_tokens=args.max_new_tokens, use_chat_template=use_chat_template)
+    output = generate(model, tokenizer, model_name, prompt, role="legal text generator", max_new_tokens=args.max_new_tokens, use_chat_template=use_chat_template)
 
     if torch.cuda.is_available():
         gpu_mem_alloc = torch.cuda.max_memory_allocated() / (1024**3)
@@ -108,7 +108,7 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template):
             if not isinstance(plan_output, dict):
                 raise ValueError("Plan is not a JSON object")
 
-            required_keys = ["plan", "sections", "parties"]
+            required_keys = ["plan", "sections", "parties", "jurisdiction", "agreement_date", "loan_purpose", "interest_rate", "replayment_terms"]
             if not all(k in plan_output for k in required_keys):
                 raise ValueError("Missing required keys")
             
@@ -136,12 +136,27 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template):
     parties = plan_output["parties"]
     parties_list ="\n".join([f"- {p['name']} ({p['role']})" for p in parties])
 
-    jurisdiction = plan_output.get("jurisdiction", "Not specified")
-    date = plan_output.get("date", "Not specified")
 
-    print(f"Plan generation complete.\n\nPlan description:\n{plan}\n\nSections:\n{section_list}\n\nParties:\n{parties_list}\n\nJurisdiction:\n{jurisdiction}\n\nDate:\n{date}")
+    jurisdiction = plan_output.get("jurisdiction", "Not specified")
+    loan_purpose = plan_output.get("loan_purpose", "Not specified")
+    agreement_date = plan_output.get("agreement_date", "Not specified")
+    interest_rate = plan_output.get("interest_rate", "Not specified")
+    replayment_terms = plan_output.get("replayment_terms", "Not specified")
+    contact_information = plan_output.get("contact_information", "Not specified")
+
+    print("Plan generation complete.\n")
+    print(f"Plan description:\n{plan}\n")
+    print(f"Sections:\n{section_list}\n")
+    print(f"Parties:\n{parties_list}\n")
+    print(f"Jurisdiction: {jurisdiction}")
+    print(f"Loan Purpose: {loan_purpose}")
+    print(f"Agreement Date: {agreement_date}")
+    print(f"Interest Rate: {interest_rate}")
+    print(f"Replayment Terms: {replayment_terms}")
+    print(f"Contact Information: {contact_information}\n")
 
     full_text = ""
+
 
     print("Generating contract in sections...\n")
     with open("prompt-sectioned.txt", "r", encoding="utf-8") as f:
@@ -152,21 +167,36 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template):
         summary = section.get("summary", "")
 
         print(f"[{i+1}/{len(sections)}] Generating: {title}")
-        
+
         section_prompt = section_template.format(
             global_plan=plan,
             parties=parties_list,
             jurisdiction=jurisdiction,
-            date=date,
-            sections_list=section_list, 
+            loan_purpose=loan_purpose,
+            agreement_date=agreement_date,
+            interest_rate=interest_rate,
+            replayment_terms=replayment_terms,
+            contact_information=contact_information,
+            sections_list=section_list,
             section_title=title,
             section_description=summary,
             prev_text=full_text[-1500:]
         )
 
+
         section_text = generate(model, tokenizer, model_name, section_prompt, role="generator", max_new_tokens=args.max_new_tokens, use_chat_template=use_chat_template)
 
-        full_text += f"\n\n{title}\n{section_text}"
+        # Remove repeated section title if present at the start of the generated text
+        section_text_stripped = section_text.strip()
+        # Remove both exact title and title without numbering (e.g., '1. Loan Terms' and 'Loan Terms')
+        if section_text_stripped.startswith(title):
+            section_text_stripped = section_text_stripped[len(title):].lstrip(': .\n')
+        # Also check for just the section name (without number)
+        section_name = section.get('title', '').strip()
+        if section_name and section_text_stripped.startswith(section_name):
+            section_text_stripped = section_text_stripped[len(section_name):].lstrip(': .\n')
+
+        full_text += f"\n\n{title}\n{section_text_stripped}"
 
         if torch.cuda.is_available() and (i % 2 == 0):
             torch.cuda.empty_cache() # clear GPU memory every second section to avoid OOM errors
