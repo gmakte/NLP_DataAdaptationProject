@@ -48,4 +48,5 @@ CONSTRAINTS:
 - Do NOT include explanations
 - Output ONLY the body text of this section
 - Do NOT include the section title or numbering
+- Do NOT use placeholders like [Company], [Location], [X]
 

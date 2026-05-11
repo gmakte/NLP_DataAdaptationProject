@@ -120,12 +120,12 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, pl
     # If not, append a context block at the top
     context_block = f"""
     Use the following details for the plan:
-    Lender: {fake_lender} (Contact: {fake_contact_lender['address']}, {fake_contact_lender['email']}, {fake_contact_lender['phone']})
-    Borrower: {fake_borrower} (Contact: {fake_contact_borrower['address']}, {fake_contact_borrower['email']}, {fake_contact_borrower['phone']})
+    Lender: generate fake organization name (Contact: {fake_contact_lender['address']}, {fake_contact_lender['email']}, {fake_contact_lender['phone']})
+    Borrower: generate fake organization name (Contact: {fake_contact_borrower['address']}, {fake_contact_borrower['email']}, {fake_contact_borrower['phone']})
     Jurisdiction: {fake_jurisdiction}
     Agreement Date: {fake_agreement_date}
     Interest Rate: {fake_interest_rate}
-    Witnesses: {', '.join([fake_witnesses['name']])}
+    Witnesses (optional): {', '.join([fake_witnesses['name']])}
     """
     plan_prompt = f"""
         You are a legal document planner.

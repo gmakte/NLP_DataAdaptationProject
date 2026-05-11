@@ -2,7 +2,6 @@ Return ONLY valid JSON in this format:
 
 {
   "sections": [{"title": "...", "summary": "..."}],
-  "plan": "...",
   "parties": [{"name": "...", "role": "..."}],
   "jurisdiction": "...",
   "loan_purpose": "...",
@@ -13,14 +12,15 @@ Return ONLY valid JSON in this format:
 }
 
 Requirements:
-- Corporate loan between a financial institution and one or more corporate borrowers
+- Corporate loan between a financial institution and corporate borrowers
 - Include multiple entities with clear roles (examples: Lender, Borrower, Guarantor...)
+- Use realistic, fully specified company names
 
 Sections:
-- Must include (mandatory sections): Introductory Clause/Introduction, Parties, Loan Terms/The Loan, Definitions, Representations and Warranties/R&Ws, Interest and Fees, Default and Remedies/Termination, Signatures
+- Must include (mandatory sections): Introductory Clause, Parties, Loan Terms, Definitions, Representations and Warranties, Interest and Fees, Default and Remedies, Signatures
 - You can change the title of mandatory sections
 - You must add other sections typical for loan agreements along with mandatory sections
-- Total sections: 10-15
+- Total sections: 10-12
 - Each section has a short summary
 
 Constraints:
