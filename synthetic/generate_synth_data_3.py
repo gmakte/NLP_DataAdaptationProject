@@ -90,8 +90,6 @@ def generate_full(model, tokenizer, model_name, args, use_chat_template, tempera
 def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, plan_temperature=0.9, section_temperature=0.6):
     print("Generating plan...\n")
 
-    fake_lender = fake.company()
-    fake_borrower = fake.company()
     fake_jurisdiction = f"{fake.city()}, {fake.country()}"
     fake_agreement_date = fake.date()
     fake_interest_rate = f"{fake.random_int(2, 12)}%"
@@ -105,12 +103,6 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, pl
         'email': fake.email(),
         'phone': fake.phone_number()
     }
-    fake_witnesses = {
-            'name': fake.name(),
-            'address': fake.address().replace('\n', ', '),
-            'email': fake.email(),
-            'phone': fake.phone_number()
-    }
 
     # Read and format the plan prompt
     with open("prompt-plan_2.txt", "r", encoding="utf-8") as f:
@@ -119,13 +111,13 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, pl
     # Insert the fake details into the prompt (if the template supports it)
     # If not, append a context block at the top
     context_block = f"""
-    Use the following details for the plan:
+    You can use the following information to generate plan:
+    
     Lender: generate fake organization name (Contact: {fake_contact_lender['address']}, {fake_contact_lender['email']}, {fake_contact_lender['phone']})
     Borrower: generate fake organization name (Contact: {fake_contact_borrower['address']}, {fake_contact_borrower['email']}, {fake_contact_borrower['phone']})
     Jurisdiction: {fake_jurisdiction}
     Agreement Date: {fake_agreement_date}
     Interest Rate: {fake_interest_rate}
-    Witnesses (optional): {', '.join([fake_witnesses['name']])}
     """
     plan_prompt = f"""
         You are a legal document planner.

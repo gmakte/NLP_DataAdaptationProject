@@ -1,5 +1,7 @@
 You are a legal document generator.
 
+Your goal is to generate real contract between parties with the following information (Important: it should NOT be a template contract).
+
 PARTIES:
 {parties}
 
@@ -36,7 +38,7 @@ SECTION OBJECTIVE:
 GUIDELINES:
 - Use the exact PARTY names and ROLES provided
 - Maintain consistency with PREVIOUS TEXT
-- Ensure terms (dates, amounts, roles, interest rate, loan purpose, replayment terms and so on) remain consistent with the context above
+- Ensure terms remain consistent with the context above
 
 STYLE:
 - Formal legal language
@@ -48,5 +50,5 @@ CONSTRAINTS:
 - Do NOT include explanations
 - Output ONLY the body text of this section
 - Do NOT include the section title or numbering
-- Do NOT use placeholders like [Company], [Location], [X]
+- Do NOT use placeholders like [Company], [Location], [X], [Amount]
 

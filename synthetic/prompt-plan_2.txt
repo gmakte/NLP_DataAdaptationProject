@@ -20,11 +20,12 @@ Sections:
 - Must include (mandatory sections): Introductory Clause, Parties, Loan Terms, Definitions, Representations and Warranties, Interest and Fees, Default and Remedies, Signatures
 - You can change the title of mandatory sections
 - You must add other sections typical for loan agreements along with mandatory sections
-- Total sections: 10-12
+- Total main sections: 10-12
 - Each section has a short summary
 
 Constraints:
-- Do NOT use placeholders like [Company], [Location], [X]
+- DO NOT generate a loan contract template, generate real contract between parties
+- Do NOT use placeholders like [Company], [Location], [X], [Loan Amount]
 - All names must be fully written and realistic
 - Keep everything consistent across sections
 - Output JSON only (no extra text)
