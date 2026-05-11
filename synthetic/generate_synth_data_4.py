@@ -117,6 +117,7 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, pl
     Jurisdiction: {jurisdiction}
     Agreement Date: {agreement_date}
     Interest Rate: {interest_rate}
+    
     """
     plan_prompt = f"""
         You are a legal document planner.
