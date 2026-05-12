@@ -7,6 +7,7 @@
 
 import evaluate
 from util.preprocessing import parse_iob2_file
+from util.span_f1 import compute_span_f1
 from config.labels import id2label, label2id
 from datasets import Dataset
 
@@ -58,13 +59,13 @@ def align_labels(preds_ds, refs_ds):
     for i, (p_tok, r_tok, p_lab, r_lab) in enumerate(
         zip(pred_tokens, ref_tokens, preds, refs)
     ):
-        if len(p_tok) == len(r_tok):
+        if len(p_tok) == len(r_tok): # perfect match, append the entire list of labels for the sentence
             aligned_preds.append(p_lab)
             aligned_refs.append(r_lab)
 
         elif len(p_tok) < len(r_tok):
             print(f"\nMismatch at sentence {i}")
-            if p_tok == r_tok[:len(p_tok)]:
+            if p_tok == r_tok[:len(p_tok)]: # keep only the first k labels for the reference sentence, where k is the length of the predicted sentence
                 print(f"Truncated reference tokens from {len(r_tok)} to {len(p_tok)}")
                 aligned_preds.append(p_lab)
                 aligned_refs.append(r_lab[:len(p_tok)])
@@ -81,12 +82,12 @@ def align_labels(preds_ds, refs_ds):
             )
 
     print("\nAlignment complete.")
-    return aligned_preds, aligned_refs
+    return aligned_preds, aligned_refs # preds and refs are lists of lists of label strings, aligned at the sentence level
 
 
 def compute_metrics(preds, refs):
     print("\nComputing metrics...")
-    metric = evaluate.load("seqeval")
+    metric = evaluate.load("seqeval") #seqeval expects nested sentence structure, using sentence boundaries internally for entity span reconstruction
     results = metric.compute(predictions=preds, references=refs)
     print("Metrics computed.")
     return results
@@ -98,10 +99,12 @@ def evaluate_predictions(preds, refs, from_file=True):
     preds, refs = load_and_align(preds, refs, from_file=from_file)
 
     # 2. Compute metrics
-    results = compute_metrics(preds, refs)
+    seqeval_results = compute_metrics(preds, refs)
+    span_results = compute_span_f1(gold_ners=refs, pred_ners=preds)
 
-    print(f"Results: {results}")
+    results = {
+        "seqeval": seqeval_results,
+        "span_metrics": span_results
+    }
+
     return results
-
-
-evaluate_predictions(preds="./predictions/test_predictions_fin3.txt", refs="./data/FIN3.txt", from_file=True)

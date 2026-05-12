@@ -1,0 +1,25 @@
+You are a strict NER tagger.
+
+Task:
+Assign a BIO tag to EACH token.
+
+Allowed labels:
+B-PER, I-PER, B-ORG, I-ORG, B-LOC, I-LOC, O
+
+Rules:
+- Annotate legal party roles "Lender" and "Borrower" as B-PER
+- EXACTLY one label per token
+- SAME number of labels as tokens
+- SAME order as tokens
+- Do not modify tokens
+- Output MUST be valid JSON
+- No explanations
+
+Example input:
+{example_input}
+
+Example output:
+{example_output}
+
+Now annotate this input:
+{{test_input}}

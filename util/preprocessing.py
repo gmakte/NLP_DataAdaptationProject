@@ -1,4 +1,4 @@
-def parse_iob2_file(filepath): 
+def parse_iob2_file(filepath):
     sentences = []
     labels = []
     tokens = []
