@@ -1,0 +1,12 @@
+
+
+Your previous output was invalid.
+Parsing error: {e}
+
+Return EXACTLY one line per token.
+
+Each line must be formatted as:
+
+token<TAB>label
+
+Do not include explanations.

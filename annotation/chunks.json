@@ -234,7 +234,7 @@
         ]
     },
     {
-        "size": 19,
+        "size": 49,
         "tokens": [
             "China",
             ";",
@@ -254,45 +254,7 @@
             "Chinese",
             "identification",
             "No",
-            "."
-        ],
-        "sent_lengths": [
-            2,
-            17
-        ],
-        "sent_indices": [
-            3,
-            4
-        ],
-        "gold_labels": [
-            [
-                "B-LOC",
-                "O"
-            ],
-            [
-                "O",
-                "O",
-                "O",
-                "B-PER",
-                "I-PER",
-                "O",
-                "B-PER",
-                "O",
-                "O",
-                "O",
-                "O",
-                "B-LOC",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O"
-            ]
-        ]
-    },
-    {
-        "size": 30,
-        "tokens": [
+            ".",
             ":",
             "110108650831235",
             ",",
@@ -325,12 +287,39 @@
             "."
         ],
         "sent_lengths": [
+            2,
+            17,
             30
         ],
         "sent_indices": [
+            3,
+            4,
             5
         ],
         "gold_labels": [
+            [
+                "B-LOC",
+                "O"
+            ],
+            [
+                "O",
+                "O",
+                "O",
+                "B-PER",
+                "I-PER",
+                "O",
+                "B-PER",
+                "O",
+                "O",
+                "O",
+                "O",
+                "B-LOC",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O"
+            ],
             [
                 "O",
                 "O",
@@ -366,7 +355,7 @@
         ]
     },
     {
-        "size": 24,
+        "size": 41,
         "tokens": [
             "Each",
             "of",
@@ -391,13 +380,32 @@
             "the",
             "“",
             "Parties",
-            "”."
+            "”.",
+            "Whereas",
+            ",",
+            "Lender",
+            "intends",
+            "to",
+            "provide",
+            "Borrower",
+            "with",
+            "a",
+            "loan",
+            "to",
+            "be",
+            "used",
+            "under",
+            "this",
+            "Agreement",
+            "."
         ],
         "sent_lengths": [
-            24
+            24,
+            17
         ],
         "sent_indices": [
-            6
+            6,
+            7
         ],
         "gold_labels": [
             [
@@ -425,29 +433,31 @@
                 "O",
                 "O",
                 "O"
+            ],
+            [
+                "O",
+                "O",
+                "B-PER",
+                "O",
+                "O",
+                "O",
+                "B-PER",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O"
             ]
         ]
     },
     {
-        "size": 40,
+        "size": 25,
         "tokens": [
-            "Whereas",
-            ",",
-            "Lender",
-            "intends",
-            "to",
-            "provide",
-            "Borrower",
-            "with",
-            "a",
-            "loan",
-            "to",
-            "be",
-            "used",
-            "under",
-            "this",
-            "Agreement",
-            ".",
             "To",
             "further",
             "clarify",
@@ -470,25 +480,33 @@
             "agree",
             "as",
             "follows",
-            ":"
+            ":",
+            "1",
+            "Loan"
         ],
         "sent_lengths": [
-            17,
-            23
+            23,
+            2
         ],
         "sent_indices": [
-            7,
-            8
+            8,
+            9
         ],
         "gold_labels": [
             [
                 "O",
                 "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
                 "B-PER",
                 "O",
-                "O",
-                "O",
                 "B-PER",
+                "O",
                 "O",
                 "O",
                 "O",
@@ -500,46 +518,6 @@
                 "O",
                 "O"
             ],
-            [
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "B-PER",
-                "O",
-                "B-PER",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O"
-            ]
-        ]
-    },
-    {
-        "size": 2,
-        "tokens": [
-            "1",
-            "Loan"
-        ],
-        "sent_lengths": [
-            2
-        ],
-        "sent_indices": [
-            9
-        ],
-        "gold_labels": [
             [
                 "O",
                 "O"
@@ -899,7 +877,7 @@
         ]
     },
     {
-        "size": 31,
+        "size": 48,
         "tokens": [
             "1",
             ".",
@@ -931,13 +909,32 @@
             "its",
             "affiliated",
             "entity",
+            ";",
+            "1",
+            ".",
+            "1",
+            ".",
+            "4",
+            "Borrower",
+            "engages",
+            "in",
+            "criminal",
+            "conduct",
+            "or",
+            "is",
+            "involved",
+            "in",
+            "criminal",
+            "activities",
             ";"
         ],
         "sent_lengths": [
-            31
+            31,
+            17
         ],
         "sent_indices": [
-            15
+            15,
+            16
         ],
         "gold_labels": [
             [
@@ -972,29 +969,31 @@
                 "O",
                 "O",
                 "O"
+            ],
+            [
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "B-PER",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O"
             ]
         ]
     },
     {
-        "size": 40,
+        "size": 23,
         "tokens": [
-            "1",
-            ".",
-            "1",
-            ".",
-            "4",
-            "Borrower",
-            "engages",
-            "in",
-            "criminal",
-            "conduct",
-            "or",
-            "is",
-            "involved",
-            "in",
-            "criminal",
-            "activities",
-            ";",
             "1",
             "1",
             ".",
@@ -1020,33 +1019,12 @@
             "or"
         ],
         "sent_lengths": [
-            17,
             23
         ],
         "sent_indices": [
-            16,
             17
         ],
         "gold_labels": [
-            [
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "B-PER",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O"
-            ],
             [
                 "O",
                 "O",
@@ -1381,7 +1359,7 @@
         ]
     },
     {
-        "size": 16,
+        "size": 42,
         "tokens": [
             "Borrower",
             "shall",
@@ -1398,38 +1376,7 @@
             "receiving",
             "the",
             "Loan",
-            "."
-        ],
-        "sent_lengths": [
-            16
-        ],
-        "sent_indices": [
-            20
-        ],
-        "gold_labels": [
-            [
-                "B-PER",
-                "O",
-                "O",
-                "B-PER",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O"
-            ]
-        ]
-    },
-    {
-        "size": 26,
-        "tokens": [
+            ".",
             "The",
             "Loan",
             "provided",
@@ -1458,12 +1405,32 @@
             "."
         ],
         "sent_lengths": [
+            16,
             26
         ],
         "sent_indices": [
+            20,
             21
         ],
         "gold_labels": [
+            [
+                "B-PER",
+                "O",
+                "O",
+                "B-PER",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O"
+            ],
             [
                 "O",
                 "O",
@@ -2554,7 +2521,7 @@
         ]
     },
     {
-        "size": 43,
+        "size": 46,
         "tokens": [
             "In",
             "the",
@@ -2598,13 +2565,18 @@
             "Borrower",
             "to",
             "Lender",
-            "."
+            ".",
+            "2",
+            "Conditions",
+            "Precedent"
         ],
         "sent_lengths": [
-            43
+            43,
+            3
         ],
         "sent_indices": [
-            31
+            31,
+            32
         ],
         "gold_labels": [
             [
@@ -2651,15 +2623,17 @@
                 "O",
                 "B-PER",
                 "O"
+            ],
+            [
+                "O",
+                "O",
+                "O"
             ]
         ]
     },
     {
-        "size": 37,
+        "size": 34,
         "tokens": [
-            "2",
-            "Conditions",
-            "Precedent",
             "The",
             "obligation",
             "of",
@@ -2696,19 +2670,12 @@
             "."
         ],
         "sent_lengths": [
-            3,
             34
         ],
         "sent_indices": [
-            32,
             33
         ],
         "gold_labels": [
-            [
-                "O",
-                "O",
-                "O"
-            ],
             [
                 "O",
                 "O",
@@ -2748,7 +2715,7 @@
         ]
     },
     {
-        "size": 23,
+        "size": 48,
         "tokens": [
             "2",
             ".",
@@ -2772,45 +2739,7 @@
             "1",
             ".",
             "2",
-            "."
-        ],
-        "sent_lengths": [
-            23
-        ],
-        "sent_indices": [
-            34
-        ],
-        "gold_labels": [
-            [
-                "O",
-                "O",
-                "O",
-                "B-PER",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "B-PER",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O"
-            ]
-        ]
-    },
-    {
-        "size": 25,
-        "tokens": [
+            ".",
             "2",
             ".",
             "2",
@@ -2838,12 +2767,39 @@
             "."
         ],
         "sent_lengths": [
+            23,
             25
         ],
         "sent_indices": [
+            34,
             35
         ],
         "gold_labels": [
+            [
+                "O",
+                "O",
+                "O",
+                "B-PER",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "B-PER",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O"
+            ],
             [
                 "O",
                 "O",
@@ -2874,7 +2830,7 @@
         ]
     },
     {
-        "size": 40,
+        "size": 44,
         "tokens": [
             "2",
             ".",
@@ -2915,13 +2871,19 @@
             "expected",
             "to",
             "occur",
-            "."
+            ".",
+            "3",
+            "Representations",
+            "and",
+            "Warranties"
         ],
         "sent_lengths": [
-            40
+            40,
+            4
         ],
         "sent_indices": [
-            36
+            36,
+            37
         ],
         "gold_labels": [
             [
@@ -2965,16 +2927,18 @@
                 "O",
                 "O",
                 "O"
+            ],
+            [
+                "O",
+                "O",
+                "O",
+                "O"
             ]
         ]
     },
     {
-        "size": 33,
+        "size": 29,
         "tokens": [
-            "3",
-            "Representations",
-            "and",
-            "Warranties",
             "3",
             ".",
             "1",
@@ -3006,20 +2970,12 @@
             ":"
         ],
         "sent_lengths": [
-            4,
             29
         ],
         "sent_indices": [
-            37,
             38
         ],
         "gold_labels": [
-            [
-                "O",
-                "O",
-                "O",
-                "O"
-            ],
             [
                 "O",
                 "O",
@@ -3339,7 +3295,7 @@
         ]
     },
     {
-        "size": 27,
+        "size": 44,
         "tokens": [
             "3",
             ".",
@@ -3367,13 +3323,32 @@
             "representations",
             "and",
             "warranties",
-            ":"
+            ":",
+            "3",
+            ".",
+            "2",
+            ".",
+            "1",
+            "Borrower",
+            "has",
+            "the",
+            "legal",
+            "capacity",
+            "to",
+            "execute",
+            "and",
+            "perform",
+            "this",
+            "Agreement",
+            "."
         ],
         "sent_lengths": [
-            27
+            27,
+            17
         ],
         "sent_indices": [
-            43
+            43,
+            44
         ],
         "gold_labels": [
             [
@@ -3404,29 +3379,31 @@
                 "O",
                 "O",
                 "O"
+            ],
+            [
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "B-PER",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O"
             ]
         ]
     },
     {
-        "size": 36,
+        "size": 44,
         "tokens": [
-            "3",
-            ".",
-            "2",
-            ".",
-            "1",
-            "Borrower",
-            "has",
-            "the",
-            "legal",
-            "capacity",
-            "to",
-            "execute",
-            "and",
-            "perform",
-            "this",
-            "Agreement",
-            ".",
             "Borrower",
             "has",
             "obtained",
@@ -3445,62 +3422,7 @@
             "of",
             "this",
             "Agreement",
-            ";"
-        ],
-        "sent_lengths": [
-            17,
-            19
-        ],
-        "sent_indices": [
-            44,
-            45
-        ],
-        "gold_labels": [
-            [
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "B-PER",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O"
-            ],
-            [
-                "B-PER",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O"
-            ]
-        ]
-    },
-    {
-        "size": 25,
-        "tokens": [
+            ";",
             "3",
             ".",
             "2",
@@ -3528,12 +3450,35 @@
             "and"
         ],
         "sent_lengths": [
+            19,
             25
         ],
         "sent_indices": [
+            45,
             46
         ],
         "gold_labels": [
+            [
+                "B-PER",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O"
+            ],
             [
                 "O",
                 "O",
@@ -8383,7 +8328,7 @@
         ]
     },
     {
-        "size": 32,
+        "size": 50,
         "tokens": [
             "6",
             ".",
@@ -8416,54 +8361,7 @@
             "confirmation",
             "of",
             "transmission",
-            ")."
-        ],
-        "sent_lengths": [
-            32
-        ],
-        "sent_indices": [
-            95
-        ],
-        "gold_labels": [
-            [
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O"
-            ]
-        ]
-    },
-    {
-        "size": 18,
-        "tokens": [
+            ").",
             "6",
             ".",
             "2",
@@ -8484,9 +8382,11 @@
             ":"
         ],
         "sent_lengths": [
+            32,
             18
         ],
         "sent_indices": [
+            95,
             96
         ],
         "gold_labels": [
@@ -8508,12 +8408,46 @@
                 "O",
                 "O",
                 "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O"
+            ],
+            [
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
                 "O"
             ]
         ]
     },
     {
-        "size": 26,
+        "size": 49,
         "tokens": [
             "Lender",
             ":",
@@ -8540,13 +8474,38 @@
             "P",
             ".",
             "R",
-            "."
+            ".",
+            "China",
+            "Attn",
+            ":",
+            "Legal",
+            "Department",
+            "Phone",
+            ":",
+            "+",
+            "86",
+            "-",
+            "10",
+            "-",
+            "6250",
+            "1658",
+            "Facsimile",
+            ":",
+            "+",
+            "86",
+            "-",
+            "10",
+            "-",
+            "6250",
+            "1665"
         ],
         "sent_lengths": [
-            26
+            26,
+            23
         ],
         "sent_indices": [
-            97
+            97,
+            98
         ],
         "gold_labels": [
             [
@@ -8576,55 +8535,7 @@
                 "O",
                 "O",
                 "O"
-            ]
-        ]
-    },
-    {
-        "size": 33,
-        "tokens": [
-            "China",
-            "Attn",
-            ":",
-            "Legal",
-            "Department",
-            "Phone",
-            ":",
-            "+",
-            "86",
-            "-",
-            "10",
-            "-",
-            "6250",
-            "1658",
-            "Facsimile",
-            ":",
-            "+",
-            "86",
-            "-",
-            "10",
-            "-",
-            "6250",
-            "1665",
-            "Borrower",
-            ":",
-            "1",
-            "-",
-            "4",
-            "-",
-            "48",
-            ",",
-            "No",
-            "."
-        ],
-        "sent_lengths": [
-            23,
-            10
-        ],
-        "sent_indices": [
-            98,
-            99
-        ],
-        "gold_labels": [
+            ],
             [
                 "B-LOC",
                 "O",
@@ -8649,24 +8560,22 @@
                 "O",
                 "O",
                 "O"
-            ],
-            [
-                "B-PER",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O",
-                "O"
             ]
         ]
     },
     {
-        "size": 28,
+        "size": 38,
         "tokens": [
+            "Borrower",
+            ":",
+            "1",
+            "-",
+            "4",
+            "-",
+            "48",
+            ",",
+            "No",
+            ".",
             "1",
             ",",
             "Jinjia",
@@ -8697,12 +8606,26 @@
             "1312"
         ],
         "sent_lengths": [
+            10,
             28
         ],
         "sent_indices": [
+            99,
             100
         ],
         "gold_labels": [
+            [
+                "B-PER",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O",
+                "O"
+            ],
             [
                 "O",
                 "O",
@@ -10258,7 +10181,7 @@
         ]
     },
     {
-        "size": 21,
+        "size": 41,
         "tokens": [
             "In",
             "case",
@@ -10280,13 +10203,35 @@
             "version",
             "shall",
             "prevail",
+            ".",
+            "9",
+            ".",
+            "3",
+            "This",
+            "Agreement",
+            "may",
+            "be",
+            "amended",
+            "or",
+            "supplemented",
+            "through",
+            "written",
+            "agreement",
+            "by",
+            "and",
+            "between",
+            "Lender",
+            "and",
+            "Borrower",
             "."
         ],
         "sent_lengths": [
-            21
+            21,
+            20
         ],
         "sent_indices": [
-            118
+            118,
+            119
         ],
         "gold_labels": [
             [
@@ -10311,40 +10256,7 @@
                 "O",
                 "O",
                 "O"
-            ]
-        ]
-    },
-    {
-        "size": 20,
-        "tokens": [
-            "9",
-            ".",
-            "3",
-            "This",
-            "Agreement",
-            "may",
-            "be",
-            "amended",
-            "or",
-            "supplemented",
-            "through",
-            "written",
-            "agreement",
-            "by",
-            "and",
-            "between",
-            "Lender",
-            "and",
-            "Borrower",
-            "."
-        ],
-        "sent_lengths": [
-            20
-        ],
-        "sent_indices": [
-            119
-        ],
-        "gold_labels": [
+            ],
             [
                 "O",
                 "O",
@@ -10727,7 +10639,7 @@
         ]
     },
     {
-        "size": 31,
+        "size": 50,
         "tokens": [
             "9",
             ".",
@@ -10759,13 +10671,38 @@
             "as",
             "this",
             "Agreement",
-            "."
+            ".",
+            "10",
+            "Lender",
+            ":",
+            "Lenovo",
+            "-",
+            "AsiaInfo",
+            "Technologies",
+            ",",
+            "Inc",
+            ".",
+            "By",
+            ":",
+            "/",
+            "s",
+            "/",
+            "Bing",
+            "Yu",
+            "Name",
+            ":"
         ],
         "sent_lengths": [
-            31
+            31,
+            10,
+            2,
+            7
         ],
         "sent_indices": [
-            123
+            123,
+            124,
+            125,
+            126
         ],
         "gold_labels": [
             [
@@ -10800,70 +10737,7 @@
                 "O",
                 "O",
                 "O"
-            ]
-        ]
-    },
-    {
-        "size": 36,
-        "tokens": [
-            "10",
-            "Lender",
-            ":",
-            "Lenovo",
-            "-",
-            "AsiaInfo",
-            "Technologies",
-            ",",
-            "Inc",
-            ".",
-            "By",
-            ":",
-            "/",
-            "s",
-            "/",
-            "Bing",
-            "Yu",
-            "Name",
-            ":",
-            "Bing",
-            "Yu",
-            "Title",
-            ":",
-            "Legal",
-            "Representative",
-            "Borrower",
-            ":",
-            "Bing",
-            "Yu",
-            "By",
-            ":",
-            "/",
-            "s",
-            "/",
-            "Bing",
-            "Yu"
-        ],
-        "sent_lengths": [
-            10,
-            2,
-            7,
-            2,
-            2,
-            2,
-            6,
-            5
-        ],
-        "sent_indices": [
-            124,
-            125,
-            126,
-            127,
-            128,
-            129,
-            130,
-            131
-        ],
-        "gold_labels": [
+            ],
             [
                 "O",
                 "B-PER",
@@ -10888,7 +10762,45 @@
                 "I-PER",
                 "O",
                 "O"
-            ],
+            ]
+        ]
+    },
+    {
+        "size": 17,
+        "tokens": [
+            "Bing",
+            "Yu",
+            "Title",
+            ":",
+            "Legal",
+            "Representative",
+            "Borrower",
+            ":",
+            "Bing",
+            "Yu",
+            "By",
+            ":",
+            "/",
+            "s",
+            "/",
+            "Bing",
+            "Yu"
+        ],
+        "sent_lengths": [
+            2,
+            2,
+            2,
+            6,
+            5
+        ],
+        "sent_indices": [
+            127,
+            128,
+            129,
+            130,
+            131
+        ],
+        "gold_labels": [
             [
                 "B-PER",
                 "I-PER"
