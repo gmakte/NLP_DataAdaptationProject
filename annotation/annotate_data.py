@@ -359,7 +359,7 @@ if __name__ == "__main__":
     parser.add_argument("--max_chunk_size", type=int, default=250, help="Maximum number of words to include in each chunk sent to the model for annotation.")
     parser.add_argument("--temperature", type=float, default=0)
     parser.add_argument("--input_data", default="annotation/FIN5_validation.txt")
-    parser.add_argument("--output_dir", default="annotations/validation")
+    parser.add_argument("--output_dir", default="annotation/validation")
     parser.add_argument("--output_file", required=True)
 
     args = parser.parse_args()

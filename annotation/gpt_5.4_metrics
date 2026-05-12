@@ -1,0 +1,49 @@
+{
+    "seqeval": {
+        "ISMATCH": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1": 0.0,
+            "number": 0.0
+        },
+        "LOC": {
+            "precision": 0.8333333333333334,
+            "recall": 0.8333333333333334,
+            "f1": 0.8333333333333334,
+            "number": 36.0
+        },
+        "ORG": {
+            "precision": 0.13333333333333333,
+            "recall": 0.4,
+            "f1": 0.2,
+            "number": 5.0
+        },
+        "PER": {
+            "precision": 1.0,
+            "recall": 0.9852216748768473,
+            "f1": 0.9925558312655086,
+            "number": 203.0
+        },
+        "overall_precision": 0.9098039215686274,
+        "overall_recall": 0.9508196721311475,
+        "overall_f1": 0.9298597194388777,
+        "overall_accuracy": 0.9852045256744996
+    },
+    "span_metrics": {
+        "exact_match": {
+            "precision": 0.928,
+            "recall": 0.9508196721311475,
+            "f1": 0.9392712550607287
+        },
+        "unlabeled_match": {
+            "precision": 0.928,
+            "recall": 0.9508196721311475,
+            "f1": 0.9392712550607287
+        },
+        "loose_match": {
+            "precision": 0.956,
+            "recall": 0.9795081967213115,
+            "f1": 0.9676113360323886
+        }
+    }
+}
