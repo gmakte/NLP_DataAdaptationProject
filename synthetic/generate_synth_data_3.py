@@ -1,8 +1,11 @@
 ########### IMPORTS #####################
+
 import argparse
 import os
 import json
 import re
+from faker import Faker
+fake = Faker()
 
 import time
 from datetime import timedelta
@@ -87,8 +90,44 @@ def generate_full(model, tokenizer, model_name, args, use_chat_template, tempera
 def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, plan_temperature=0.9, section_temperature=0.6):
     print("Generating plan...\n")
 
-    with open("prompt-plan.txt", "r", encoding="utf-8") as f:
-        plan_prompt = f.read()
+    fake_jurisdiction = f"{fake.city()}, {fake.country()}"
+    fake_agreement_date = fake.date()
+    fake_interest_rate = f"{fake.random_int(2, 12)}%"
+    fake_contact_lender = {
+        'address': fake.address().replace('\n', ', '),
+        'email': fake.email(),
+        'phone': fake.phone_number()
+    }
+    fake_contact_borrower = {
+        'address': fake.address().replace('\n', ', '),
+        'email': fake.email(),
+        'phone': fake.phone_number()
+    }
+
+    # Read and format the plan prompt
+    with open("prompt-plan_2.txt", "r", encoding="utf-8") as f:
+        plan_prompt_template = f.read()
+
+    # Insert the fake details into the prompt (if the template supports it)
+    # If not, append a context block at the top
+    context_block = f"""
+    Use the following information to generate plan:
+
+    Lender: generate fake organization name (Contact: {fake_contact_lender['address']}, {fake_contact_lender['email']}, {fake_contact_lender['phone']})
+    Borrower: generate fake company name (Contact: {fake_contact_borrower['address']}, {fake_contact_borrower['email']}, {fake_contact_borrower['phone']})
+    Jurisdiction: {fake_jurisdiction}
+    Agreement Date: {fake_agreement_date}
+    Interest Rate: {fake_interest_rate}
+    """
+    plan_prompt = f"""
+        You are a legal document planner.
+        
+        Design a structured plan for a realistic corporate loan agreement between organizations.
+
+        {context_block}
+
+        {plan_prompt_template}
+    """
 
     # prepare to track GPU stats
     if torch.cuda.is_available():
@@ -99,43 +138,33 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, pl
         try:
             raw_output = generate(model, tokenizer, model_name, plan_prompt, role="planner", max_new_tokens=args.max_new_tokens, use_chat_template=use_chat_template, temperature=plan_temperature)
             print(f"[Attempt {attempt+1}] Raw plan output:\n{raw_output[:500]}\n")
-            
             raw_output = extract_json(raw_output)
             plan_output = json.loads(raw_output)
-
-            
-            # structure validtion checks
+            # structure validation checks
             if not isinstance(plan_output, dict):
                 raise ValueError("Plan is not a JSON object")
-
-            required_keys = ["plan", "sections", "parties", "jurisdiction", "agreement_date", "loan_purpose", "interest_rate", "replayment_terms"]
+            required_keys = ["sections", "parties", "jurisdiction", "agreement_date", "loan_purpose", "interest_rate", "replayment_terms"]
             if not all(k in plan_output for k in required_keys):
                 raise ValueError("Missing required keys")
-            
             if not isinstance(plan_output["sections"], list) or len(plan_output["sections"]) == 0:
                 raise ValueError("Invalid sections list")
-
             if not isinstance(plan_output["parties"], list) or len(plan_output["parties"]) == 0:
                 raise ValueError("Invalid parties list")
-
             print(f"Valid plan generated (attempt {attempt+1})\n")
             break
         except Exception as e:
             print(f"[Attempt {attempt+1}] Failed: {e}\n")
             continue
-
     else:
         raise ValueError("Failed to generate valid plan after retries")
     
 
-    plan = plan_output["plan"]
-
     sections = plan_output["sections"]
     section_list = "\n".join([f"- {i+1}. {s['title']}" for i,s in enumerate(sections)])
     
+
     parties = plan_output["parties"]
     parties_list ="\n".join([f"- {p['name']} ({p['role']})" for p in parties])
-
 
     jurisdiction = plan_output.get("jurisdiction", "Not specified")
     loan_purpose = plan_output.get("loan_purpose", "Not specified")
@@ -145,7 +174,6 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, pl
     contact_information = plan_output.get("contact_information", "Not specified")
 
     print("Plan generation complete.\n")
-    print(f"Plan description:\n{plan}\n")
     print(f"Sections:\n{section_list}\n")
     print(f"Parties:\n{parties_list}\n")
     print(f"Jurisdiction: {jurisdiction}")
@@ -159,7 +187,7 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, pl
 
 
     print("Generating contract in sections...\n")
-    with open("prompt-sectioned.txt", "r", encoding="utf-8") as f:
+    with open("prompt-sectioned_2.txt", "r", encoding="utf-8") as f:
         section_template = f.read()
 
     for i, section in enumerate(sections):
@@ -169,7 +197,6 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, pl
         print(f"[{i+1}/{len(sections)}] Generating: {title}")
 
         section_prompt = section_template.format(
-            global_plan=plan,
             parties=parties_list,
             jurisdiction=jurisdiction,
             loan_purpose=loan_purpose,
@@ -180,7 +207,7 @@ def generate_sectioned(model, tokenizer, model_name, args, use_chat_template, pl
             sections_list=section_list,
             section_title=title,
             section_description=summary,
-            prev_text=full_text[-1500:]
+            #prev_text=full_text[-1500:]
         )
 
         section_text = generate(model, tokenizer, model_name, section_prompt, role="generator", max_new_tokens=args.max_new_tokens, use_chat_template=use_chat_template, temperature=section_temperature)

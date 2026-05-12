@@ -1,0 +1,39 @@
+
+Now generate a new plan in the exact same JSON format, using the information provided:
+
+{
+  "plan": "string",
+  "sections": [{"title": "string", "summary": "string"}],
+  "parties": [{"name": "string", "role": "string"}],
+  "loan_purpose": "string",
+  "replayment_terms": "string",
+  "contact_information": "string"
+}
+
+Requirements:
+- Corporate loan between a financial institution and one or more corporate borrowers
+- Include multiple entities with clear roles (examples: Lender, Borrower)
+- Use realistic, fully specified company names
+
+Sections:
+- Must include (mandatory sections): Introduction, Parties, Loan Terms, Definitions, Representations and Warranties, Interest and Fees, Termination, Signatures
+- You can change the title of mandatory sections
+- You must add other sections typical for loan agreements along with mandatory sections
+- Total sections: 10-15
+- Each section has a short summary
+
+Plan:
+- Describe the agreement including:
+  - Full names of the parties
+  - Their roles 
+  - Loan purpose
+  - Jurisdiction
+  - Key obligations and risks
+  - Address details and contacts
+- The plan MUST explicitly mention the parties by name
+
+Constraints:
+- Do NOT use placeholders like [Company], [Location], [X]
+- All names must be fully written and realistic
+- Keep everything consistent across sections
+- Output JSON only (no extra text)

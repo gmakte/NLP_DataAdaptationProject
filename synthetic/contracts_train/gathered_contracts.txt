@@ -1,0 +1,1833 @@
+- DOCSTART -
+
+1. Introductory Clause
+
+This Agreement is entered into as of January 1, 2023, by and between Goldman Sachs Bank, USA, a national banking association organized and existing under the laws of the United States of America, with its principal place of business at One New York Plaza, New York, NY 10004, USA (hereinafter referred to as "Lender"), and Acme Inc., a corporation organized and existing under the laws of the United States of America, with its principal place of business at 123 Main Street, Anytown, USA 12345 (hereinafter referred to as "Borrower"). The Borrower is also acting on behalf of its subsidiary, Acme Corp., a corporation organized and existing under the laws of the United States of America, with its principal place of business at 456 Elm Street, Anytown, USA 56789 (hereinafter referred to as "Guarantor").
+
+The Lender is willing to lend to the Borrower, and the Borrower is willing to borrow from the Lender, the sum of Ten Million United States Dollars ($10,000,000) (the "Loan Amount"), to be used for working capital purposes. The Loan Amount shall bear interest at a rate of Five Percent (5%) per annum, payable semi-annually in arrears, and shall be repaid in equal installments over a period of Five (5) years, commencing on January 1, 2024. The Loan Amount and all interest thereon shall be payable in lawful money of the United States of America.
+
+2. Parties
+(a) Goldman Sachs Bank, USA (Lender)
+
+Goldman Sachs Bank, USA, a national banking association organized and existing under the laws of the United States of America, with its principal place of business at One New York Plaza, New York, NY 10004, USA, is the lender under this Agreement.
+
+(b) Acme Inc., USA (Borrower)
+
+Acme Inc., a corporation organized and existing under the laws of the United States of America, with its principal place of business at 123 Main Street, Anytown, USA 12345, is the borrower under this Agreement.
+
+(c) Acme Corp., USA (Guarantor)
+
+Acme Corp., a corporation organized and existing under the laws of the United States of America, with its principal place of business at 456 Elm Street, Anytown, USA 56789, is the guarantor under this Agreement.
+
+The Borrower is also acting on behalf of the Guarantor for the purposes of this Agreement.
+
+3. Loan Terms/The Loan
+
+(a) Loan Amount
+
+The Lender agrees to lend to the Borrower the sum of Ten Million United States Dollars ($10,000,000) (the "Loan Amount").
+
+(b) Interest Rate
+
+The Loan Amount shall bear interest at a rate of Five Percent (5%) per annum, payable semi-annually in arrears.
+
+(c) Repayment Terms
+
+The Loan Amount shall be repaid in equal installments over a period of Five (5) years, commencing on January 1, 2024.
+
+(d) Purpose of the Loan
+
+The Loan Amount is intended for working capital purposes.
+
+4. Definitions
+
+For the purposes of this Agreement, the following terms shall have the following meanings:
+
+(a) "Agreement" means this Loan Agreement, as amended from time to time.
+
+(b) "Borrower" means Acme Inc., a corporation organized and existing under the laws of the United States of America, with its principal place of business at 123 Main Street, Anytown, USA 12345.
+
+(c) "Default" means any failure by the Borrower to make any payment when due, or any other breach of any of the terms, covenants, or conditions of this Agreement.
+
+(d) "Guarantor" means Acme Corp., a corporation organized and existing under the laws of the United States of America, with its principal place of business at 456 Elm Street, Anytown, USA 56789.
+
+(e) "Lender" means Goldman Sachs Bank, USA, a national banking association organized and existing under the laws of the United States of America, with its principal place of business at One New York Plaza, New York, NY 10004, USA.
+
+(f) "Loan Amount" means the sum of Ten Million United States Dollars ($10,000,000) to be lent to the Borrower under this Agreement.
+
+(g) "Repayment Date" means January 1, 2029.
+
+(h) "Term" means the period commencing on the Agreement Date and ending on the Repayment Date.
+
+5. Representations and Warranties
+
+(a) Borrower's Representations and Warranties
+
+The Borrower represents and warrants to the Lender as follows:
+
+(i) Existence and Authority
+
+The Borrower is a corporation duly organized, validly existing, and in good standing under the laws of the jurisdiction of its incorporation. The Borrower has the power and authority to execute and deliver this Agreement and to perform its obligations hereunder.
+
+(ii) Authorization
+
+This Agreement has been duly authorized, executed, and delivered by the Borrower and constitutes a legal, valid, and binding obligation of the Borrower, enforceable against the Borrower in accordance with its terms, except as enforcement may be limited by bankruptcy, insolvency, or similar laws affecting creditors' rights generally.
+
+(iii) Loan Purpose
+
+The Loan Amount will be used solely for working capital purposes.
+
+(iv) Guarantor
+
+The Guarantor has been duly authorized to guarantee the Borrower's obligations under this Agreement.
+
+(v) No Default
+
+As of the date hereof, there is no Default under this Agreement.
+
+(b) Lender's Representations and Warranties
+
+The Lender represents and warrants to the Borrower as follows:
+
+(i) Existence and Authority
+
+Goldman Sachs Bank, USA is a national banking association duly organized, validly existing, and in good standing under the laws of the United States of America. Goldman Sachs Bank, USA has the power and authority to execute and deliver this Agreement and to perform its obligations hereunder.
+
+(ii) Authorization
+
+This Agreement has been duly authorized, executed, and delivered by Goldman Sachs Bank, USA and constitutes a legal, valid, and binding obligation of Goldman Sachs Bank, USA, enforceable against Goldman Sachs Bank, USA in accordance with its terms, except as enforcement may be limited by bankruptcy, insolvency, or similar laws affecting creditors' rights generally.
+
+6. Interest and Fees
+
+6.1 Interest Rate
+The interest rate on the Loan shall be 5% per annum, calculated on the daily balance outstanding.
+
+6.2 Fees
+The Borrower shall pay all fees and expenses incurred by the Lender in connection with the Loan, including but not limited to, commitment fees, processing fees, and legal fees.
+
+6.3 Payment Terms
+The Borrower shall make payments on the Loan on a monthly basis, commencing on the first day of the month following the Disbursement Date and continuing on the first day of each month thereafter, until the Loan is fully repaid.
+
+7. Default and Remedies
+
+7.1 Default
+A Default under this Agreement shall occur if any of the following events occur:
+
+(a) The Borrower fails to make any payment when due;
+(b) The Borrower breaches any of its representations and warranties contained in this Agreement;
+(c) The Borrower becomes insolvent or makes an assignment for the benefit of creditors;
+(d) The Borrower files a petition under any bankruptcy or insolvency laws, or has a petition filed against it under any bankruptcy or insolvency laws, and the petition is not dismissed within sixty (60) days;
+(e) The Borrower disposes of, or attempts to dispose of, any of its assets outside the ordinary course of business; or
+(f) The Borrower fails to perform any other material obligation under this Agreement.
+
+7.2 Remedies
+In the event of a Default, Goldman Sachs Bank, USA shall have the right to declare all amounts outstanding under this Agreement immediately due and payable, and to exercise any and all rights and remedies available to it under applicable law, including the right to foreclose on any security provided for the Loan, and to seize and sell the assets of both Acme Inc., USA and Acme Corp., USA to recover the Loan amount.
+
+7.3 Termination
+Upon the occurrence of a Default, this Agreement shall terminate, except that the provisions relating to representations and warranties, Default, remedies, security, governing law, and signatures shall survive the termination of this Agreement.
+
+8. Security
+
+(i) As security for the payment and performance of the Borrower's obligations under this Agreement and the Loan, the Borrower hereby grants to the Lender a first priority lien on all of the Borrower's assets, present and future, whether now owned or hereafter acquired, wherever located, including, without limitation, all of the Borrower's accounts, chattel paper, documents, instruments, equipment, fixtures, vehicles, inventory, intellectual property, and all other personal property, and all of the Borrower's right, title, and interest in and to the same, including, without limitation, all of the Borrower's accounts receivable, contract rights, and other intangible property.
+
+(ii) The Borrower hereby grants to the Lender a second priority lien on all of the assets of Acme Corp., USA, present and future, whether now owned or hereafter acquired, wherever located, including, without limitation, all of Acme Corp., USA's accounts, chattel paper, documents, instruments, equipment, fixtures, vehicles, inventory, intellectual property, and all other personal property, and all of Acme Corp., USA's right, title, and interest in and to the same, including, without limitation, all of Acme Corp., USA's accounts receivable, contract rights, and other intangible property.
+
+(iii) The Borrower and Acme Corp., USA hereby irrevocably authorize the Lender to enter upon the Borrower's and Acme Corp., USA's premises, and to take possession of, sell, and dispose of any of the assets securing the Loan, in the event of the Borrower's default under this Agreement or the Loan.
+
+(iv) The Borrower and Acme Corp., USA agree to execute and deliver such additional documents and instruments, and to take such further action as the Lender may reasonably request, in order to further secure the Loan and to evidence the liens granted hereunder.
+
+(v) The liens granted hereunder shall be subordinate only to the liens of the Borrower's and Acme Corp., USA's respective creditors in the ordinary course of business, and the liens granted hereunder shall not be affected by any subsequent consolidation, merger, reorganization, or sale of the Borrower or Acme Corp., USA, or any of their respective subsidiaries.
+
+(vi) The Borrower and Acme Corp., USA shall keep the Lender fully and currently informed of the location and condition of the assets securing the Loan, and shall promptly notify the Lender of any change in the location or condition of such assets.
+
+(vii) In the event of any default under this Agreement or the Loan, the Borrower and Acme Corp., USA shall pay all reasonable costs and expenses, including, without limitation, attorneys' fees and expenses, incurred by the Lender in connection with the enforcement of the liens granted hereunder.
+
+9. Governing Law
+
+(i) This Agreement shall be governed by, and construed in accordance with, the laws of the State of New York, without giving effect to its conflict of laws principles.
+
+(ii) The Borrower and the Lender irrevocably submit to the exclusive jurisdiction of the courts of the State of New York, and the United States District Court for the Southern District of New York, for the resolution of any disputes arising out of or in connection with this Agreement or the Loan.
+
+(iii) Each party irrevocably waives any objection it may now or hereafter have to the laying of venue of any action, suit or proceeding brought in any such court and any claim that any such action, suit or proceeding brought in any such court has been brought in an inconvenient forum.
+
+(iv) The Borrower and the Lender agree that a final judgment in any such action, suit or proceeding shall be conclusive and may be enforced in other jurisdictions by suit on the judgment or in any other manner provided by law.
+
+(v) The Borrower and the Lender agree that service of process in any such action, suit or proceeding may be effected by mailing a copy thereof by registered or certified mail, postage prepaid, to the respective addresses set forth in Section 10 of this Agreement, or to such other address as the party to be served may have furnished to the other party in writing in accordance herewith.
+
+(vi) The Borrower and the Lender agree that nothing contained herein shall affect any right either of them may have to serve process in any other manner permitted by law.
+
+10. Signatures
+
+This Agreement is executed as of the date first above written.
+
+The Lender acknowledges receipt of the representations, warranties, covenants and agreements of the Borrower contained herein and agrees to extend credit to the Borrower on the terms and conditions set forth herein. The Borrower acknowledges its obligations under this Agreement and agrees to perform its obligations hereunder in accordance with its terms.
+
+The Guarantor acknowledges its obligations under this Agreement and agrees to perform its obligations hereunder in accordance with its terms. The Guarantor further agrees that in the event of default by the Borrower, it will pay and perform all the obligations of the Borrower under this Agreement.
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first above written.
+
+GOLDMAN SACHS BANK, USA
+
+By: ___________________________
+Name: John Doe
+Title: Senior Vice President
+
+ACME INC., USA
+
+By: ___________________________
+Name: Jane Smith
+Title: Chief Financial Officer
+
+ACME CORP., USA
+
+By: ___________________________
+Name: Bob Johnson
+Title: Vice President
+
+- DOCSTART -
+
+1. Introductory Clause
+
+The Parties, USNV Barnett (hereinafter "Lender") and South Kimberlybury (hereinafter "Borrower"), being desirous of establishing a mutually beneficial relationship, have entered into this Loan Agreement (the "Agreement") on the date hereof, in North Crystalland, Falkland Islands (Malvinas), with the following terms and conditions.
+
+2. Parties
+2.1 Lender
+
+The Lender party to this Agreement is USNV Barnett, a limited liability company duly organized and existing under the laws of the United States of America, with its principal place of business located at 1234 Main Street, Anytown, USA 12345.
+
+2.2 Borrower
+
+The Borrower party to this Agreement is 13980 Price Mall, South Kimberlybury, IN 04257, a limited liability company duly organized and existing under the laws of the North Crystalland, Falkland Islands (Malvinas), with its principal place of business located at 13980 Price Mall, South Kimberlybury, IN 04257, North Crystalland, Falkland Islands (Malvinas).
+
+2.3 Guarantors
+
+(If applicable)
+
+(Insert text for any additional guarantors involved in the agreement)
+
+2.4 Lender's Counsel
+
+(Insert text for the Lender's counsel, if applicable)
+
+2.5 Borrower's Counsel
+
+(Insert text for the Borrower's counsel, if applicable)
+
+3. Guarantors
+3.1 Guarantor A
+
+Guarantor A, a limited liability company duly organized and existing under the laws of the United States of America, with its principal place of business located at 5678 Elm Street, Anytown, USA 12345, hereby guarantees the performance and observance by the Borrower of all of its obligations under this Agreement.
+
+3.2 Guarantor B
+
+Guarantor B, an individual residing at 9012 Pine Street, Anytown, USA 12345, hereby guarantees the performance and observance by the Borrower of all of its obligations under this Agreement.
+
+4. Loan Terms
+
+4.1 Loan Amount
+The Lender shall lend the Borrower the sum of One Million Dollars (US$1,000,000.00) for the purpose of general business purposes.
+
+4.2 Repayment Terms
+The Borrower shall make monthly repayments of the Loan Amount, together with any accrued interest, for a term of five (5) years commencing on August 8, 2025.
+
+4.3 Interest Rate
+The Loan shall bear interest at an annual rate of twelve percent (12%).
+
+4.4 Loan Term
+The term of the Loan shall be five (5) years, commencing on June 8, 2025 and ending on June 8, 2030.
+
+5. Definitions
+
+In this Agreement, the following terms shall have the meanings set forth below:
+
+"Agreement" means this Loan Agreement, dated as of June 8, 2025, between the Lender and the Borrower, as amended or supplemented from time to time.
+
+"Borrower" means South Kimberlybury a legal entity duly organized and existing under the laws of the North Crystalland, Falkland Islands (Malvinas), with its principal place of business located at 13980 Price Mall, IN 04257, North Crystalland, Falkland Islands (Malvinas).
+
+"Guarantor" means any person or entity that has executed a Guaranty in connection with the Loan.
+
+"Guaranty" means a written agreement executed by a Guarantor, guaranteeing the performance and observance by the Borrower of all of its obligations under this Agreement.
+
+"Interest Rate" means the annual rate of twelve percent (12%).
+
+"Lender" means USNV Barnett, a legal entity duly organized and existing under the laws of the United States of America, with its principal place of business located at 2100 West Laurel Street, Suite 300, Tallahassee, Florida 32303, United States of America.
+
+"Loan" means the loan made by the Lender to the Borrower in the amount of One Million Dollars (US$1,000,000.00) for the purpose of general business purposes.
+
+"Loan Amount" means the principal amount of the Loan, which is One Million Dollars (US$1,000,000.00).
+
+"Loan Term" means the term of the Loan, which is five (5) years, commencing on June 8, 2025 and ending on June 8, 2030.
+
+"Repayment Terms" means the terms under which the Borrower shall make monthly repayments of the Loan Amount, together with any accrued interest, for a term of five (5) years commencing on August 8, 2025.
+
+"Repayment Schedule" means the schedule attached hereto as Exhibit A, setting forth the dates and amounts of the Borrower's monthly repayments.
+
+"Repayment Date" means the date on which each monthly repayment is due.
+
+"Interest" means the amount payable by the Borrower to the Lender in respect of the Loan, calculated at the Interest Rate.
+
+"Fees" means any fees, charges, or expenses payable by the Borrower to the Lender in connection with the Loan.
+
+6. Representations and Warranties
+6.1 The Borrower hereby represents and warrants to the Lender that:
+
+6.1.1 The Borrower is a duly organized and existing legal entity under the laws of North Crystalland, Falkland Islands (Malvinas), with its principal place of business located at 13980 Price Mall, South Kimberlybury, IN 04257.
+
+6.1.2 The Borrower has full power, authority, and capacity to execute, deliver, and perform this Agreement and to consummate the transactions contemplated hereby.
+
+6.1.3 The execution, delivery, and performance of this Agreement by the Borrower have been duly authorized by all necessary action on the part of the Borrower.
+
+6.1.4 This Agreement constitutes a legal, valid, and binding obligation of the Borrower, enforceable against the Borrower in accordance with its terms.
+
+6.2 The Lender hereby represents and warrants to the Borrower that:
+
+6.2.1 USNV Barnett is a duly organized and existing legal entity under the laws of the United States of America, with its principal place of business located at 2100 West Laurel Street, Suite 300, Tallahassee, Florida 32303, United States of America.
+
+6.2.2 USNV Barnett has full power, authority, and capacity to execute, deliver, and perform this Agreement and to consummate the transactions contemplated hereby.
+
+6.2.3 The execution, delivery, and performance of this Agreement by USNV Barnett have been duly authorized by all necessary action on the part of USNV Barnett.
+
+6.2.4 This Agreement constitutes a legal, valid, and binding obligation of USNV Barnett, enforceable against USNV Barnett in accordance with its terms.
+
+7. Conditions Precedent
+
+7.1 The following conditions precedent shall apply to the disbursement of the Loan:
+
+7.1.1 The Borrower shall have duly executed this Agreement and delivered it to the Lender.
+
+7.1.2 The Borrower shall have provided the Lender with all required documents and information, including but not limited to:
+
+7.1.2.1 A complete set of financial statements for the Borrower, including balance sheets, income statements, and cash flow statements for the preceding three fiscal years;
+
+7.1.2.2 A current business plan for the Borrower;
+
+7.1.2.3 A current list of all outstanding debts and liabilities of the Borrower;
+
+7.1.2.4 Any other documents or information requested by the Lender in connection with the Loan.
+
+7.1.3 The Lender shall have received satisfactory evidence of the Borrower's ability to repay the Loan in accordance with the repayment terms set forth in this Agreement.
+
+7.1.4 The Borrower shall have obtained all necessary approvals, permits, licenses, and consents required under the laws of North Crystalland, Falkland Islands (Malvinas) for the purpose of the Loan and the transactions contemplated hereby.
+
+7.1.5 The Borrower shall have complied with all applicable laws, regulations, and governmental requirements in connection with the Loan and the transactions contemplated hereby.
+
+7.1.6 The Borrower shall have provided the Lender with evidence of any guaranties or other security arrangements for the Loan.
+
+7.1.7 The Borrower shall have paid all fees and expenses incurred by the Lender in connection with the Loan, including but not limited to legal fees, appraisal fees, and credit report fees.
+
+7.1.8 The Borrower shall have complied with all conditions precedent set forth in any commitment letter or other agreement between the Borrower and the Lender in connection with the Loan.
+
+7.2 The Lender shall have the right, in its sole discretion, to waive any of the conditions precedent set forth in this Section 7, in whole or in part. The waiver by the Lender of any of the conditions precedent shall not operate as a waiver of any other condition precedent or any other provision of this Agreement.
+
+7.3 The failure of the Borrower to satisfy any of the conditions precedent set forth in this Section 7 shall result in the Lender's right to terminate this Agreement and the Loan shall not be disbursed. In such case, the Borrower shall promptly return all documents and other materials delivered to the Borrower by the Lender in connection with the Loan.
+
+8. Interest and Fees
+8.1 Interest: The Borrower shall pay interest on the Loan at a rate of 12% per annum, calculated on the daily balance of the Loan and compounded monthly.
+
+  8.2 Fees: The Borrower shall pay all fees and expenses incurred by the Lender in connection with the Loan, including but not limited to:
+
+    8.2.1 Origination fee in the amount of 2% of the Loan principal.
+
+    8.2.2 Documentation fee in the amount of $1,500.
+
+    8.2.3 Processing fee in the amount of $500.
+
+  8.3 Late Fees: If the Borrower fails to make any payment when due, the Borrower shall pay a late fee in the amount of 5% of the overdue amount, or the maximum amount allowed by law, whichever is less.
+
+  8.4 Other Charges: The Borrower shall pay any other charges, fees, or expenses incurred by the Lender in connection with the Loan, including but not limited to attorney's fees, court costs, and expenses incurred in the collection of any amounts due under this Agreement.
+
+  8.5 Payment of Fees and Charges: The Borrower shall pay all fees and charges described in this Section 8 concurrently with the disbursement of the Loan. If the Loan is not disbursed, the Borrower shall pay all fees and charges described in this Section 8 upon the request of the Lender.
+
+  8.6 Interest on Late Payments: If any amount due under this Agreement is not paid when due, the Borrower shall pay interest on such overdue amount at the rate of 12% per annum, calculated on a daily basis.
+
+  8.7 Application of Payments: Payments made by the Borrower under this Agreement shall first be applied to any late fees, interest, and other charges due under this Agreement, and then to the principal of the Loan and any accrued and unpaid interest.
+
+9. Default and Remedies
+9.1 Default: The Borrower shall be deemed to be in default under this Agreement if the Borrower fails to make any payment when due, breaches any of its representations and warranties, or commits any other material breach of this Agreement.
+
+9.2 Acceleration: Upon the occurrence of an Event of Default, the Lender may declare all amounts owing under this Agreement immediately due and payable.
+
+9.3 Remedies: In the event of a default, in addition to any other remedies available at law or in equity, the Lender shall have the right to:
+
+    9.3.1 Accelerate the Loan and any accrued and unpaid interest, fees, and charges;
+
+    9.3.2 Exercise any rights of setoff, lien, or other security interest granted to the Lender under this Agreement;
+
+    9.3.3 Commence legal proceedings against the Borrower for the recovery of any amounts due under this Agreement, together with all costs, expenses, and attorney's fees incurred in such proceedings;
+
+    9.3.4 Take possession of any collateral securing the Loan; and
+
+    9.3.5 Sell, assign, or transfer the Loan or any part thereof to a third party.
+
+9.4 Waiver: The failure of the Lender to exercise any right or remedy under this Agreement shall not constitute a waiver of such right or remedy. Any waiver of a default under this Agreement must be in writing and signed by the Lender.
+
+9.5 Cure: The Borrower may cure any default under this Agreement by paying all amounts due, together with any late fees, interest, and expenses, within 30 days of receipt of notice of default from the Lender.
+
+9.6 Further Assurances: The Borrower shall execute and deliver, or cause to be executed and delivered, such further instruments and documents, and shall take such further action as the Lender may reasonably require, from time to time, to carry out the purposes and intent of this Agreement and to assist the Lender in the exercise of its rights and remedies under this Agreement.
+
+10. Assignment and Transfer
+
+    10.1 The Lender shall have the right to assign, transfer, or delegate all or any part of its rights and obligations under this Agreement without the consent of the Borrower, provided that the assignee agrees in writing to be bound by the terms and conditions of this Agreement.
+
+    10.2 The Borrower shall not assign, transfer, or otherwise dispose of all or any part of its rights and obligations under this Agreement without the prior written consent of the Lender, which consent shall not be unreasonably withheld. Any assignment or transfer by the Borrower shall be subject to the assignee's acceptance in writing of the terms and conditions of this Agreement and the Lender's right to accelerate the Loan and any accrued and unpaid interest, fees, and charges upon such assignment or transfer.
+
+    10.3 In the event of an assignment or transfer by the Lender, the Borrower shall remain liable for the full repayment of the Loan and all accrued and unpaid interest, fees, and charges. In the event of an assignment or transfer by the Borrower, the assignee shall assume the Borrower's obligations under this Agreement and the Loan shall be payable to the assignee.
+
+    10.4 The Lender may, without the consent of the Borrower, transfer or assign any collateral securing the Loan to a third party, provided that the third party agrees in writing to be bound by the terms and conditions of this Agreement.
+
+    10.5 Any assignment or transfer under this Section shall be effective upon notice to the other party.
+
+    10.6 The rights and remedies of the Lender under this Agreement shall not be affected by any assignment or transfer of the Loan or any collateral securing the Loan.
+
+11. Notices
+
+    11.1 All notices, requests, demands, and other communications required or permitted under this Agreement shall be in writing and shall be deemed to have been duly given when delivered in person or sent by registered or certified mail, return receipt requested, postage prepaid, or by facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, to the following addresses:
+
+        - If to the Lender:
+            - USNV Barnett
+            - Attn: Elizabeth Hutchinson
+            - 2000 1st Street South
+            - Tallahassee, FL 32301
+            - Email: elizabethhutchinson@example.net
+            - Phone: (850) 477-3344 x0722
+
+        - If to the Borrower:
+            - South Kimberlybury
+            - Attn: William Smith
+            - Email: william69@example.com
+            - Phone: (752) 732-5433 x68829
+
+    11.2 Either party may change its address for the giving of notice by giving notice of such change to the other party in accordance with this Section.
+
+    11.3 Any party may give notice to the other party by personal delivery, by registered or certified mail, return receipt requested, postage prepaid, or by facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, at any time during normal business hours of the recipient.
+
+    11.4 If notice is given by personal delivery, it shall be deemed to have been given on the date of delivery. If notice is given by registered or certified mail, it shall be deemed to have been given three (3) days after the date of mailing. If notice is given by facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, it shall be deemed to have been given on the date of transmission.
+
+    11.5 If the day on which any notice is to be given is not a Business Day, then the notice shall be deemed to have been given on the next Business Day.
+
+    11.6 All notices given under this Agreement shall be addressed to the parties at the addresses set forth in Section 11.1, or to such other address as a party may have specified by notice in accordance with this Section.
+
+    11.7 In the event that any notice is given under this Agreement by facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, the sender shall promptly confirm receipt of the notice by the recipient by written confirmation.
+
+    11.8 Any party may, by written notice to the other party, require that all notices under this Agreement be given in a specified manner, and any such requirement shall be effective upon receipt of the notice.
+
+    11.9 This Section shall not affect any other means of giving notice provided by law.
+
+12. Governing Law
+
+This Agreement shall be governed by and construed in accordance with the laws of North Crystalland, Falkland Islands (Malvinas), without giving effect to any choice of law provision or conflict of law provisions that would require the application of the laws of any other jurisdiction. The parties hereby irrevocably submit to the exclusive jurisdiction of the courts of North Crystalland, Falkland Islands (Malvinas) for the resolution of any disputes arising out of or in connection with this Agreement.
+
+The parties agree that service of any legal process in connection with any such dispute may be effected by personal delivery, registered or certified mail, facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, at any time during normal business hours of the recipient.
+
+13. Miscellaneous Provisions
+
+13.1 This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior negotiations, understandings, and agreements between the parties, whether written or oral.
+
+13.2 No modification, amendment, or waiver of any provision of this Agreement shall be effective unless in writing and signed by the party against whom enforcement of such modification, amendment, or waiver is sought.
+
+13.3 If any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions of this Agreement shall remain in full force and effect.
+
+13.4 This Agreement may not be assigned by either party without the prior written consent of the other party, except that USNV Barnett may assign its rights and obligations under this Agreement to any affiliate or successor in interest without the Borrower's consent.
+
+13.5 This Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and permitted assigns.
+
+13.6 The headings in this Agreement are for convenience only and shall not affect the interpretation of this Agreement.
+
+13.7 The parties acknowledge that they have required and shall require the execution of this Agreement as a condition to entering into any loan agreement or any other agreement related to the subject matter hereof.
+
+13.8 The parties have participated jointly in the negotiation and drafting of this Agreement. In the event an ambiguity or question of intent or interpretation arises, this Agreement shall be construed as if drafted jointly by the parties and no presumption or burden of proof shall arise favoring or disfavoring any party by virtue of the authorship of any provision of this Agreement.
+
+13.9 The Borrower acknowledges that it has had the opportunity to seek independent legal advice and has executed this Agreement voluntarily and without duress or coercion.
+
+13.10 The parties agree that this Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+13.11 The parties agree that facsimile, email, or other electronic transmission of signed copies of this Agreement shall be deemed to constitute original execution of this Agreement for all purposes.
+
+13.12 The parties confirm that they have read and understood this Agreement, that they are executing this Agreement voluntarily, and that they have been given a reasonable opportunity to consult with legal counsel prior to executing this Agreement.
+
+13.13 The parties acknowledge that they have had the opportunity to ask questions and receive explanations regarding the terms and conditions of this Agreement, and that they fully understand the terms and conditions of this Agreement.
+
+13.14 The parties further acknowledge that they have executed this Agreement as of the date first above written, and that they have done so with full knowledge of its contents, and that they have signed this Agreement freely and voluntarily, without any duress or undue influence on the part of any other person or entity.
+
+13.15 The parties agree that the original of this Agreement, which contains the signatures of the parties, shall be kept in the files of USNV Barnett and shall be the controlling copy of this Agreement.
+
+13.16 The parties agree that any questions concerning the construction, validity, enforcement, or interpretation of this Agreement shall be submitted to a mutually agreed upon mediator for resolution.
+
+13.17 The parties agree that any dispute arising out of or relating to this Agreement that cannot be resolved through mediation shall be resolved by binding arbitration in accordance with the rules of the International Centre for Dispute Resolution. The arbitration shall take place in North Crystalland, Falkland Islands (Malvinas), and the parties agree to be bound by the arbitrator's decision.
+
+13.18 The parties agree that the prevailing party in any arbitration or litigation arising out of or relating to this Agreement shall be entitled to recover its reasonable attorneys' fees and costs from the non-prevailing party.
+
+13.19 The parties agree that this Agreement may not be terminated except in accordance with the provisions of this Agreement.
+
+13.20 The parties agree that any notice required or permitted under this Agreement may be given by facsimile transmission, email, or any other means of electronic transmission with confirmation of delivery, at any time during normal business hours of the recipient.
+
+13.21 The parties agree that this Agreement may be executed in multiple counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+13.22 The parties agree that the terms of this Agreement may not be modified, amended, or waived except in writing and signed by the party against whom enforcement of such modification, amendment, or waiver is sought.
+
+13.23 The parties agree that this Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and permitted assigns.
+
+13.24 The parties agree that this Agreement shall be governed by and construed in accordance with the laws of North Crystalland, Falkland Islands (Malvinas), without giving effect to any choice of law provision or conflict of law provisions that would require the application of the laws of any other jurisdiction.
+
+13.25 The parties agree that any dispute arising out of or in connection with this Agreement shall be subject to the exclusive jurisdiction of the courts of North Crystalland, Falkland Islands (Malvinas).
+
+14. Signatures
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first above written.
+
+______________________________
+USNV Barnett
+By: _______________________
+Its: _______________________
+
+______________________________
+South Kimberlybury
+By: _______________________
+Its: _______________________
+
+-  DOCSTART -
+
+1. Agreement Heading
+
+Golden Eagle Capital LLC, as Lender, ABC Corporation, as Borrower, and ABC Guaranty Inc., as Guarantor, hereby agree to the terms and conditions set forth herein with respect to the Loan Agreement, dated as of September 20, 2003, in the jurisdiction of Delaware, United States of America.
+
+2. Parties
+
+Golden Eagle Capital LLC, a limited liability company organized and existing under the laws of the State of Delaware, with its principal place of business located at 99251 Tucker Crescent, SD 75759, United States of America, hereinafter referred to as the "Lender". ABC Corporation, a corporation organized and existing under the laws of the State of New York, with its principal place of business located at USNS Thompson, FPO AP 50738, United States of America, hereinafter referred to as the "Borrower" agree as follows:
+
+2. Parties
+
+(a) The Lender is a lender and the Borrower is a borrower under this Agreement.
+
+(b) The Lender and the Borrower are collectively referred to as the "Parties."
+
+(c) The Guarantor is a guarantor of the Borrower's obligations under this Agreement.
+
+3. Guarantor
+
+(a) The Guarantor, ABC Guaranty Inc., hereby agrees to guarantee the due and punctual payment of all amounts owed by the Borrower under this Agreement.
+
+(b) The Guarantor acknowledges and agrees that it is liable for all amounts owed by the Borrower under this Agreement, whether or not the Borrower is in default.
+
+(c) The Guarantor further agrees to indemnify and hold harmless the Lender from any loss, damage, or expense that the Lender may incur as a result of any default by the Borrower under this Agreement.
+
+(d) The Guarantor's obligations under this Agreement shall be joint and several with those of the Borrower.
+
+(e) The Guarantor's obligations under this Agreement shall survive the termination or expiration of this Agreement.
+
+(f) The Guarantor represents and warrants that it has the legal capacity, power, and authority to enter into this Agreement and to perform its obligations hereunder.
+
+(g) The Guarantor's obligations under this Agreement shall be binding upon its successors and assigns.
+
+(h) The Guarantor shall promptly notify the Lender of any change in its contact information.
+
+4. Loan Terms
+
+(a) Loan Purpose. The Lender shall make a loan to the Borrower in the principal amount of One Million United States Dollars (US$1,000,000) (the "Loan Amount") for the purpose of capital expenditure for the acquisition of machinery and equipment.
+
+(b) Interest Rate. The Loan shall bear interest at the rate of twelve percent (12%) per annum, calculated on the basis of a 360-day year, and payable quarterly in arrears.
+
+(c) Repayment Schedule. The Borrower shall make quarterly repayments of the Loan Amount, together with interest thereon, over a period of five (5) years, commencing on the date that is three (3) months following the Agreement Date.
+
+5. Definitions
+
+(a) "Borrower" means ABC Corporation, a corporation duly organized and existing under the laws of the jurisdiction of its incorporation, with its principal place of business at the address set forth in the Contact Information section of this Agreement.
+
+(b) "Guarantor" means ABC Guaranty Inc., a corporation duly organized and existing under the laws of the jurisdiction of its incorporation, with its principal place of business at the address set forth in the Contact Information section of this Agreement.
+
+(c) "Lender" means Golden Eagle Capital LLC, a limited liability company duly organized and existing under the laws of the jurisdiction of its incorporation, with its principal place of business at the address set forth in the Contact Information section of this Agreement.
+
+(d) "Agreement Date" means September 20, 2003.
+
+(e) "Loan Amount" means the principal amount of One Million United States Dollars (US$1,000,000) to be loaned by the Lender to the Borrower for the purpose of capital expenditure for the acquisition of machinery and equipment, as set forth in Section 4(a) of this Agreement.
+
+(f) "Interest Rate" means the annual interest rate of twelve percent (12%) on the Loan Amount, as set forth in Section 4(b) of this Agreement.
+
+(g) "Repayment Schedule" means the schedule for the quarterly repayments of the Loan Amount and interest thereon over a period of five (5) years, as set forth in Section 4(c) of this Agreement.
+
+6. Representations and Warranties
+
+(a) The Borrower represents and warrants to the Lender that:
+
+    (i) It is a corporation duly organized, validly existing and in good standing under the laws of the jurisdiction of its incorporation;
+
+    (ii) It has full power and authority to enter into and perform its obligations under this Agreement;
+
+    (iii) The execution, delivery and performance of this Agreement by the Borrower have been duly authorized by all necessary action on its part;
+
+    (iv) This Agreement has been duly executed and delivered by the Borrower and constitutes the legal, valid and binding obligation of the Borrower, enforceable against the Borrower in accordance with its terms;
+
+    (v) The Loan Purpose is a lawful purpose and the Loan Amount will be used solely for the capital expenditure for the acquisition of machinery and equipment;
+
+    (vi) There is no legal, administrative or arbitral proceeding pending or, to the best of its knowledge, threatened against the Borrower that could materially and adversely affect the financial condition, results of operations, business or assets of the Borrower.
+
+(b) The Guarantor represents and warrants to the Lender that:
+
+    (i) It is a corporation duly organized, validly existing and in good standing under the laws of the jurisdiction of its incorporation;
+
+    (ii) It has full power and authority to enter into and perform its obligations under this Agreement;
+
+    (iii) The execution, delivery and performance of this Agreement by the Guarantor have been duly authorized by all necessary action on its part;
+
+    (iv) This Agreement has been duly executed and delivered by the Guarantor and constitutes the legal, valid and binding obligation of the Guarantor, enforceable against the Guarantor in accordance with its terms;
+
+    (v) It is the parent company of the Borrower;
+
+    (vi) It has reviewed this Agreement and the transactions contemplated hereby and is fully familiar with the terms and conditions hereof;
+
+    (vii) It is solvent and has sufficient assets to meet its obligations under this Agreement;
+
+    (viii) There is no legal, administrative or arbitral proceeding pending or, to the best of its knowledge, threatened against the Guarantor that could materially and adversely affect the financial condition, results of operations, business or assets of the Guarantor.
+
+(c) The Lender represents and warrants to the Borrower and the Guarantor that:
+
+    (i) It is a limited liability company duly organized, validly existing and in good standing under the laws of the jurisdiction of its incorporation;
+
+    (ii) It has full power and authority to enter into and perform its obligations under this Agreement;
+
+    (iii) The execution, delivery and performance of this Agreement by the Lender have been duly authorized by all necessary action on its part;
+
+    (iv) This Agreement has been duly executed and delivered by the Lender and constitutes the legal, valid and binding obligation of the Lender, enforceable against the Lender in accordance with its terms;
+
+    (v) It is acting solely in its capacity as a lender in connection with this Agreement and has no other relationship with the Borrower or the Guarantor.
+
+7. Security
+
+(a) As security for the performance of the Borrower's obligations under this Agreement, the Borrower hereby grants to the Lender a first priority security interest in all of the Borrower's present and after-acquired property, including, without limitation, all machinery and equipment acquired with the proceeds of the Loan.
+
+(b) The Borrower shall execute and deliver to the Lender such additional documents and take such further actions as the Lender may reasonably request to perfect, maintain, protect, and enforce its security interest under this Agreement.
+
+(c) The Guarantor hereby agrees to be bound by the security interest granted by the Borrower to the Lender under this Agreement and waives any rights it may have under the laws of the jurisdiction of its incorporation with respect to such security interest.
+
+(d) The Borrower shall maintain, keep insured, and promptly pay all premiums in respect of all insurance policies required by the Lender to secure the Loan and its repayment.
+
+(e) The Borrower shall keep the Lender informed of the location of all collateral securing the Loan and shall afford the Lender reasonable access to such collateral during normal business hours.
+
+(f) In the event of a default by the Borrower under this Agreement, the Lender shall have the right to take possession of the collateral, sell the same, and apply the proceeds of such sale to the satisfaction of the Loan and its accrued interest.
+
+(g) The Borrower shall not, without the prior written consent of the Lender, encumber, pledge, or otherwise dispose of any of the collateral securing the Loan. Any such encumbrance, pledge, or disposition shall be void and unenforceable against the Lender.
+
+8. Interest and Fees
+
+The Borrower shall pay interest on the outstanding principal balance of the Loan at a rate of twelve percent (12%) per annum, calculated on a 360-day year basis, and payable quarterly in arrears. The first interest payment shall be due on the date that is three (3) months after the Agreement Date.
+
+The Lender shall be entitled to charge a fee of up to one percent (1%) of the original principal amount of the Loan for the costs and expenses incurred in connection with the origination of the Loan. This fee shall be payable at the time of disbursement of the Loan.
+
+The Borrower shall also be responsible for all other fees and expenses incurred by the Lender in connection with the Loan, including, but not limited to, legal fees, appraisal fees, and other out-of-pocket expenses. These fees and expenses shall be payable as incurred.
+
+9. Default and Remedies
+
+(a) The Borrower shall be in default under this Agreement if it fails to make any payment when due, or if it breaches any of its other material obligations under this Agreement.
+
+(b) Upon the occurrence of an event of default, the Lender shall have the right to declare all amounts outstanding under this Agreement immediately due and payable.
+
+(c) In the event of a default by the Borrower, the Lender shall have the right to take possession of the collateral, sell the same, and apply the proceeds of such sale to the satisfaction of the Loan and its accrued interest.
+
+(d) The Lender may also, in its sole discretion, pursue any other remedies available to it under applicable law, including, but not limited to, commencing a lawsuit against the Borrower or the Guarantor.
+
+(e) The rights and remedies of the Lender under this Agreement are cumulative and not exclusive, and the Lender may pursue any one or more of such rights and remedies concurrently or sequentially, as it deems appropriate.
+
+(f) The Borrower shall be liable for all reasonable costs, expenses, and attorneys' fees incurred by the Lender in connection with any enforcement of its rights under this Agreement, including, but not limited to, the costs and expenses of repossessing and selling the collateral.
+
+(g) The Borrower shall not, without the prior written consent of the Lender, encumber, pledge, or otherwise dispose of any of the collateral securing the Loan during the period of default. Any such encumbrance, pledge, or disposition shall be void and unenforceable against the Lender.
+
+(h) The Borrower shall promptly notify the Lender in writing upon the occurrence of any event of default. The Borrower's failure to give such notice shall not affect the Lender's rights or remedies under this Agreement.
+
+10. Miscellaneous Provisions
+(a) Entire Agreement. This Agreement constitutes the entire understanding and agreement between the parties with respect to the subject matter hereof and supersedes all prior and contemporaneous agreements, understandings, and communications, whether written or oral, relating to the subject matter hereof.
+
+(b) Amendments. This Agreement may be amended or modified only by a written instrument executed by both parties.
+
+(c) Assignment. The Borrower may not assign or transfer any of its rights or obligations under this Agreement without the prior written consent of the Lender. Any attempted assignment or transfer in violation of this Section shall be void and unenforceable.
+
+(d) Successors and Assigns. The provisions of this Agreement shall bind and inure to the benefit of the respective heirs, executors, administrators, successors, and assigns of the parties.
+
+(e) Notices. All notices, requests, demands, and other communications required or permitted under this Agreement shall be in writing and shall be deemed to have been duly given when delivered in person or sent by registered or certified mail, postage prepaid, or by facsimile transmission (with confirmation of transmission) to the parties at the addresses set forth in Section 2 or to such other address as any party may designate by written notice to the other parties.
+
+(f) Waiver. No failure or delay by either party in exercising any right, power, or privilege under this Agreement shall operate as a waiver thereof nor shall any single or partial exercise thereof preclude any other or further exercise thereof or the exercise of any other right, power, or privilege.
+
+(g) Severability. If any provision of this Agreement is held to be invalid, illegal, or unenforceable in any respect, such provision shall be ineffective only to the extent of such invalidity, illegality, or unenforceability, without affecting the validity, legality, or enforceability of the remaining provisions.
+
+(h) Counterparts. This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+(i) Governing Law. This Agreement shall be governed by and construed in accordance with the laws of Laurenberg, Belarus, without giving effect to its conflict of laws principles.
+
+(j) Binding Effect. This Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
+
+(k) Headings. The headings in this Agreement are for convenience only and shall not affect the construction or interpretation of this Agreement.
+
+11. Governing Law
+
+This Agreement shall be governed by and construed in accordance with the laws of Laurenberg, Belarus, without giving effect to its conflict of laws principles.
+
+12. Signatures
+
+The Borrower and the Guarantor have executed this Agreement as of the Agreement Date. The Lender has executed this Agreement as of the date first written below. In witness whereof, the parties have executed this Agreement as of the date first written above.
+
+Golden Eagle Capital LLC
+-----------------------------------
+By: ___________________________
+Name: ___________________________
+Title: ___________________________
+
+ABC Corporation
+-----------------------------------
+By: ___________________________
+Name: ___________________________
+Title: ___________________________
+
+ABC Guaranty Inc.
+-----------------------------------
+By: ___________________________
+Name: ___________________________
+Title: ___________________________
+
+- DOCSTART -
+
+1. Introduction
+
+This agreement is made on the 23rd day of February, 2022, in Alexanderborough, Jordan, between Alexander Financial Group (hereinafter referred to as the "Lender") and Kristyside Enterprises Inc (hereinafter referred to as the "Borrower"). The Lender agrees to lend a sum of money to the Borrower for the purpose of capital expenditure for the expansion of a manufacturing plant. The parties have agreed to the terms and conditions set forth herein.
+
+2. Preamble
+The Lender and the Borrower have entered into this agreement in light of the following:
+
+(a) The Borrower requires a loan to finance the capital expenditure for the expansion of a manufacturing plant;
+
+(b) The Lender is willing to lend the funds necessary for the Borrower's purposes;
+
+(c) The parties have agreed to the terms and conditions set forth in this agreement;
+
+(d) This agreement is entered into on the 23rd day of February, 2022, in Alexanderborough, Jordan.
+
+3. Parties
+(a) The Lender: Alexander Financial Group, a corporation duly organized and existing under the laws of [Jurisdiction], having its principal place of business at [Lender's address].
+
+(b) The Borrower: Kristyside Enterprises Inc, a corporation duly organized and existing under the laws of [Jurisdiction], having its principal place of business at [Borrower's address].
+
+The Lender and the Borrower are the parties to this agreement. The Lender is lending the funds to the Borrower, and the Borrower is borrowing the funds from the Lender.
+
+4. Definitions
+(a) "Agreement" means this Loan Agreement, dated as of the Agreement Date, between the Lender and the Borrower.
+
+(b) "Agreement Date" means February 23, 2022.
+
+(c) "Borrower" means Kristyside Enterprises Inc, a corporation duly organized and existing under the laws of [Jurisdiction], having its principal place of business at [Borrower's address].
+
+(d) "Lender" means Alexander Financial Group, a corporation duly organized and existing under the laws of [Jurisdiction], having its principal place of business at [Lender's address].
+
+(e) "Interest Rate" means the annual interest rate of 12% on the Outstanding Principal Amount.
+
+(f) "Outstanding Principal Amount" means the total amount of the Loan that remains unpaid, including any accrued and unpaid interest, at any given time.
+
+(g) "Loan" means the loan made by the Lender to the Borrower for the purpose of capital expenditure for the expansion of a manufacturing plant, in accordance with the terms and conditions of this Agreement.
+
+(h) "Repayment Terms" means monthly repayments for 5 years, with a grace period of 3 months.
+
+5. Representations and Warranties
+(a) The Lender represents and warrants to the Borrower that:
+
+    (i) It has the full right, power, and authority to enter into this Agreement and to perform its obligations hereunder.
+
+    (ii) This Agreement has been duly executed and delivered by it and, assuming the due authorization, execution, and delivery by the Borrower, constitutes a legal, valid, and binding obligation of it, enforceable against it in accordance with its terms, except as enforcement may be limited by applicable bankruptcy, insolvency, reorganization, moratorium, or similar laws affecting creditors' rights generally.
+
+    (iii) The execution, delivery, and performance of this Agreement by the Lender do not and will not violate any agreement to which it is a party or by which it is bound, or any law, rule, regulation, order, judgment, or decree applicable to it.
+
+(b) The Borrower represents and warrants to the Lender that:
+
+    (i) It has the full right, power, and authority to enter into this Agreement and to perform its obligations hereunder.
+
+    (ii) This Agreement has been duly executed and delivered by it and, assuming the due authorization, execution, and delivery by the Lender, constitutes a legal, valid, and binding obligation of it, enforceable against it in accordance with its terms, except as enforcement may be limited by applicable bankruptcy, insolvency, reorganization, moratorium, or similar laws affecting creditors' rights generally.
+
+    (iii) The information provided in this Agreement, including but not limited to the Loan Purpose, is true, accurate, and complete in all material respects as of the date hereof.
+
+    (iv) The execution, delivery, and performance of this Agreement by the Borrower do not and will not violate any agreement to which it is a party or by which it is bound, or any law, rule, regulation, order, judgment, or decree applicable to it.
+
+(c) Each party represents and warrants to the other that it has exercised its own independent judgment with respect to this Agreement and has not relied on any representations, warranties, or statements made by the other party or any of its affiliates, agents, or representatives, except as specifically set forth in this Agreement.
+
+6. Covenants
+(a) The Borrower covenants and agrees to the following:
+
+    (i) To use the Loan proceeds solely for the Loan Purpose and not for any other purpose.
+
+    (ii) To maintain sufficient liquidity during the Loan Term to meet its obligations under this Agreement.
+
+    (iii) To maintain accurate and complete financial records and to make them available to the Lender upon request.
+
+    (iv) To notify the Lender promptly of any material adverse change in its financial condition, business, or operations.
+
+    (v) To comply with all applicable laws, rules, regulations, orders, judgments, or decrees in connection with the Loan and the Loan Purpose.
+
+(b) The Lender covenants and agrees to the following:
+
+    (i) To provide the Loan proceeds to the Borrower in accordance with the terms of this Agreement.
+
+    (ii) To not unreasonably withhold consent to any proposed action of the Borrower that is consistent with the Loan Purpose and not materially adverse to the Lender's interests.
+
+    (iii) To not accelerate the repayment of the Loan, except in the event of a default under this Agreement.
+
+(c) The parties acknowledge and agree that the covenants set forth in this Section are material to the Lender's decision to enter into this Agreement and to extend credit to the Borrower. The Borrower's breach of any of its covenants under this Section shall constitute an event of default under this Agreement.
+
+7. Interest and Fees
+
+(a) The Borrower shall pay interest on the outstanding principal balance of the Loan at the rate of twelve percent (12%) per annum, calculated on the basis of a 360-day year.
+
+(b) The Lender shall be entitled to charge a processing fee of five percent (5%) of the Loan amount, payable upon the disbursement of the Loan proceeds.
+
+(c) The Borrower shall also be responsible for any and all expenses incurred by the Lender in connection with the Loan, including but not limited to, legal fees, document preparation fees, and other out-of-pocket expenses. These expenses shall be added to the outstanding principal balance of the Loan and shall bear interest at the same rate as the Loan.
+
+(d) The Borrower shall pay all fees and expenses in U.S. dollars.
+
+(e) The Borrower shall make all payments due under this Agreement in accordance with the repayment terms set forth in Section 8 of this Agreement. Any late payment shall accrue interest at the rate of twelve percent (12%) per annum, calculated on the basis of a 360-day year, from the due date until the date of payment.
+
+(f) The Lender may charge a fee for any late payment, which shall be equal to five percent (5%) of the amount of the late payment. This fee shall be payable upon demand.
+
+(g) In the event of any default under this Agreement, the Lender may charge a reasonable attorney's fee and other reasonable costs and expenses incurred in enforcing its rights under this Agreement. These fees and expenses shall be added to the outstanding principal balance of the Loan and shall bear interest at the same rate as the Loan.
+
+8. Loan Term
+
+(a) The term of this Loan shall be five (5) years from the Agreement Date.
+
+(b) The Borrower shall make monthly repayments of the principal and interest for the duration of the Loan term, commencing three (3) months after the Agreement Date.
+
+(c) The maturity date of the Loan shall be the date on which the Borrower makes its final repayment in accordance with the repayment schedule.
+
+9. Default and Remedies
+
+(a) In the event of default by the Borrower under this Agreement, the Lender shall have the right to declare the entire outstanding principal balance of the Loan immediately due and payable.
+
+(b) Upon such declaration, the Borrower shall pay to the Lender all amounts then due and payable under this Agreement, including accrued and unpaid interest, fees, and expenses.
+
+(c) In the event of default, the Lender may exercise any of the following remedies:
+
+    (i) Foreclosure and sale of any collateral pledged by the Borrower to secure the Loan, in accordance with the terms of any security agreement between the parties.
+
+    (ii) Repossession and sale of any collateral, in the event that no security agreement has been executed.
+
+    (iii) Commencement of legal action against the Borrower to recover the outstanding principal balance, accrued interest, fees, and expenses.
+
+(d) The Borrower shall be responsible for all reasonable costs and expenses, including attorney's fees, incurred by the Lender in connection with any remedies exercised under this Section 9.
+
+(e) The Borrower shall not have any right to redeem or reinstate the Loan after default, except as may be expressly provided in this Agreement.
+
+(f) The rights and remedies provided to the Lender under this Section 9 shall be cumulative and not exclusive, and the Lender may pursue any or all of these remedies concurrently or sequentially.
+
+(g) The Lender's rights and remedies under this Section 9 shall survive any termination or expiration of this Agreement.
+
+10. Governing Law
+
+(a) This Agreement shall be governed by and construed in accordance with the laws of Alexanderborough, Jordan, without giving effect to its conflict of laws provisions.
+
+(b) Any action or proceeding arising out of or in connection with this Agreement shall be brought exclusively in the courts of Alexanderborough, Jordan, and the parties hereby irrevocably submit to the jurisdiction of such courts.
+
+(c) The parties acknowledge and agree that a judgment in any such action or proceeding shall be conclusive and may be enforced in any court of competent jurisdiction.
+
+(d) The parties shall bear their own costs and expenses in connection with any such action or proceeding, except as otherwise provided in this Agreement.
+
+(e) The failure of any party to assert any right or remedy under this Section 10 shall not constitute a waiver of such right or remedy, and no waiver of any provision of this Section 10 shall be effective unless in writing and signed by the party against whom enforcement of such waiver is sought.
+
+11. Miscellaneous Provisions
+
+(a) Confidentiality. The parties agree to keep confidential all non-public information disclosed by either party during the course of this Agreement, except as may be required by law or regulation.
+
+(b) Governing Language. This Agreement has been drafted in the English language. In the event of any discrepancy between the English language version and any translation of this Agreement, the English language version shall govern.
+
+(c) Assignment. Neither party may assign its rights or obligations under this Agreement without the prior written consent of the other party, except that the Lender may assign its rights and delegate its obligations to any affiliate or successor in interest.
+
+(d) Entire Agreement. This Agreement, together with any exhibits and schedules attached hereto, constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior and contemporaneous agreements, understandings, and negotiations, whether written or oral, relating to the same subject matter.
+
+(e) Amendment. This Agreement may be amended or modified only by a written instrument executed by both parties.
+
+(f) Counterparts. This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+(g) Binding Effect. This Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
+
+(h) Notices. All notices, requests, demands, and other communications required or permitted under this Agreement shall be in writing and shall be deemed duly given when delivered by hand, sent by registered or certified mail, postage prepaid, return receipt requested, or sent by reputable overnight courier service, addressed to the respective parties at the addresses set forth in Section 3 or to such other address as either party may designate by written notice to the other party.
+
+(i) Waiver. The failure of any party to assert any right or remedy under this Agreement shall not constitute a waiver of such right or remedy, and no waiver of any provision of this Agreement shall be effective unless in writing and signed by the party against whom enforcement of such waiver is sought.
+
+(j) Severability. If any provision of this Agreement is held by a court of competent jurisdiction to be invalid, illegal, or unenforceable, such provision shall be severed from this Agreement, and the remaining provisions shall remain in full force and effect.
+
+(k) Headings. The headings in this Agreement are for convenience only and shall not affect the construction or interpretation of this Agreement.
+
+12. Signatures
+
+This Agreement shall be executed by the parties hereto as follows:
+
+Alexander Financial Group:
+
+Name: ___________________________
+Title: ____________________________
+
+Kristyside Enterprises Inc:
+
+Name: ___________________________
+Title: ____________________________
+
+Each of the foregoing signatures shall constitute the binding obligation of the party executing the same.
+
+(m) Counterparts. This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+(n) Governing Law. This Agreement shall be governed by and construed in accordance with the laws of Alexanderborough, Jordan.
+
+(o) Binding Effect. This Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
+
+(p) Notices. All notices, requests, demands, and other communications required or permitted under this Agreement shall be in writing and shall be deemed duly given when delivered by hand, sent by registered or certified mail, postage prepaid, return receipt requested, or sent by reputable overnight courier service, addressed to the respective parties at the addresses set forth in Section 3 or to such other address as either party may designate by written notice to the other party.
+
+(q) Waiver. The failure of any party to assert any right or remedy under this Agreement shall not constitute a waiver of such right or remedy, and no waiver of any provision of this Agreement shall be effective unless in writing and signed by the party against whom enforcement of such waiver is sought.
+
+(r) Severability. If any provision of this Agreement is held by a court of competent jurisdiction to be invalid, illegal, or unenforceable, such provision shall be severed from this Agreement, and the remaining provisions shall remain in full force and effect.
+
+(s) Headings. The headings in this Agreement are for convenience only and shall not affect the construction or interpretation of this Agreement.
+
+(t) Signatures. The parties hereto have executed this Agreement as of the date first above written.
+
+(u) Alexander Financial Group:
+
+Address: ___________________________
+Email: briansanchez@example.com
+Phone: 806-330-1694x86299
+
+(v) Kristyside Enterprises Inc:
+
+Address: ___________________________
+Email: katelynhernandez@example.com
+Phone: (662)655-2544
+
+- DOCSTART -
+
+1. Agreement
+
+The Lender, Chadwick Lending Inc., and the Borrower, Anthony Enterprises Inc., hereby agree to the terms and conditions of this Loan Agreement, executed on the 1st day of July, 1991, in West Courtney, Somalia. This Agreement is entered into for the purpose of funding the Borrower's operations. The parties agree to the following terms:
+
+2. Recitals
+
+A. Borrower Requirements
+
+The Borrower, Anthony Enterprises Inc., is in need of capital to fund its operations.
+
+B. Lender's Willingness
+
+Chadwick Lending Inc., as the Lender, is willing to provide such capital to the Borrower.
+
+C. Agreement
+
+In light of the foregoing, the parties have agreed to enter into this Loan Agreement on the Agreement Date, with the intention that the Lender will lend funds to the Borrower, and the Borrower will repay the loan amount in accordance with the terms and conditions set forth herein.
+
+3. Definitions
+
+The following terms, as used in this Agreement, shall have the meanings set forth below:
+
+3.1 "Lender" shall mean Chadwick Lending Inc., a corporation organized and existing under the laws of the State of Delaware, with its principal place of business at 46455 Margaret View Suite 329, Christopherberg, RI 78460, and having its email address at chadwilson@example.net and its telephone number at (001) 815-743-0872x9395.
+
+3.2 "Borrower" shall mean Anthony Enterprises Inc., a corporation organized and existing under the laws of the State of New York, with its principal place of business at 663 David Meadows, Port Anthony, KS 39368, and having its email address at uoliver@example.com and its telephone number at (614) 525-0934x63273.
+
+3.3 "Agreement" shall mean this Loan Agreement dated July 1, 1991, between the Lender and the Borrower.
+
+3.4 "Jurisdiction" shall mean West Courtney, Somalia.
+
+3.5 "Loan Purpose" shall mean the funding of the Borrower's operations.
+
+3.6 "Interest Rate" shall mean an annual interest rate of 11%.
+
+3.7 "Repayment Terms" shall mean the Borrower's agreement to repay the loan amount in 5 years.
+
+4. Loan
+
+The Lender agrees to make a loan to the Borrower in the amount necessary to fund the Borrower's operations as of the Agreement Date, with the principal and interest to be repaid in accordance with the Repayment Terms. The Loan shall bear interest at a rate of 11% per annum, calculated on the basis of a 360-day year, and payable semi-annually in arrears. The Borrower shall make the first payment on the anniversary of the Agreement Date.
+
+5. Interest
+
+The Borrower agrees to pay interest on the loan amount at a rate of eleven percent (11%) per annum. The interest shall be calculated on a daily basis and shall be compounded annually. The Borrower shall pay the interest along with the principal amount on the due dates specified in Section 6 (Repayment).
+
+6. Repayment
+
+The Borrower, Anthony Enterprises Inc., agrees to repay the loan amount extended by Chadwick Lending Inc., together with interest at the rate of 11%, within a period of five (5) years from the Agreement Date of July 1, 1991, in West Courtney, Somalia. The repayment schedule shall be mutually agreed upon by the Parties. Any delay or failure to make timely repayment shall constitute a default under this Agreement.
+
+7. Security
+
+The Borrower grants to the Lender a security interest in all of its present and future assets, whether now owned or hereafter acquired, to secure the loan made hereunder. The Borrower agrees to execute and deliver such further instruments and to take such further action as the Lender may reasonably request to perfect, maintain, and enforce the security interest granted hereunder.
+
+In the event of the Borrower's default under this Agreement, the Lender shall have the right to sell, assign, transfer, or otherwise dispose of the collateral securing the loan, without further notice to the Borrower, and to apply the proceeds of such sale towards the payment of the outstanding loan amount, including accrued interest, costs, and expenses. The Borrower shall be responsible for paying any deficiency remaining after the application of the proceeds of such sale.
+
+The Borrower acknowledges and agrees that the security interest granted hereunder is a continuing security interest, and it shall continue in effect until the loan and all amounts owing under this Agreement have been fully repaid. The Borrower further agrees that the Lender may, from time to time, require the Borrower to furnish additional collateral to secure the loan, and the Borrower shall comply with such request promptly.
+
+The Borrower shall keep the Lender informed of the location and condition of the collateral securing the loan, and the Borrower shall permit the Lender, at any time, to inspect and examine the collateral and the books and records of the Borrower relating to the collateral. The Borrower shall also deliver to the Lender such additional documents and information as the Lender may reasonably request to perfect, maintain, and enforce the security interest granted hereunder.
+
+In the event of any conflict between the provisions of this Agreement and the provisions of any other agreement between the Parties, the provisions of this Agreement shall control with respect to the security interest granted hereunder.
+
+The Borrower hereby waives any right it may have under applicable law to exempt the collateral securing the loan from the Lender's claims and remedies with respect to the loan. The Borrower further agrees that the Lender may, at any time, without notice to the Borrower, take possession of the collateral securing the loan and sell, assign, transfer, or otherwise dispose of the collateral to satisfy the loan and any amounts owing under this Agreement.
+
+The Borrower shall not, without the prior written consent of the Lender, encumber, pledge, or otherwise dispose of any of the collateral securing the loan, or permit any lien or encumbrance to be placed upon any of the collateral, except as permitted by this Agreement. Any such encumbrance or disposition made in violation of this provision shall be void and unenforceable.
+
+8. Covenants
+
+The Borrower, Anthony Enterprises Inc., covenants and agrees that:
+
+8.1. It shall use the Loan proceeds solely for the purpose of funding its operations.
+
+8.2. It shall promptly notify the Lender of any material changes in its financial condition or business operations.
+
+8.3. It shall maintain accurate and complete financial records and make them available to the Lender upon request.
+
+8.4. It shall not, without the prior written consent of the Lender, incur any additional indebtedness or liens, create any security interests, or pledge any of its assets.
+
+8.5. It shall comply with all applicable laws, regulations, and ordinances in the conduct of its business.
+
+8.6. It shall keep the Lender informed of its financial condition and provide periodic financial statements.
+
+8.7. It shall not, without the prior written consent of the Lender, assign, transfer, or encumber any of its rights or obligations under this Agreement.
+
+8.8. It shall cooperate fully with the Lender in connection with any audit or review of its financial statements or operations.
+
+8.9. It shall pay all taxes, assessments, and other governmental charges that may be levied upon it, and shall keep all property of the Lender free and clear of any liens, encumbrances, or other claims.
+
+8.10. It shall perform all other acts and do all other things necessary or desirable to carry out the purposes of this Agreement.
+
+These covenants shall survive the repayment of the Loan.
+
+9. Default
+
+In the event that the Borrower fails to make any payment when due or otherwise breaches any of its covenants under this Agreement, the Lender shall have the right to declare all amounts owing under this Agreement immediately due and payable. Upon such declaration, the Borrower shall pay to the Lender interest on any unpaid amount at the rate of 11% per annum, from the date such amount became due until paid in full. The Lender may also, without limiting any other rights or remedies available to it, exercise any rights of set-off, counterclaim, recoupment, marshalling of assets or other legal or equitable remedies available to it under the laws of West Courtney, Somalia. The Borrower shall indemnify and hold harmless the Lender from and against any loss, damage, cost or expense (including reasonable attorneys' fees) incurred by the Lender as a result of such default.
+
+10. Indemnification
+
+    10.1 Lender shall indemnify, defend and hold harmless Borrower, its officers, directors, employees, agents and affiliates from and against any and all losses, liabilities, damages, costs, expenses (including reasonable attorneys' fees) arising out of or in connection with any claim, action, suit, or proceeding brought against Borrower by reason of any breach or alleged breach by Lender of any representation, warranty, covenant or agreement made by Lender in this Agreement.
+
+    10.2 Borrower shall indemnify, defend and hold harmless Lender, its officers, directors, employees, agents and affiliates from and against any and all losses, liabilities, damages, costs, expenses (including reasonable attorneys' fees) arising out of or in connection with any claim, action, suit, or proceeding brought against Lender by reason of any breach or alleged breach by Borrower of any representation, warranty, covenant or agreement made by Borrower in this Agreement.
+
+    10.3 The indemnification provided in this Section shall survive the termination or expiration of this Agreement.
+
+    10.4 Each indemnified party shall promptly notify the indemnifying party in writing of any claim, action, suit or proceeding of which it becomes aware, and shall allow the indemnifying party the right to assume the defense of such claim, action, suit or proceeding with counsel of its own choosing. The indemnified party shall cooperate fully with the indemnifying party in the defense of such claim, action, suit or proceeding.
+
+    10.5 The indemnifying party shall not be liable for any settlement of any claim, action, suit or proceeding effected without its written consent, which shall not be unreasonably withheld or delayed.
+
+    10.6 The indemnifying party shall have the right to participate in the defense of any claim, action, suit or proceeding.
+
+    10.7 The indemnification provided in this Section shall be in addition to, and not in lieu of, any other rights or remedies to which the indemnifying party may be entitled.
+
+    10.8 This Section shall be binding upon and inure to the benefit of the respective successors and assigns of the Parties.
+
+11. Governing Law
+
+This Loan Agreement shall be governed by the laws of West Courtney, Somalia.
+
+12. Signatures
+
+The Borrower, Anthony Enterprises Inc., and the Lender, Chadwick Lending Inc., hereby signify their acceptance of the terms of this Loan Agreement, executed on the Agreement Date of 1991-07-01 in West Courtney, Somalia.
+
+In witness whereof, the Parties have executed this Loan Agreement as of the Agreement Date.
+
+--------------------------------------------------------------------------------
+
+Borrower:
+
+Name: Anthony Enterprises Inc.
+Address: 663 David Meadows, Port Anthony, KS 39368
+Email: uoliver@example.com
+Phone: (614) 525-0934x63273
+
+--------------------------------------------------------------------------------
+
+Lender:
+
+Name: Chadwick Lending Inc.
+Address: 46455 Margaret View Suite 329, Christopherberg, RI 78460
+Email: chadwilson@example.net
+Phone: (001) 815-743-0872x9395
+
+- DOCSTART -
+
+1. Introduction
+
+The Lender and the Borrower hereby agree to enter into this Loan Agreement, effective as of January 16, 1973, with the following terms and conditions:
+
+1.1. The Lender, The First National Bank of Barbaraville, is willing to lend to the Borrower, The Kimstad Manufacturing Company, the sum of $10,000,000 for the purpose of funding the Borrower's expansion project.
+
+1.2. The Borrower shall repay the loan in accordance with the terms set forth herein, at an interest rate of 9% per annum, over a 30-year term with quarterly repayments.
+
+1.3. This Loan Agreement is governed by the laws of Svalbard & Jan Mayen Islands.
+
+1.4. The Parties acknowledge that this Loan Agreement constitutes the entire understanding and agreement between them regarding the subject matter hereof, and supersedes any prior negotiations, understandings, and agreements between them.
+
+1.5. The Parties further agree that this Loan Agreement may be amended or modified only in writing signed by both Parties.
+
+1.6. The Parties have executed this Loan Agreement as of the date first written above.
+
+2. Parties
+
+The First National Bank of Barbaraville, a bank duly incorporated under the laws of the State of California, with its principal place of business at 5902 Phillips Pines, Port Barbaraville, CA 33408, is hereinafter referred to as the "Lender."
+
+The Kimstad Manufacturing Company, a corporation duly organized and existing under the laws of the State of Rhode Island, with its principal place of business at 393 Simon Well Apt. 155, Kimstad, RI 06008, is hereinafter referred to as the "Borrower."
+
+3. Definitions
+
+- "Loan Amount" shall mean the principal amount of the loan extended by the Lender to the Borrower under this Agreement, in the amount of Twenty Million United States Dollars ($20,000,000).
+- "Interest Rate" shall mean the annual interest rate of 9% on the Loan Amount, as provided in Section 4.
+- "Repayment Term" shall mean the thirty (30) year term of this Agreement, with quarterly repayments.
+- "Expansion Project" shall mean the project described in the Loan Application submitted by the Borrower to the Lender on the Agreement Date, for the purpose of funding the Borrower's expansion.
+- "Lender's Counsel" shall mean the law firm of Jones & Jones, located at 123 Main Street, Barbaraville, CA 33408, or such other counsel as the Lender may designate in writing to the Borrower.
+- "Borrower's Counsel" shall mean the law firm of Carpenter & Carpenter, located at 456 Elm Street, Kimstad, RI 06008, or such other counsel as the Borrower may designate in writing to the Lender.
+- "Default" shall mean any event of default as defined in Section 9.
+- "Collateral" shall mean the assets pledged by the Borrower as security for the Loan Amount, as described in Section 8.
+- "Agreement Date" shall mean January 16, 1973.
+- "Notices" shall mean any written notices provided by either party to the other in accordance with Section 12.
+- "Governing Law" shall mean the laws of Svalbard & Jan Mayen Islands, as set forth in Section 11.
+
+4. Loan Terms
+
+The Lender shall provide a loan to the Borrower in the amount of Two Million Five Hundred Thousand US Dollars (USD 2,500,000) (the "Loan Amount") for the purpose of funding the Borrower's expansion project. The Loan Amount shall be disbursed in a single installment on the Agreement Date.
+
+The Borrower shall repay the Loan Amount, together with any accrued interest, in thirty (30) years, with quarterly repayments commencing on April 1, 1973. The interest rate on the Loan Amount shall be nine percent (9%) per annum, compounded quarterly.
+
+The Loan Amount shall be secured by the Collateral, as described in Section 8. The Borrower shall not, without the prior written consent of the Lender, create, incur, assume, or suffer to exist any lien, encumbrance, or security interest upon or with respect to any of the Collateral.
+
+The Borrower shall not, without the prior written consent of the Lender, sell, transfer, pledge, or otherwise dispose of, or create any lien, encumbrance, or security interest upon or with respect to, any of the Collateral. Any attempt by the Borrower to do so shall constitute an event of default under this Agreement.
+
+The Borrower shall keep the Collateral insured to the satisfaction of the Lender, at the Borrower's expense, against all risks of loss or damage, and shall promptly notify the Lender of any loss or damage to the Collateral.
+
+The Borrower shall pay all costs and expenses incurred by the Lender in connection with the Loan, including, without limitation, reasonable attorneys' fees and expenses.
+
+The Loan Amount may not be prepaid or repaid in whole or in part without the prior written consent of the Lender, except as provided in Section 10. Any prepayment of the Loan Amount shall be applied first to any accrued interest, and then to the principal amount of the Loan.
+
+The Loan Amount may be increased or decreased from time to time by mutual agreement of the Parties in writing. Any increase or decrease in the Loan Amount shall be evidenced by a written amendment to this Agreement, signed by both Parties.
+
+The Loan Amount may be advanced by the Lender to the Borrower from time to time, at the Lender's discretion, provided that any such advance shall be subject to the terms and conditions of this Agreement.
+
+The Borrower shall promptly deliver to the Lender such financial statements, reports, and other information as the Lender may reasonably request from time to time.
+
+The Borrower shall not, without the prior written consent of the Lender, incur any indebtedness in excess of Five Million US Dollars (USD 5,000,000).
+
+The Borrower shall not, without the prior written consent of the Lender, enter into any material contract or agreement with any third party, except in the ordinary course of business.
+
+The Borrower shall comply with all applicable laws and regulations in connection with the Loan and the Collateral.
+
+5. Representations and Warranties
+
+The Borrower represents and warrants to the Lender as follows:
+
+5.1. Authority. The Borrower has full power and authority to enter into this Agreement and to perform its obligations hereunder.
+
+5.2. Loan Purpose. The proceeds of the Loan will be used solely for the Expansion Project.
+
+5.3. No Conflicts. There are no legal or other impediments to the Borrower's execution and delivery of this Agreement or to the performance of its obligations hereunder.
+
+5.4. Financial Statements. The financial statements submitted to the Lender in connection with this Loan are true and accurate in all material respects.
+
+The Lender represents and warrants to the Borrower as follows:
+
+5.5. Authority. The Lender has full power and authority to enter into this Agreement and to perform its obligations hereunder.
+
+5.6. Loan Capacity. The Lender has the financial capacity to make the Loan and to perform its obligations hereunder.
+
+5.7. No Conflicts. There are no legal or other impediments to the Lender's execution and delivery of this Agreement or to the performance of its obligations hereunder.
+
+The Borrower and the Lender mutually represent and warrant that they have read this Agreement, understand its terms, and are entering into it voluntarily and without duress.
+
+6. Covenants
+
+6.1. Loan Use. The Borrower shall use the Loan proceeds solely for the Expansion Project and shall not divert or apply the Loan proceeds for any other purpose.
+
+6.2. Payments. The Borrower shall make the Loan payments in accordance with the repayment terms set forth in Section 4, and shall promptly notify the Lender of any changes in its financial condition or ability to make such payments.
+
+6.3. Financial Statements. The Borrower shall provide the Lender with accurate and complete financial statements and other information as required by the Lender from time to time, and shall maintain accurate and complete financial records in accordance with generally accepted accounting principles.
+
+6.4. Compliance with Laws. The Borrower shall comply with all applicable laws and regulations in connection with the Loan and the Expansion Project.
+
+6.5. No Liens. The Borrower shall not create any liens or encumbrances on any of its assets that would affect the Lender's security interest in the collateral.
+
+6.6. No Default. The Borrower shall not default under any of its other obligations or agreements, and shall promptly notify the Lender of any such default.
+
+6.7. No Bankruptcy. The Borrower shall not file for bankruptcy or insolvency, or take any action that would result in the appointment of a trustee, receiver, or similar agent for the Borrower or its assets.
+
+6.8. Cooperation. The Borrower shall cooperate with the Lender in connection with the Loan and the Expansion Project, and shall take such actions as the Lender may reasonably request to protect the Lender's interests.
+
+6.9. No Assignment. The Borrower shall not assign or transfer any of its rights or obligations under this Agreement without the prior written consent of the Lender.
+
+6.10. Notices. The Borrower shall promptly notify the Lender of any changes in its contact information.
+
+6.11. Indemnification. The Borrower shall indemnify, defend, and hold harmless the Lender from and against any and all losses, damages, liabilities, claims, actions, judgments, costs, and expenses (including reasonable attorneys' fees) arising out of or resulting from any breach of its covenants under this Agreement.
+
+6.12. Survival. The covenants contained in this Section shall survive the termination or expiration of this Agreement.
+
+7. Interest and Fees
+
+7.1 Interest. The Borrower shall pay interest on the outstanding principal balance of the Loan at the rate of nine percent (9%) per annum, compounded quarterly.
+
+7.2 Fees. The Borrower shall pay all fees and expenses incurred by the Lender in connection with the Loan, including, but not limited to, legal fees, document preparation fees, and administrative fees. Such fees shall be added to the outstanding principal balance of the Loan.
+
+7.3 Payment. The Borrower shall make quarterly payments, which shall include principal and interest, on the first day of January, April, July, and October of each year, commencing on January 1, 1973.
+
+7.4 Late Payments. If any payment is not made when due, the Borrower shall pay interest on the overdue amount at the rate of 18% per annum, compounded monthly, until the overdue amount is paid in full.
+
+7.5 Prepayment. The Borrower may prepay the Loan without penalty at any time. However, if the Borrower prepays the Loan within the first three (3) years, the Borrower shall pay all unamortized fees and expenses incurred by the Lender in connection with the Loan.
+
+8. Security
+
+8.1 Collateral. As security for the Loan, the Borrower grants to the Lender a security interest in all of the Borrower's present and future assets, including but not limited to, real estate, equipment, inventory, accounts receivable, and intangible property.
+
+8.2 Filing. The Borrower shall promptly execute and deliver to the Lender all documents and take all actions necessary or desirable to perfect, protect, and maintain the security interest granted under this Agreement, including filing financing statements as required by applicable law.
+
+8.3 Prior Liens. The Borrower represents and warrants that, except for any liens created by this Agreement, there are no liens, encumbrances, or security interests on the collateral.
+
+8.4 Right to Sell. The Lender shall have the right to sell, assign, or transfer the collateral, with or without notice to the Borrower, in the event of a default under this Agreement. The proceeds from such sale shall be applied to the payment of the outstanding Loan balance, including accrued interest, fees, and expenses.
+
+8.5 Remedies. The rights and remedies provided to the Lender under this section shall be in addition to any other rights and remedies available to the Lender under applicable law, including the right to foreclose on the collateral.
+
+8.6 Governing Law. The validity, construction, and enforcement of the security interest granted under this Agreement shall be governed by the laws of Svalbard & Jan Mayen Islands.
+
+9. Default
+
+9.1 Events of Default. The following events shall constitute an event of default under this Agreement:
+
+(a) failure by the Borrower to make any payment when due under the terms of this Agreement;
+
+(b) the Borrower's bankruptcy, insolvency, or assignment for the benefit of creditors;
+
+(c) the Borrower's failure to comply with any of the covenants set forth in Section 6;
+
+(d) any material breach by the Borrower of any representation or warranty made in Section 5;
+
+(e) the Borrower's failure to maintain adequate insurance as required by Section 8.
+
+9.2 Remedies. Upon the occurrence of an event of default, the Lender shall have the right to declare all amounts owing under this Agreement immediately due and payable, and to exercise any of its rights and remedies under applicable law, including the right to foreclose on the collateral.
+
+9.3 Acceleration. The Lender's election to declare all amounts owing under this Agreement immediately due and payable shall not constitute a waiver of any other rights or remedies available to the Lender under this Agreement or applicable law.
+
+9.4 Notice. The Lender shall provide the Borrower with written notice of any event of default and the Lender's intention to exercise its rights and remedies under this section. The notice shall be delivered to the Borrower's address as set forth in Section 12.
+
+9.5 Cure. The Borrower shall have thirty (30) days from receipt of the notice to cure the event of default. If the Borrower fails to cure the event of default within the thirty (30) day period, the Lender may exercise its rights and remedies under this section.
+
+9.6 Waiver. The Lender's failure to exercise or delay in exercising any right or remedy under this section shall not constitute a waiver of such right or remedy.
+
+10. Termination
+
+10.1 Mutual Agreement. This Agreement may be terminated at any time by mutual written agreement of the Parties.
+
+10.2 Event of Default. Upon the occurrence of an event of default, the Lender may terminate this Agreement by giving written notice to the Borrower.
+
+10.3 Acceleration. Upon termination of this Agreement, all amounts owed by the Borrower to the Lender, including principal, interest, fees, and expenses, shall become immediately due and payable.
+
+10.4 Surviving Provisions. The provisions of Sections 3, 5, 6, 7, 8, 9 (except for subsections 10.2 and 10.3), 11, 12, 13, and 14 shall survive the termination of this Agreement.
+
+10.5 Remedies. The termination of this Agreement shall not limit the Lender's rights and remedies with respect to any event of default that occurred prior to termination.
+
+10.6 Notice. Any notice of termination shall be delivered to the Borrower's address as set forth in Section 12.
+
+10.7 Effect of Termination. Upon termination of this Agreement, the security interests granted by the Borrower to the Lender shall be released, except to the extent necessary to secure any amounts owed by the Borrower to the Lender that have not been paid in full.
+
+11. Governing Law
+This Agreement shall be governed by and construed in accordance with the laws of the Svalbard & Jan Mayen Islands.
+
+Any disputes arising out of or in connection with this Agreement shall be subject to the exclusive jurisdiction of the courts of the Svalbard & Jan Mayen Islands.
+
+12. Notices
+(a) Any notice, request, demand, or other communication required or permitted to be given under this Agreement shall be in writing and shall be deemed to have been duly given when delivered by hand, sent by registered or certified mail, return receipt requested, postage prepaid, or sent by facsimile or email, to the address, facsimile number, or email address of the party to whom such notice is to be given as set forth below, or to such other address, facsimile number, or email address as such party may have specified by notice given in accordance with this Section 12:
+
+(i) If to the Lender, to:
+
+The First National Bank of Barbaraville
+5902 Phillips Pines
+Port Barbaraville, CA 33408
+Email: tonyamorse@example.net
+Facsimile: 4859976081
+
+(ii) If to the Borrower, to:
+
+The Kimstad Manufacturing Company
+393 Simon Well Apt. 155
+Kimstad, RI 06008
+Email: matthewcarpenter@example.net
+Facsimile: 329.827.7561x327
+
+(b) Each party shall be responsible for ensuring that its address, facsimile number, and email address for the purposes of this Section 12 are kept current.
+
+(c) Any party may change its address, facsimile number, or email address for the purposes of this Section 12 by giving notice of such change to the other party in the manner set forth in this Section 12.
+
+(d) Any party may deliver any notice, request, demand, or other communication required or permitted to be given under this Agreement by hand, by courier, or by any other method of delivery that provides written confirmation of receipt.
+
+(e) Any party may change its method of delivery for the purposes of this Section 12 by giving notice of such change to the other party in the manner set forth in this Section 12.
+
+(f) This Section 12 shall not affect any right of a party to serve process in any other manner permitted by law.
+
+(g) All notices, requests, demands, or other communications given in accordance with this Section 12 shall be deemed to have been received by the party to whom such notice is given:
+
+(h) The provisions of this Section 12 shall apply to any successor or assign of the Lender or the Borrower.
+
+13. Miscellaneous
+
+(a) This Agreement constitutes the entire understanding between the Parties with respect to the subject matter hereof and supersedes all prior agreements and understandings, whether written or oral, relating to the subject matter hereof.
+
+(b) This Agreement may be amended or modified only by a written instrument executed by both Parties.
+
+(c) The failure of either Party to exercise any right or remedy under this Agreement shall not constitute a waiver of such right or remedy, nor shall it preclude any further exercise of such right or remedy.
+
+(d) If any provision of this Agreement is held to be invalid or unenforceable, the remaining provisions of this Agreement shall remain in full force and effect.
+
+(e) The Lender may assign this Agreement or any of its rights or obligations hereunder without the consent of the Borrower. The Borrower may not assign this Agreement or any of its rights or obligations hereunder without the prior written consent of the Lender.
+
+(f) This Agreement shall be binding upon and inure to the benefit of the Parties and their respective successors and assigns.
+
+(g) This Agreement shall be governed by and construed in accordance with the laws of Svalbard & Jan Mayen Islands.
+
+(h) The Parties agree that any action, suit, or proceeding arising out of or relating to this Agreement shall be instituted in the courts of Svalbard & Jan Mayen Islands.
+
+(i) The Parties agree to execute and deliver all such further instruments, documents, and agreements as may be necessary or desirable to carry out the purposes and intent of this Agreement.
+
+(j) This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+(k) This Agreement shall be deemed to have been duly and validly executed and delivered by each Party hereto as of the date first above written.
+
+(l) The headings in this Agreement are for convenience of reference only and shall not affect the construction or interpretation of this Agreement.
+
+(m) Each Party acknowledges that it has read this Agreement, has had an opportunity to consult with its own legal counsel, and fully understands the terms, conditions, and consequences of this Agreement.
+
+14. Signatures
+
+In witness whereof, the parties have executed this Loan Agreement as of the date first above written.
+
+The First National Bank of Barbaraville
+By: _______________________________
+Name: _______________________________
+Title: _______________________________
+
+The Kimstad Manufacturing Company
+By: _______________________________
+Name: _______________________________
+Title: _______________________________
+
+This Loan Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+Facsimile or electronic signatures shall be deemed valid and binding for all purposes.
+
+This Loan Agreement, together with all exhibits, schedules, and other attachments hereto, constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior and contemporaneous agreements, representations, and understandings, whether written or oral, relating to such subject matter.
+
+No provision of this Loan Agreement may be amended, modified, or waived except by a written instrument executed by both parties.
+
+This Loan Agreement shall be binding upon and inure to the benefit of the parties and their respective successors and assigns.
+
+The Borrower acknowledges that it has read and understood the terms of this Loan Agreement, and that it is executing this Loan Agreement voluntarily and without coercion.
+
+- DOCSTART -
+
+1. Introduction
+
+This Agreement is made on the 22nd day of December, 1994, by and between Banco Santander S.A., a corporation duly organized and existing under the laws of Spain, with its principal place of business at 8135 Terri Lock Suite 767, North Stacy, NE 62207, and Andalusian Wind Energy, Inc., a corporation duly organized and existing under the laws of the United States of America, with its principal place of business at 0127 Katrina Passage, South Andrewburgh, WY 18423 (hereinafter collectively referred to as the "Parties" or individually as a "Party").
+
+The Lender and the Borrower hereby agree as follows:
+
+WHEREAS, the Borrower desires to construct wind energy farms in Spain, and the Lender is willing to extend credit to the Borrower to finance such construction;
+
+WHEREAS, the Parties wish to evidence their agreement in writing with respect to the terms and conditions of such loan;
+
+WHEREAS, the Parties acknowledge that this Agreement is being made in Spain, and that the laws of Spain shall govern the interpretation and enforcement of this Agreement;
+
+NOW, THEREFORE, in consideration of the mutual covenants, promises, and conditions contained herein, and for other good and valuable consideration, the receipt and sufficiency of which is hereby acknowledged, the Parties agree as follows:
+
+2. Parties
+
+Banco Santander S.A. (hereinafter "Lender") and Andalusian Wind Energy, Inc. (hereinafter "Borrower") are the parties to this Agreement.
+
+Lender, a corporation organized and existing under the laws of Spain, with its principal place of business located at 8135 Terri Lock Suite 767, North Stacy, NE 62207, robert58@example.com, (872)455-1921, is the lender of the loan contemplated by this Agreement.
+
+Borrower, a corporation organized and existing under the laws of the United States, with its principal place of business located at 0127 Katrina Passage, South Andrewburgh, WY 18423, qlogan@example.org, 001-907-263-0747x698, is the borrower of the loan contemplated by this Agreement.
+
+3. Lender
+
+Banco Santander S.A., as the Lender, agrees to lend the funds necessary for the Loan Purpose to the Borrower. The Lender shall have the right to demand and receive repayment of the loan in accordance with the terms and conditions of this Agreement. The Lender shall have the right to charge and receive interest on the outstanding principal balance of the loan at the rate of 3% per annum. The Lender shall have the right to charge and receive any and all fees and expenses incurred in connection with the loan, including but not limited to, legal fees, appraisal fees, and closing costs. The Lender shall have the right to demand and receive security for the loan in the form of a mortgage or other security interest in the Borrower's assets. The Lender shall have the right to take any and all actions necessary to protect its interest in the loan, including but not limited to, filing a lawsuit against the Borrower. The Lender shall have the right to accelerate the repayment of the loan if the Borrower defaults on any payment or breaches any of the terms and conditions of this Agreement. The Lender shall have the right to waive any of its rights under this Agreement, in whole or in part, at its sole discretion.
+
+4. Borrower
+
+The Borrower, Andalusian Wind Energy, Inc., acknowledges and agrees that it is a debtor in respect to the loan provided by the Lender, Banco Santander S.A., and that it shall repay the loan in accordance with the terms and conditions of this Agreement. The Borrower represents and warrants that it has the necessary authority, capacity, and financial resources to fulfill its obligations under this Agreement, and that it shall promptly make all payments required by the Agreement, including the monthly repayments of the principal and interest, starting on [date] for a duration of [duration] months. The Borrower shall also comply with all the covenants, conditions, and representations contained in this Agreement, and shall promptly notify the Lender of any changes in its financial condition, business, or other circumstances that may affect its ability to repay the loan. The Borrower agrees that in the event of any default or breach of this Agreement, the Lender shall have the right to take any and all actions necessary to protect its interest in the loan, including but not limited to, filing a lawsuit against the Borrower. The Borrower acknowledges that it is aware of the Lender's right to accelerate the repayment of the loan if it defaults on any payment or breaches any of the terms and conditions of this Agreement. The Borrower further acknowledges that the Lender shall have the right to waive any of its rights under this Agreement, in whole or in part, at its sole discretion.
+
+5. Loan Purpose
+
+The loan proceeds shall be used exclusively for the construction of wind energy farms in Spain. The Borrower represents and warrants that the loan proceeds shall be used solely for the loan purpose and for no other purpose. In the event that the Borrower uses the loan proceeds for any other purpose, the Borrower shall be in breach of this Agreement and shall be liable to the Lender for any damages resulting therefrom.
+
+6. Jurisdiction
+
+This Agreement shall be governed by and construed in accordance with the laws of Spain. Any disputes arising out of or in connection with this Agreement shall be subject to the exclusive jurisdiction of the courts of Spain. The Borrower hereby submits to the jurisdiction of such courts for the purpose of any proceedings in respect of this Agreement.
+
+7. Definitions
+
+DEFINITIONS:
+- "Agreement" means this Corporate Loan Agreement dated as of December 22, 1994, between Banco Santander S.A. and Andalusian Wind Energy, Inc.
+- "Borrower" means Andalusian Wind Energy, Inc.
+- "Lender" means Banco Santander S.A.
+- "Loan Purpose" means the construction of wind energy farms in Spain.
+- "Interest Rate" means 3%.
+- "Replayment Terms" means monthly payments of [amount] for [duration] months, starting [date].
+
+8. Representations and Warranties
+
+(a) Lender represents and warrants to Borrower that:
+
+   (i) Lender has the power and authority to enter into this Agreement and to perform its obligations hereunder; and
+   (ii) This Agreement has been duly executed and delivered by Lender and, assuming the due authorization, execution, and delivery by Borrower, constitutes the legal, valid, and binding obligation of Lender, enforceable against Lender in accordance with its terms.
+
+(b) Borrower represents and warrants to Lender that:
+
+   (i) Borrower has the power and authority to enter into this Agreement and to perform its obligations hereunder;
+   (ii) This Agreement has been duly executed and delivered by Borrower and, assuming the due authorization, execution, and delivery by Lender, constitutes the legal, valid, and binding obligation of Borrower, enforceable against Borrower in accordance with its terms;
+   (iii) Borrower is a corporation duly organized, validly existing, and in good standing under the laws of its jurisdiction of organization;
+   (iv) Borrower has full power and authority to own, lease, and operate the properties and assets necessary for the Loan Purpose;
+   (v) The execution, delivery, and performance by Borrower of this Agreement have been duly authorized by all necessary corporate action on the part of Borrower; and
+   (vi) There are no actions, suits, or proceedings pending or, to the best of Borrower's knowledge, threatened against Borrower that would materially and adversely affect the assets or financial condition of Borrower.
+
+Each party represents and warrants to the other that the statements made in this Agreement are true and correct in all material respects as of the date hereof. Each party agrees to indemnify, defend, and hold the other party harmless from any and all losses, damages, liabilities, claims, costs, and expenses, including reasonable attorneys' fees, arising out of or resulting from any breach or alleged breach of any of the representations and warranties made by it under this Agreement.
+
+9. Interest and Fees
+
+The Borrower shall pay interest on the outstanding principal balance of the Loan at the rate of 3% per annum, calculated on a 360-day year basis. The interest shall be payable monthly in arrears, together with any other fees or charges due under this Agreement. The Lender reserves the right to charge the Borrower any reasonable fees and expenses incurred in connection with the Loan, including, without limitation, legal fees, appraisal fees, and closing costs. The Borrower shall be responsible for the payment of all such fees and expenses.
+
+10. Termination
+
+Upon the occurrence of any of the following events, this Agreement may be terminated:
+
+a. Default by the Borrower in the payment of any amount due under this Agreement when due, or any other default under any of the terms, covenants or conditions of this Agreement;
+
+b. The Borrower becoming insolvent, making an assignment for the benefit of creditors, or filing a petition under any bankruptcy or insolvency law, or having a receiver or trustee appointed for it or any substantial part of its assets;
+
+c. The Borrower failing to perform any of its obligations under this Agreement and failing to cure such default within thirty (30) days after receipt of written notice from the Lender specifying the default and requiring it to be cured;
+
+d. The Borrower ceasing to conduct business in the ordinary course, or taking any action that would reasonably be expected to result in the termination of its business.
+
+In the event of termination, the Borrower shall immediately pay to the Lender all amounts then due and owing under this Agreement, including any unpaid principal, accrued and unpaid interest, and any fees or expenses incurred by the Lender in connection with the termination. The Borrower shall also deliver to the Lender all documents and property of the Lender then in its possession or control.
+
+11. Replayment Terms
+
+The Borrower shall repay the Loan in accordance with the following terms:
+
+(a) Monthly payments of [amount] shall be made by the Borrower to the Lender on the first day of each calendar month, starting [date].
+
+(b) Each payment shall consist of the following amounts:
+
+   (i) The principal amount of the Loan, which shall be repaid in [duration] equal monthly installments;
+
+   (ii) Interest on the outstanding principal balance of the Loan at the rate of 3% per annum, calculated on the basis of a 360-day year; and
+
+   (iii) Any fees or expenses incurred by the Lender in connection with the Loan.
+
+(c) If any payment due under this Agreement is not made when due, the Borrower shall pay to the Lender interest on the overdue amount at the rate of 5% per annum, calculated on the basis of a 360-day year, from the due date until the date of payment.
+
+(d) The Borrower may prepay all or any part of the Loan at any time without penalty, provided that the Borrower gives the Lender at least [duration] days' prior written notice of its intention to do so.
+
+(e) If the Borrower prepays the Loan, it shall pay to the Lender an amount equal to any unamortized fees and expenses incurred by the Lender in connection with the Loan.
+
+(f) If the Borrower fails to make any payment when due under this Agreement, the Lender may declare the entire outstanding principal balance of the Loan, together with all accrued and unpaid interest and fees, immediately due and payable.
+
+(g) The Borrower shall make all payments under this Agreement in United States Dollars.
+
+(h) All payments under this Agreement shall be made to the Lender's account at Banco Santander S.A., 8135 Terri Lock Suite 767, North Stacy, NE 62207, United States of America.
+
+(i) The Borrower shall provide the Lender with written evidence of each payment made under this Agreement, together with any other documentation reasonably requested by the Lender.
+
+(j) The Borrower shall not withhold, set off, counterclaim, or otherwise reduce any payment due under this Agreement on account of any claim, counterclaim, or offset that it may have against the Lender.
+
+(k) The Borrower shall pay all taxes, duties, fees, and other charges payable in connection with the Loan and this Agreement.
+
+(l) The Borrower shall not be entitled to any credit or set off in respect of any amounts owed to it by the Lender, except as may be expressly provided in this Agreement.
+
+(m) If any payment due under this Agreement is not made when due, the Lender may, without limiting any other remedies available to it, exercise any rights and remedies available to it under applicable law, including, without limitation, foreclosure, repossession, or setoff.
+
+12. Contact Information
+
+Banco Santander S.A.,
+8135 Terri Lock Suite 767,
+North Stacy, NE 62207,
+robert58@example.com,
+(872)455-1921
+
+Andalusian Wind Energy, Inc.,
+0127 Katrina Passage,
+South Andrewburgh, WY 18423,
+qlogan@example.org,
+001-907-263-0747x698
+
+13. Signatures
+
+13.1 The Lender and the Borrower hereby agree that this Agreement is binding upon them and each of their respective successors and assigns.
+
+13.2 The Lender and the Borrower acknowledge and agree that this Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+13.3 The Lender and the Borrower shall execute and deliver this Agreement by signing and delivering one or more counterparts of this Agreement, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+13.4 The Lender and the Borrower shall each cause this Agreement to be executed by an officer or other authorized representative of the party executing this Agreement.
+
+13.5 This Agreement may be executed and delivered by facsimile, electronic mail (including pdf or any electronic signature complying with the U.S. federal E-Sign Act of 2000, Uniform Electronic Transactions Act, or the Electronic Communications Privacy Act of 1986, as applicable) or any other transmission method and any facsimile, electronic mail or other transmission received by the other party shall be deemed to have the same legal effect as delivery of an original signed document.
+
+13.6 The date of this Agreement shall be the date on which the last counterpart of this Agreement is executed by both the Lender and the Borrower.
+
+13.7 In witness whereof, the parties have executed this Agreement as of the date first above written.
+
+Banco Santander S.A.
+
+By: _________________________
+Name: _______________________
+Title: _________________________
+
+Andalusian Wind Energy, Inc.
+
+By: _________________________
+Name: _______________________
+Title: _________________________
+
+- DOCSTART -
+
+
+1. Agreement Details
+
+This Agreement is made on the 14th day of February, 1977, in Vanuatu, between The Bank of Vanuatu (hereinafter referred to as the "Lender"), and Island Tech Inc. (hereinafter referred to as the "Borrower").
+
+The Lender has agreed to lend to the Borrower a sum of money in the amount of [LOAN AMOUNT], for the purpose of [LOAN PURPOSE].
+
+The Borrower acknowledges and agrees that this loan is subject to the terms and conditions set forth herein and in any other documents or agreements that may be executed in connection herewith.
+
+The Borrower shall repay the loan in accordance with the repayment terms set forth herein.
+
+This Agreement shall be governed by and construed in accordance with the laws of Vanuatu.
+
+In witness whereof, the parties have executed this Agreement as of the date first above written.
+
+2. Parties
+
+   2.1 The Bank of Vanuatu, a bank duly incorporated and existing under the laws of Vanuatu, with its principal place of business at 42869 Wright Tunnel Suite 517, West Brandi, HI 90859, hereinafter referred to as the "Lender."
+
+   2.2 Island Tech Inc., a corporation duly incorporated and existing under the laws of Vanuatu, with its principal place of business at 1777 Hayden Crest Suite 302, Butlerland, MI 86130, hereinafter referred to as the "Borrower."
+
+   The Lender and the Borrower are collectively referred to as the "Parties."
+
+   The Lender and the Borrower may each be referred to individually as a "Party."
+
+   The Lender and the Borrower have the authority to execute this Agreement.
+
+   The contact information for the Parties is as follows:
+
+   - The Bank of Vanuatu:
+      - Email: natashagiles@example.net
+      - Phone: +1-586-369-1667
+
+   - Island Tech Inc.:
+      - Email: garrettrachael@example.com
+      - Phone: 001-809-386-2893
+
+3. Loan Purpose
+
+The purpose of this loan is to provide funds to the Borrower, Island Tech Inc., for the expansion into new markets. The Borrower will use the loan proceeds solely for the intended purpose and will not use the funds for any other purpose without the prior written consent of the Lender.
+
+4. Interest and Fees
+
+   a. Interest Rate
+      The interest rate for this loan shall be 3% per annum, calculated on the daily balance of the outstanding principal amount.
+
+   b. Fees
+      The Borrower shall pay all fees and expenses incurred by the Lender in connection with this loan, including but not limited to, legal fees, document preparation fees, and any other fees as may be agreed upon by the parties in writing.
+
+   c. Late Payment Charges
+      If the Borrower fails to make any payment when due, the Borrower shall pay a late payment charge equal to 5% of the amount due, or the maximum rate allowed by law, whichever is less. The late payment charge shall accrue daily on any overdue amount until paid in full.
+
+5. Repayment Terms
+RESPONSE:
+a. Loan Amount and Installments
+   The Borrower shall repay the loan in equal monthly installments of [LOAN AMOUNT] divided by 60, commencing on the first day of the month following the date of this Agreement.
+
+b. Repayment Schedule
+   The repayment schedule shall be as follows:
+
+     1. Monthly Installment: [LOAN AMOUNT] divided by 60
+     2. Starting Date: [FIRST DATE OF REPAYMENT]
+     3. End Date: [LAST DATE OF REPAYMENT]
+
+c. Interest
+   In addition to the monthly installment, the Borrower shall pay interest on the outstanding principal balance at the rate of 3% per annum, calculated on a 360-day year basis.
+
+d. Payment Method
+   The Borrower shall make payments to the Lender at the following address:
+
+      The Bank of Vanuatu
+      42869 Wright Tunnel Suite 517, West Brandi, HI 90859
+
+   Payments shall be made by wire transfer or by check drawn on a bank located in the United States.
+
+e. Late Payments
+   If the Borrower fails to make any payment when due, the Borrower shall pay a late payment charge equal to 5% of the amount due, or the maximum rate allowed by law, whichever is less. The late payment charge shall accrue daily on any overdue amount until paid in full.
+
+f. Prepayment
+   The Borrower may prepay all or any portion of the loan without penalty. However, if the Borrower prepays more than [LOAN AMOUNT]/2 within the first 2 years, a prepayment fee equal to 2% of the prepaid amount shall be paid to the Lender.
+
+g. Default
+   If the Borrower defaults on any payment, the Lender may declare the entire outstanding balance of the loan immediately due and payable. In such case, the Lender may also exercise any rights and remedies available under this Agreement or applicable law.
+
+6. Security
+a. Collateral
+   As security for the loan, Borrower grants Lender a first priority lien on all of Borrower's assets, including but not limited to, accounts receivable, inventory, equipment, intellectual property, and real property located in Vanuatu, subject to the terms and conditions of this Agreement.
+
+b. Additional Security
+   Borrower agrees to execute such additional documents and provide such additional security as Lender may reasonably request to secure the loan.
+
+c. Right to Sell
+   In the event of default, Lender shall have the right to sell, assign, or otherwise dispose of any collateral to satisfy the outstanding balance of the loan, without being obligated to account to Borrower for any proceeds.
+
+d. Priority of Liens
+   If any of the collateral is subject to other liens, Borrower shall ensure that the lien granted to Lender under this Agreement shall have priority over such other liens.
+
+e. Perfection of Security
+   Lender shall perfect its security interest in the collateral by filing a financing statement in accordance with the Personal Property Security Act of Vanuatu.
+
+f. Change of Collateral
+   Borrower shall promptly notify Lender of any changes in the collateral or any other material changes that may affect the value or nature of the collateral.
+
+7. Termination
+SECTION TEXT:
+a. Default
+   If Borrower fails to make any payment when due, or breaches any other material provision of this Agreement, Lender may declare the entire outstanding principal and accrued interest immediately due and payable.
+
+b. Termination
+   Upon declaration of default, Lender may terminate this Agreement by giving written notice to Borrower. Upon termination, Borrower shall immediately cease using the loan proceeds and return all such proceeds to Lender.
+
+c. Consequences of Termination
+   In the event of termination, Borrower shall remain liable for all amounts due under this Agreement, including the outstanding principal, accrued interest, and any fees or expenses incurred by Lender in connection with the termination.
+
+d. Right to Offset
+   Lender shall have the right to set off any amounts owed by Borrower to Lender against any amounts owed by Lender to Borrower.
+
+e. Surviving Provisions
+   Sections 4 (Interest and Fees), 6 (Security), 7 (Termination), 8 (Confidentiality), 9 (Governing Law), and 10 (Dispute Resolution) shall survive the termination of this Agreement.
+
+f. Notices
+   Any notices given under this Agreement shall be in writing and delivered by hand, registered mail, or courier service, and shall be deemed to have been duly given when delivered.
+
+8. Confidentiality
+
+The Parties agree to keep confidential all non-public information relating to the terms of this Agreement, the negotiations leading to this Agreement, and the financial affairs of the other Party, except as may be required by law or court order. Each Party shall use reasonable efforts to prevent the unauthorized disclosure of such information. This obligation shall survive the termination of this Agreement.
+
+9. Governing Law
+
+This Agreement shall be governed by and construed in accordance with the laws of the Republic of Vanuatu. Any dispute arising out of or in connection with this Agreement shall be subject to the exclusive jurisdiction of the courts of Vanuatu.
+
+10. Dispute Resolution
+
+In the event of any dispute arising out of or in connection with this Agreement, the Parties shall first attempt to resolve such dispute through good faith negotiations. If the Parties are unable to resolve the dispute within thirty (30) days of the commencement of such negotiations, either Party may submit the dispute to mediation.
+
+The mediation shall be conducted by a mediator mutually agreed upon by the Parties or, if the Parties cannot agree upon a mediator, a mediator appointed by the Vanuatu International Arbitration Centre. The mediation shall be conducted in accordance with the Vanuatu International Arbitration Centre Mediation Rules.
+
+If the dispute is not resolved through mediation within thirty (30) days of the commencement of such mediation, either Party may submit the dispute to binding arbitration. The arbitration shall be conducted by a single arbitrator appointed by the Vanuatu International Arbitration Centre. The arbitration shall be conducted in accordance with the Vanuatu International Arbitration Centre Arbitration Rules.
+
+The decision of the arbitrator shall be final and binding upon the Parties and shall be enforceable in the courts of Vanuatu. The costs of the arbitration shall be borne equally by the Parties unless otherwise determined by the arbitrator.
+
+Each Party shall use reasonable efforts to cooperate with the other Party, the mediator, and the arbitrator in the resolution of any dispute. The Parties acknowledge and agree that the mediation and arbitration processes described herein are confidential and shall be conducted in accordance with the applicable rules and procedures. This obligation shall survive the termination of this Agreement.
+
+11. Signatures
+
+In witness whereof, the Parties have executed this Agreement as of the date first above written.
+
+The Bank of Vanuatu:
+
+______________________
+Name
+Title
+
+Island Tech Inc.:
+
+______________________
+Name
+Title
+
+This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+
+Faxed or emailed copies of executed counterparts shall be deemed to have the same legal effect as original executed counterparts.
+
+The Parties acknowledge and agree that the mediator and arbitrator may be appointed as set forth in Section 10.
+
+In the event of any conflict or inconsistency between the terms of this Agreement and any other agreements between the Parties, the terms of this Agreement shall govern.
+
+This Agreement, together with any amendments or modifications hereto, embodies the entire agreement and understanding of the Parties with respect to the subject matter hereof and supersedes all prior and contemporaneous agreements and understandings, whether written or oral, relating to the subject matter hereof.
+
+This Agreement shall be binding upon and inure to the benefit of the Parties and their respective successors and assigns.
+
+The Parties acknowledge and agree that the arbitration shall be borne equally by the Parties unless otherwise determined by the arbitrator.
+
+Each Party shall use reasonable efforts to cooperate with the other Party, the mediator, and the arbitrator in the resolution of any dispute. The Parties acknowledge and agree that the mediation and arbitration processes described herein are confidential and shall be conducted in accordance with the applicable rules and procedures. This obligation shall survive the termination of this Agreement.
+
+- DOCSTART -
+
+1. Introduction
+
+This Agreement is made on the 9th day of September, 1991, between The Bank of Cote d'Ivoire (hereinafter referred to as the "Lender") and XYZ Corporation (hereinafter referred to as the "Borrower"), with respect to a loan in the principal amount of [LOAN AMOUNT] (the "Loan"), to be used by the Borrower for the purpose of financing the expansion of its manufacturing facilities. The Lender agrees to make the Loan to the Borrower on the terms and conditions set forth herein.
+
+2. Parties
+
+The Lender and the Borrower, being the parties hereto, hereby agree as follows:
+
+2.1 The Lender:
+- is a bank duly incorporated and existing under the laws of Cote d'Ivoire;
+- is headquartered at 6266 Cook Hollow, Port Barbara, WV 43865;
+- is represented by Rebecca Smith, with email address rebecca95@example.net, phone number +1-578-219-7160;
+
+2.2 The Borrower:
+- is a corporation duly incorporated and existing under the laws of the United States of America;
+- is headquartered at 4161 Rebecca Mill, Taylorland, PR 59443;
+- is represented by Katherine Roberts, with email address katherineroberts@example.net, phone number +1-523-345-8498;
+
+2.3 The Borrower acknowledges that the Loan is being made to it for the purpose of financing the expansion of its manufacturing facilities, and the Borrower represents and warrants that it has the authority to enter into this Agreement and to use the Loan for the purpose stated herein.
+
+2.4 The Borrower further represents and warrants that it has no outstanding indebtedness to the Lender, and that it has no liens, charges, or encumbrances on its assets.
+
+2.5 The Borrower agrees to repay the Loan in monthly installments over a period of 5 years, at an interest rate of 11%.
+
+3. Loan Terms
+
+3.1 The Lender agrees to lend to the Borrower the sum of One Hundred Million United States Dollars (US$100,000,000) for the purpose of financing the expansion of the Borrower's manufacturing facilities.
+
+3.2 The Borrower will repay the Loan in monthly installments over a period of 5 years, starting on the first day of the month following the date of this Agreement (the "Loan Date").
+
+3.3 The interest rate on the Loan will be 11% per annum, calculated on a 360-day year.
+
+3.4 The first payment will be due on the first day of the month following the Loan Date, and will consist of the principal amount of the Loan, divided by 60, plus interest for the period from the Loan Date to the due date of the first payment. Subsequent payments will consist of the principal amount of the Loan, divided by 60, plus interest for the preceding month.
+
+3.5 The Borrower may prepay all or any part of the Loan at any time without penalty. However, if the Borrower prepays more than 25% of the Loan in any calendar year, it will be subject to a prepayment fee equal to 1% of the prepaid amount.
+
+3.6 The Loan will be governed by the laws of Cote d'Ivoire. Any disputes arising out of or in connection with this Agreement will be resolved by the courts of Cote d'Ivoire.
+
+3.7 The Borrower acknowledges and agrees that the Loan is a non-recourse loan, and that the Lender's sole remedy in the event of default by the Borrower will be to seek recovery of the outstanding principal and interest on the Loan from the assets of the Borrower pledged as security for the Loan (as described in Section 7).
+
+3.8 The Borrower represents and warrants that it has no outstanding indebtedness to the Lender, and that it has no liens, charges, or encumbrances on its assets, except for the security pledged for the Loan as described in Section 7.
+
+4. Definitions
+
+(a) "Agreement" means this Corporate Loan Agreement between The Bank of Cote d'Ivoire and XYZ Corporation dated as of September 9, 1991.
+
+(b) "Borrower" means XYZ Corporation.
+
+(c) "Lender" means The Bank of Cote d'Ivoire.
+
+(d) "Loan" means the loan made by the Lender to the Borrower in the principal amount of [amount] for the purpose of financing the expansion of the Borrower's manufacturing facilities.
+
+(e) "Interest Rate" means the annual interest rate of 11% on the Loan.
+
+(f) "Repayment Terms" means the Borrower will repay the Loan in monthly installments over a period of 5 years.
+
+(g) "Security" means the assets of the Borrower pledged as security for the Loan, as described in Section 7.
+
+(h) "Default" means the Borrower's failure to make any payment when due, or any other breach of its covenants under this Agreement.
+
+(i) "Termination" means the termination of this Agreement in accordance with its terms.
+
+(j) "Miscellaneous" means Section 11 of this Agreement.
+
+5. Representations and Warranties
+
+(a) The Lender represents and warrants to the Borrower that it has full power and authority to enter into this Agreement and to perform its obligations hereunder.
+
+(b) The Borrower represents and warrants to the Lender that it has full power and authority to enter into this Agreement and to perform its obligations hereunder, and that the execution, delivery, and performance of this Agreement have been duly authorized by all necessary corporate action on its part.
+
+6. Covenants
+
+The Borrower covenants and agrees as follows:
+
+(a) The Borrower shall use the Loan solely for the purpose of financing the expansion of its manufacturing facilities.
+
+(b) The Borrower shall maintain complete and accurate books and records of account with respect to the Loan and shall make such books and records available to the Lender upon request.
+
+(c) The Borrower shall pay the Loan in monthly installments over a period of 5 years, commencing on October 1, 1991.
+
+(d) The Borrower shall pay interest on the outstanding principal balance of the Loan at the rate of 11% per annum, calculated on the basis of a 360-day year.
+
+
+7. Security
+
+(vv) The Borrower hereby pledges and grants a security interest in all of its present and future assets, whether now owned or hereafter acquired, to secure the Loan. The Borrower shall execute and deliver such documents and take such actions as the Lender may reasonably require to perfect and maintain the security interest.
+
+(ww) In the event of a default under this Agreement, the Lender shall have the right to take possession of, sell, and apply the proceeds of the sale of the collateral to satisfy the outstanding Loan balance, together with accrued interest and fees.
+
+(yy) The Borrower represents and warrants that it has good and marketable title to the collateral, free and clear of all liens, encumbrances, and other claims, except for any liens or encumbrances created by this Agreement.
+
+(zz) The Borrower shall maintain the collateral in good condition and shall keep the Lender informed of the location of the collateral.
+
+(aa) The Borrower shall, at the Lender's request, deliver to the Lender any collateral that is not in the Lender's possession, and the Lender may, at its option, take possession of such collateral.
+
+(bb) The Borrower shall pay all expenses incurred by the Lender in connection with the collateral, including, but not limited to, reasonable attorneys' fees and expenses incurred in perfecting, maintaining, and enforcing the security interest.
+
+8. Interest and Fees
+
+The Borrower shall pay interest on the outstanding principal amount of the loan at the rate of 11% per annum, calculated on the basis of a 360-day year. The Borrower shall pay the interest on the first day of each calendar month, in arrears.
+
+The Lender may charge the Borrower reasonable fees for any services performed in connection with the loan, including, but not limited to, fees for processing the loan application, wire transfer fees, and fees for any other services provided by the Lender. The Borrower shall be responsible for paying all fees and expenses incurred by the Lender in connection with the loan, including, but not limited to, reasonable attorneys' fees and expenses incurred in perfecting, maintaining, and enforcing the security interest.
+
+The Borrower shall also be responsible for paying any other costs, expenses, or fees incurred by the Lender in connection with the loan, including, but not limited to, appraisal fees, legal fees, and title search fees. The Borrower shall promptly reimburse the Lender for any such costs, expenses, or fees upon demand.
+
+The Borrower shall pay all taxes, duties, and other governmental charges imposed in connection with the loan, including, but not limited to, taxes on the interest, fees, and other charges payable under this Agreement. The Borrower shall also be responsible for paying any penalties or fines imposed by any governmental authority in connection with the loan.
+
+The Borrower shall pay all fees and expenses incurred by the Lender in connection with the collateral, including, but not limited to, reasonable attorneys' fees and expenses incurred in perfecting, maintaining, and enforcing the security interest. The Borrower shall promptly reimburse the Lender for any such fees and expenses upon demand.
+
+The Borrower shall pay all fees and expenses incurred by the Lender in connection with any litigation, arbitration, or other dispute resolution proceedings arising out of or in connection with this Agreement, including, but not limited to, reasonable attorneys' fees and expenses. The Borrower shall promptly reimburse the Lender for any such fees and expenses upon demand.
+
+9. Default
+
+Upon any default by the Borrower under this Agreement, the Lender shall have the right, without prejudice to any other rights or remedies available to it:
+
+a. To declare all or any part of the outstanding principal amount, together with accrued and unpaid interest, immediately due and payable;
+
+b. To exercise any rights of set-off, pledge, lien, or other security interest granted by the Borrower in this Agreement or any other agreement between the parties;
+
+c. To take any other action to protect its interests, including, but not limited to, instituting legal proceedings for the recovery of any amounts due or for the enforcement of the security interest.
+
+The Borrower shall promptly reimburse the Lender for any costs, expenses, or attorneys' fees incurred by the Lender in connection with any action taken under this section.
+
+10. Termination
+
+Upon the occurrence of any of the following events, this Agreement may be terminated:
+
+a. The Borrower fails to make any payment when due, or fails to perform any other material obligation under this Agreement.
+
+b. The Borrower files a petition for bankruptcy or insolvency, or makes an assignment for the benefit of creditors, or has a receiver, trustee, custodian, or similar agent appointed for it or any of its properties.
+
+c. The Borrower breaches any of the representations and warranties made in this Agreement and such breach is not cured within thirty (30) days after written notice from the Lender.
+
+d. The Lender determines, in its sole discretion, that it is no longer willing or able to extend credit to the Borrower.
+
+Upon termination, the Borrower shall immediately repay all outstanding principal, accrued interest, and any other amounts owing under this Agreement. The Borrower shall also promptly return all documents and other property of the Lender. The Lender shall have the right to exercise any rights and remedies it may have under applicable law, including, but not limited to, the right to foreclose on any security interest granted by the Borrower.
+
+11. Miscellaneous
+
+- This Agreement is governed by the laws of Cote d'Ivoire.
+- Any notice required or permitted under this Agreement shall be in writing and shall be deemed to have been duly given when delivered in person, sent by registered or certified mail, or sent by facsimile or email, to the address or facsimile number or email address of the party to be notified as set forth in this Agreement or as subsequently modified by written notice.
+- In the event of any dispute arising out of or in connection with this Agreement, the parties shall first attempt to resolve such dispute through good faith negotiations. If the parties are unable to resolve the dispute through such negotiations, the dispute shall be resolved by binding arbitration in accordance with the rules of the International Chamber of Commerce. The arbitration shall take place in Abidjan, Cote d'Ivoire, and the language of the arbitration shall be English. The decision of the arbitrator shall be final and binding on the parties.
+- This Agreement constitutes the entire agreement between the parties with respect to the subject matter hereof and supersedes all prior negotiations, understandings, and agreements between the parties. This Agreement may not be amended or modified except by a written instrument executed by both parties.
+- This Agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and assigns.
+- This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+- The headings in this Agreement are for convenience only and shall not affect the construction or interpretation of this Agreement.
+- The failure by either party to enforce any provision of this Agreement shall not constitute a waiver of such provision or of any other provision hereof.
+- This Agreement shall be deemed severable, and the invalidity or unenforceability of any provision hereof shall not affect the validity or enforceability of any other provision hereof.
+- This Agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and assigns.
+- This Agreement may be executed in counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+- The parties hereto acknowledge and agree that they have required the services of an attorney in connection with this Agreement and the transactions contemplated hereby.
+- This Agreement shall be governed by and construed in accordance with the laws of Cote d'Ivoire, without giving effect to its conflicts of law principles.
+- The parties hereto hereby irrevocably submit to the jurisdiction of the courts of Cote d'Ivoire for the purpose of any suit, action, or proceeding arising out of or relating to this Agreement.
+- The parties hereto agree that this Agreement may be executed in two or more counterparts, each of which shall be deemed an original, but all of which together shall constitute one and the same instrument.
+- The parties hereto further agree that facsimile or electronic signatures shall be deemed to have the same legal effect as original signatures for all purposes.
+- This Agreement shall be binding upon and inure to the benefit of the parties hereto and their respective successors and assigns.
+- The parties hereto acknowledge and agree that they have had the opportunity to review this Agreement with their respective counsel and have executed this Agreement voluntarily and without coercion.
+- The Borrower acknowledges and agrees that the Lender has relied upon the representations, warranties, and covenants made by the Borrower in this Agreement in extending credit to the Borrower.
+- This Agreement shall be deemed to have been entered into on the date first above written.
+- The Borrower acknowledges and agrees that the Lender has relied upon the representations, warranties, and covenants made by the Borrower in this Agreement in extending credit to the Borrower.
+- The Borrower acknowledges and agrees that the Lender has relied upon the representations, warranties, and covenants made by the Borrower in this Agreement in extending credit to the Borrower.
+
+12. Signatures
+
+The parties have executed this Agreement as of the date first written above.
+
+The Borrower:
+
+XYZ Corporation
+By: _________________________
+Name: _________________________
+Title: _________________________
+
+The Lender:
+
+The Bank of Cote d'Ivoire
+By: _________________________
+Name: _________________________
+Title: _________________________
+
+IN WITNESS WHEREOF, the parties have executed this Agreement as of the date first above written.
