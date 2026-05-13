@@ -85,14 +85,22 @@ def load_model(model_name, quantized=False):
 
 # create flattened lists of sentences of max length to parse in one iteration through the model,
 # and keep a track of the original sentence boundaries to be able to reconstruct the output into sentences after annotation
-def build_chunks(sentences, labels=None, max_chunk_size=250): #usable both in validation or annotation mode according to labels
+def build_chunks(sentences, labels=None, max_chunk_size=50): #usable both in validation or annotation mode according to labels
     chunks = []
     current_chunk = {
         "size": 0,
+
+        # flattened structure of tokens and labels
         "tokens": [], 
+        "flat_gold_labels": [] if labels else None,
+
+        # nested structure of sentences and labels
+        "sentences": [],
+        "gold_labels": [] if labels else None,
+
+        # metadata used for reconstruction
         "sent_lengths": [], 
-        "sent_indices": [], 
-        "gold_labels": [] if labels else None}
+        "sent_indices": []}
 
     for i, sent in enumerate(sentences): # remember sent is a list of tokens
         sent_len = len(sent) # how are we gonna handle extremely long sentences? for now they are treated separately as their own chunk
@@ -103,19 +111,32 @@ def build_chunks(sentences, labels=None, max_chunk_size=250): #usable both in va
 
             current_chunk = {
                 "size": 0,
-                "tokens": [], 
-                "sent_lengths": [], 
-                "sent_indices": [], 
-                "gold_labels": [] if labels else None}
 
-        # add sentence metadata to  current chunk
+                "tokens": [], 
+                "flat_gold_labels": [] if labels else None,
+
+                "sentences": [],
+                "gold_labels": [] if labels else None,
+
+                # metadata used for reconstruction
+                "sent_lengths": [], 
+                "sent_indices": []}
+
+        # nested sentence storage
+        current_chunk["sentences"].append(sent)
+
+        # flat token storage
         current_chunk["tokens"].extend(sent)
+
         current_chunk["size"] += sent_len
         current_chunk["sent_lengths"].append(sent_len)
         current_chunk["sent_indices"].append(i)
 
         if labels:
             current_chunk["gold_labels"].append(labels[i])
+
+            # flattened labels too
+            current_chunk["flat_gold_labels"].extend(labels[i])
 
     # add any remaining sentences as the last chunk
     if current_chunk["tokens"]:
@@ -156,24 +177,20 @@ def format_prompt(template_path, example_path):
 
 # align predictions and handle mismatches to avoid data shifting issues
 def align_pred_pairs_to_chunk(pred_pairs, chunk):
-    """
-    Aligns model output [[pred_token, pred_label], ...]
-    to chunk["tokens"].
-
-    If a gold token is missing from predictions, assign MISMATCH.
-    Returns flat labels aligned to chunk["tokens"].
-    """
-
+    print(f"Aligning gold tokens and LLM annotations...")
+    
     gold_tokens = chunk["tokens"]
     aligned_labels = []
 
     pred_i = 0
+    mismatch_count = 0
 
     for gold_i, gold_token in enumerate(gold_tokens):
 
         # no more predictions left
         if pred_i >= len(pred_pairs):
-            aligned_labels.append("MISMATCH")
+            aligned_labels.append("NO_PRED_LEFT")
+            mismatch_count += 1
             continue
 
         pred_token, pred_label = pred_pairs[pred_i]
@@ -187,7 +204,8 @@ def align_pred_pairs_to_chunk(pred_pairs, chunk):
         # and predicted token matches next gold
 
         elif (gold_i + 1 < len(gold_tokens) and pred_token == gold_tokens[gold_i + 1]):
-            aligned_labels.append("MISMATCH")
+            aligned_labels.append("GOLD_SKIPPED")
+            mismatch_count += 1
             # do NOT advance pred_i
             # next loop will match this pred_token to next gold token
 
@@ -195,18 +213,13 @@ def align_pred_pairs_to_chunk(pred_pairs, chunk):
         else:
             aligned_labels.append("MISMATCH")
             pred_i += 1
+            mismatch_count += 1
 
-    mismatch_count = aligned_labels.count("MISMATCH")
-
-    print(
-        f"Recovered chunk with "
-        f"{mismatch_count} mismatches "
-        f"out of {len(aligned_labels)} tokens."
-    )
-
+    print(f"Recovered chunk with {mismatch_count} mismatches out of {len(aligned_labels)} tokens.")
     return aligned_labels
-        
 
+    
+# turn the string output from the model into a nested list
 def parse_tsv_output(outputs):
     if not outputs.strip():
         raise ValueError("Empty model output")
@@ -229,12 +242,12 @@ def parse_tsv_output(outputs):
         # missing label
         elif len(parts) == 1:
             token = parts[0]
-            label = "MISMATCH"
+            label = "MISSING"
         
         # too many columns
         else:
             token = parts[0]
-            label = "MISMATCH"
+            label = "LONG_FORMAT"
 
         pred_pairs.append([token, label])
 
@@ -254,7 +267,7 @@ def annotate_chunk(prompt_template, chunk, model_info, temperature):
         if model_info["backend"] == "openai":
             # prepare the prompt for the open ai API 
 
-            print(f"Sending prompt to {model_info['model_name']}, attempt {attempt+1}...\n")
+            print(f"Sending prompt to {model_info['model_name']}, attempt {attempt+1}...")
             response = model_info["client"].chat.completions.create(
                 model=model_info["model_name"],
                 messages=[{"role": "user", "content": prompt}],
@@ -312,6 +325,7 @@ def annotate_chunk(prompt_template, chunk, model_info, temperature):
     return aligned_labels
 
 
+# turn the aligned labels for the flatenned chunk and reconstruct the nested structure using chunk metadata
 def reconstruct_nested(flat_labels, chunk):
     nested_tokens = []
     nested_labels = []
@@ -332,11 +346,12 @@ def reconstruct_nested(flat_labels, chunk):
     return nested_tokens, nested_labels
 
 
+# iterate over the nested structure and write on the txt file dynamically
 def write_iob2(sentences, labels, output_path):
     with open(output_path, "a", encoding="utf-8") as f:
-        for sent_tokens, sent_labels in zip(sentences, labels):
+        for sent_tokens, sent_labels in zip(sentences, labels): #iterating at the sentence level here
 
-            for i, (token, label) in enumerate(
+            for i, (token, label) in enumerate( #iterate inside each token-label pair
                 zip(sent_tokens, sent_labels),
                 start=1
             ):
@@ -354,40 +369,64 @@ if __name__ == "__main__":
 
     parser.add_argument("--model_name", default="mistral")
     parser.add_argument("--quantized", action="store_true", help="Whether to load the model in 4-bit quantized mode for memory efficiency.")
-    parser.add_argument("--mode", default="validate")
+    parser.add_argument("--mode", choices=["validate", "annotate"])
     parser.add_argument("--create_chunks", action="store_true")
-    parser.add_argument("--max_chunk_size", type=int, default=250, help="Maximum number of words to include in each chunk sent to the model for annotation.")
+    parser.add_argument("--chunk_file", default="chunks.json")
+    parser.add_argument("--max_chunk_size", type=int, default=50, help="Maximum number of words to include in each chunk sent to the model for annotation.")
     parser.add_argument("--temperature", type=float, default=0)
     parser.add_argument("--input_data", default="annotation/FIN5_validation.txt")
     parser.add_argument("--output_dir", default="annotation/validation")
     parser.add_argument("--output_file", required=True)
+
 
     args = parser.parse_args()
     model_name = args.model_name.lower()
     quantized = args.quantized
 
     model = load_model(model_name, quantized)
-
-    # load validation data
+    print(f"Loading model...\n")
+    print(f"Model loaded.\n\n")
+    
+    # load data to annotate
+    chunk_path = os.path.join("annotation/", args.chunk_file)
+    
     if args.create_chunks:
 
-        sentences, true_labels = parse_iob2_file(args.input_data)
+        if args.mode == "validate":
+            print(f"Extracting nested list of sentences from validation data...\n")
+            sentences, true_labels = parse_iob2_file(args.input_data)
+        else:
+            print(f"Processing contract and extracting nested list of sentences...\n")
+            sentences, true_labels = extract_sentences(args.input_data), None
 
-        print("Creating chunks from sentences...\n")
+        print(f"Extracting chunks of size ≤ {args.max_chunk_size} from sentences...\n")
         chunks = build_chunks(
             sentences,
             labels=true_labels,
             max_chunk_size=args.max_chunk_size
         )
 
-        # since the output of creating chunks is deterministic, we can save it to reuse 
-        with open("annotation/chunks.json", "w", encoding="utf-8") as f:
+        # since the output of creating chunks is deterministic, we can save it to reuse later
+        with open(chunk_path, "w", encoding="utf-8") as f:
             json.dump(chunks, f, ensure_ascii=False, indent=4)
+        
+        print(f"Chunks saved to {chunk_path}.\n\n")
 
     else:
-        print("Loading chunks from file...\n")
-        with open("annotation/chunks.json", "r", encoding="utf-8") as f:
+        print(f"Loading chunks from {chunk_path}...\n")
+        with open(chunk_path, "r", encoding="utf-8") as f:
             chunks = json.load(f)
+        
+        sentences = []
+        true_labels = [] if args.mode == "validate" else None
+
+        for chunk in chunks:
+            sentences.extend(chunk["sentences"])
+
+            if args.mode == "validate":
+                true_labels.extend(chunk["gold_labels"])
+
+        print(f"Chunks and nested sentences loaded successfully.\n\n")
 
     
     print(f"Loading prompt template...\n")
@@ -401,11 +440,11 @@ if __name__ == "__main__":
     open(output_path, "w").close()
 
     for i, chunk in enumerate(chunks):
-        print(f"Processing chunk {i+1}/{len(chunks)}")
+        print(f"\nProcessing chunk {i+1}/{len(chunks)}")
         chunk_labels = annotate_chunk(prompt_template, chunk, model, args.temperature) # these are flat labels for the chunk
         nested_tokens, nested_labels = reconstruct_nested(chunk_labels, chunk)
 
         # save to file progressively
         write_iob2(nested_tokens, nested_labels, output_path) 
 
-    print(f"Results saved to {output_path}")
+    print(f"\nResults saved to {output_path}")
