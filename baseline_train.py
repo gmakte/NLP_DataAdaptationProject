@@ -15,11 +15,11 @@ only_trainning = True # train on training data and predict on test set
 
 # Set up
 
-path_train = "data/full_synth.txt" #change to synthetic and FIN5 later - train part
+path_train = "data/mixed_syn_FIN5.txt" #change to synthetic and FIN5 later - train part
 path_dev = "data/FIN5_dev.txt" #change to synthetic and FIN5 later - dev part
 path_test = "data/FIN3_fixed.txt" #change to FIN3 later - test part
 
-model_dir = "model13" # Directory to save the trained model and tokenizer, gitignored since it is huge
+model_dir = "model14" # Directory to save the trained model and tokenizer, gitignored since it is huge
 model_name = "google-bert/bert-base-cased"
 
 learning_rate = 2e-5
