@@ -15,10 +15,11 @@ only_trainning = True # train on training data and predict on test set
 
 # Set up
 
-path_train = "data/FIN5_fixed.txt" #change to synthetic and FIN5 later - train part
+path_train = "data/full_synth.txt" #change to synthetic and FIN5 later - train part
 path_dev = "data/FIN5_dev.txt" #change to synthetic and FIN5 later - dev part
 path_test = "data/FIN3_fixed.txt" #change to FIN3 later - test part
 
+model_dir = "model13" # Directory to save the trained model and tokenizer, gitignored since it is huge
 model_name = "google-bert/bert-base-cased"
 
 learning_rate = 2e-5
@@ -203,9 +204,9 @@ if only_trainning:
     with open("results/training_losses_FIN5full_256.txt", "w") as f:
         f.write(str(epoch_losses))
     # Save the trained model and tokenizer in model3 folder (gitignore since it is huge)
-    model.save_pretrained("model12")
-    tokenizer.save_pretrained("model12")
-    print("Model and tokenizer saved to model12 folder")
+    model.save_pretrained(model_dir)
+    tokenizer.save_pretrained(model_dir)
+    print(f"Model and tokenizer saved to {model_dir} folder")
     print("Training complete, skipping predictions on test set since only_trainning is set to True")
 
 ##############################################################################
