@@ -7,7 +7,7 @@ import json
 import re
 
 import os
-os.environ["CUDA_VISIBLE_DEVICES"] = ""
+# os.environ["CUDA_VISIBLE_DEVICES"] = ""
 import spacy
 
 from util.preprocessing import parse_iob2_file
