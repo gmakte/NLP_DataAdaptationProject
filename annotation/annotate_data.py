@@ -5,8 +5,12 @@ import argparse
 import os
 import json
 import re
+
+import os
+os.environ["CUDA_VISIBLE_DEVICES"] = ""
+import spacy
+
 from util.preprocessing import parse_iob2_file
-from eval import evaluate_predictions
 
 import time
 from datetime import timedelta
@@ -362,6 +366,84 @@ def write_iob2(sentences, labels, output_path):
             f.write("\n")
 
 
+# for a list of sentences, tokenize inside each
+def tokenize_sentences(sentences):
+    tokenized_sentences = []
+
+    pattern = r'\w+|[^\w\s]+' # match alphanumeric or match grouped special characters
+
+    for sent in sentences:
+        tokens = re.findall(pattern, sent)
+        tokenized_sentences.append(tokens)
+
+    return tokenized_sentences
+
+
+# extract sentence list from dense text - tokenize contracts part 1
+def extract_sentences(contract_path):
+    with open(contract_path, "r") as f:
+        text = f.read()
+
+    nlp = spacy.load("en_core_web_sm")
+
+    # Split on blank lines/new sections first
+    blocks = re.split(r'\n', text)
+
+    sentences = []
+
+    for block in blocks:
+
+        if not block:
+            continue
+
+        doc = nlp(block)
+
+        for sent in doc.sents:
+            sentences.append(sent.text.strip())
+
+    # clean the sentence list
+    fixed = []
+    i = 0
+
+    while i < len(sentences):
+
+        current = sentences[i]
+
+        # case 1 numbered section like 9.
+        if re.match(r'^\d+\.$', current):
+
+            if i + 1 < len(sentences):
+                current += " " + sentences[i + 1]
+                i += 1
+
+
+        # case 2: don+t break clause markers like (iv)
+        elif re.match(r'^\([a-zA-Z0-9ivx]+\)$', current):
+
+            if i + 1 < len(sentences):
+                current += " " + sentences[i + 1]
+                i += 1
+
+
+        # if the sentence starts with parenthesis and it is not a clause marker, it continues the prev sentence and they should go together
+        elif (re.match(r'^\(', current)) and not (re.match(r'^\([a-zA-Z0-9ivx]+\)\s+', current)):
+
+            # merge with previous sentence
+            if fixed:
+                fixed[-1] += " " + current
+                i += 1
+                continue
+
+        # append final version of current
+        fixed.append(current)
+
+        # move to next sentence
+        i += 1
+
+    nested_sentences = tokenize_sentences(fixed)
+    return nested_sentences
+
+
 ##### ----------------------------- MAIN SCRIPT -------------------------------------- #####
 
 if __name__ == "__main__":
@@ -383,8 +465,8 @@ if __name__ == "__main__":
     model_name = args.model_name.lower()
     quantized = args.quantized
 
-    model = load_model(model_name, quantized)
     print(f"Loading model...\n")
+    model = load_model(model_name, quantized)
     print(f"Model loaded.\n\n")
     
     # load data to annotate

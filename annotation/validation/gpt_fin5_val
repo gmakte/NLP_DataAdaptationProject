@@ -41,7 +41,7 @@
 5	-	I-ORG
 6	AsiaInfo	I-ORG
 7	Technologies	I-ORG
-8	,	O
+8	,	I-ORG
 9	Inc	I-ORG
 10	.	O
 11	(“	O
@@ -146,11 +146,11 @@
 22	,	O
 23	Beijing	B-LOC
 24	,	O
-25	P	O
-26	.	O
-27	R	O
-28	.	O
-29	China	B-LOC
+25	P	B-LOC
+26	.	I-LOC
+27	R	I-LOC
+28	.	I-LOC
+29	China	I-LOC
 30	.	O
 
 1	Each	O
@@ -444,7 +444,7 @@
 20	,	O
 21	000	O
 22	;	O
-23	or	MISMATCH
+23	or	NO_PRED_LEFT
 
 1	1	O
 2	.	O
@@ -670,7 +670,7 @@
 38	Security	I-ORG
 39	Technology	I-ORG
 40	Ltd	I-ORG
-41	.	I-ORG
+41	.	O
 42	(	O
 43	hereinafter	O
 44	the	O
@@ -1040,7 +1040,7 @@
 51	shareholder	O
 52	of	O
 53	Borrower	B-PER
-54	Company	O
+54	Company	I-PER
 55	.	O
 
 1	1	O
@@ -2748,7 +2748,7 @@
 46	(	O
 47	as	O
 48	applicable	O
-49	);	O
+49	);	MISMATCH
 
 1	4	O
 2	.	O
@@ -4104,9 +4104,9 @@
 32	arbitration	O
 33	at	O
 34	the	O
-35	Hong	B-ORG
-36	Kong	I-ORG
-37	International	I-ORG
+35	Hong	B-LOC
+36	Kong	I-LOC
+37	International	B-ORG
 38	Arbitration	I-ORG
 39	Center	I-ORG
 40	(“	O
@@ -4266,7 +4266,7 @@
 10	accordance	O
 11	with	O
 12	HKIAC	B-ORG
-13	Procedures	I-ORG
+13	Procedures	O
 14	for	O
 15	Arbitration	O
 16	in	O
@@ -4283,8 +4283,8 @@
 27	to	O
 28	the	O
 29	UNCITRAL	B-ORG
-30	Arbitration	I-ORG
-31	Rules	I-ORG
+30	Arbitration	O
+31	Rules	O
 32	as	O
 33	are	O
 34	therein	O
@@ -4691,7 +4691,7 @@
 7	Technologies	I-ORG
 8	,	I-ORG
 9	Inc	I-ORG
-10	.	I-ORG
+10	.	O
 
 1	By	O
 2	:	O
