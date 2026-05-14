@@ -366,6 +366,47 @@ def write_iob2(sentences, labels, output_path):
             f.write("\n")
 
 
+# from an already annotated contract, fix the sections where there are many mismatches together
+def repair_span(annotated_path, start_line, end_line):
+
+    # read original file
+    with open(annotated_path, "r", encoding="utf-8") as f:
+        raw_lines = f.readlines()
+
+    tokens = [[]]
+
+    for i, line in enumerate(raw_lines):
+        line_num = i+1
+
+        if start_line <= line_num <= end_line:
+            line = line.strip()
+            token = line.split('\t')[1]
+
+            tokens[0].append(token)
+
+    return tokens
+
+
+def rewrite_labels(annotated_path, start_line, end_line, chunk_labels):
+    
+    with open(annotated_path, "r", encoding="utf-8") as f:
+        lines = f.readlines()
+
+    label_idx = 0
+
+    for i, line in enumerate(lines):
+        line_num = i + 1
+
+        if start_line <= line_num <= end_line:
+            parts = line.strip().split('\t')
+            parts[2] = chunk_labels[label_idx]
+            label_idx += 1
+            lines[i] = "\t".join(parts) + "\n"
+
+    with open(annotated_path, "w", encoding="utf-8") as f:
+        f.writelines(lines)
+    
+
 # for a list of sentences, tokenize inside each
 def tokenize_sentences(sentences):
     tokenized_sentences = []
@@ -451,14 +492,16 @@ if __name__ == "__main__":
 
     parser.add_argument("--model_name", default="mistral")
     parser.add_argument("--quantized", action="store_true", help="Whether to load the model in 4-bit quantized mode for memory efficiency.")
-    parser.add_argument("--mode", choices=["validate", "annotate"])
-    parser.add_argument("--create_chunks", action="store_true")
+    parser.add_argument("--mode", choices=["validate", "annotate", "repair"])
+    parser.add_argument("--load_chunks", action="store_true")
     parser.add_argument("--chunk_file", default="chunks.json")
+    parser.add_argument("--start_line", type=int)
+    parser.add_argument("--end_line", type=int)
     parser.add_argument("--max_chunk_size", type=int, default=50, help="Maximum number of words to include in each chunk sent to the model for annotation.")
     parser.add_argument("--temperature", type=float, default=0)
-    parser.add_argument("--input_data", default="annotation/FIN5_validation.txt")
-    parser.add_argument("--output_dir", default="annotation/validation")
-    parser.add_argument("--output_file", required=True)
+    parser.add_argument("--input_data", default="synthetic/contracts_train")
+    parser.add_argument("--output_dir", default="annotation/contracts")
+    parser.add_argument("--output_file")
 
 
     args = parser.parse_args()
@@ -472,14 +515,17 @@ if __name__ == "__main__":
     # load data to annotate
     chunk_path = os.path.join("annotation/", args.chunk_file)
     
-    if args.create_chunks:
+    if not args.load_chunks:
 
         if args.mode == "validate":
             print(f"Extracting nested list of sentences from validation data...\n")
             sentences, true_labels = parse_iob2_file(args.input_data)
-        else:
+        elif args.mode == "annotate":
             print(f"Processing contract and extracting nested list of sentences...\n")
             sentences, true_labels = extract_sentences(args.input_data), None
+        elif args.mode == "repair":
+            print(f"Loading tokens to be repaired...\n")
+            sentences, true_labels = repair_span(args.input_data, args.start_line, args.end_line), None
 
         print(f"Extracting chunks of size ≤ {args.max_chunk_size} from sentences...\n")
         chunks = build_chunks(
@@ -488,11 +534,12 @@ if __name__ == "__main__":
             max_chunk_size=args.max_chunk_size
         )
 
-        # since the output of creating chunks is deterministic, we can save it to reuse later
-        with open(chunk_path, "w", encoding="utf-8") as f:
-            json.dump(chunks, f, ensure_ascii=False, indent=4)
+        if not args.mode == "repair":
+            # since the output of creating chunks is deterministic, we can save it to reuse later
+            with open(chunk_path, "w", encoding="utf-8") as f:
+                json.dump(chunks, f, ensure_ascii=False, indent=4)
         
-        print(f"Chunks saved to {chunk_path}.\n\n")
+            print(f"Chunks saved to {chunk_path}.\n\n")
 
     else:
         print(f"Loading chunks from {chunk_path}...\n")
@@ -514,19 +561,25 @@ if __name__ == "__main__":
     print(f"Loading prompt template...\n")
     prompt_template = format_prompt("annotation/prompt_annotation.txt", "annotation/one_shot.txt")
 
-    # create output dir from args
-    os.makedirs(args.output_dir, exist_ok=True)
-    output_path = os.path.join(args.output_dir, args.output_file)
     
-    # clear previous file
-    open(output_path, "w").close()
+    if args.mode != "repair":
+        # create output dir from args
+        os.makedirs(args.output_dir, exist_ok=True)
+        output_path = os.path.join(args.output_dir, args.output_file)
+
+        # clear previous file
+        open(output_path, "w").close()
 
     for i, chunk in enumerate(chunks):
         print(f"\nProcessing chunk {i+1}/{len(chunks)}")
         chunk_labels = annotate_chunk(prompt_template, chunk, model, args.temperature) # these are flat labels for the chunk
-        nested_tokens, nested_labels = reconstruct_nested(chunk_labels, chunk)
 
-        # save to file progressively
-        write_iob2(nested_tokens, nested_labels, output_path) 
-
-    print(f"\nResults saved to {output_path}")
+        if args.mode == "repair":
+            rewrite_labels(args.input_data, args.start_line, args.end_line, chunk_labels)
+            print(f"Labels at {args.input_data} repaired. Lines: {args.start_line} - {args.end_line}")
+        else:
+            # save to file progressively
+            nested_tokens, nested_labels = reconstruct_nested(chunk_labels, chunk)
+            write_iob2(nested_tokens, nested_labels, output_path) 
+            print(f"Results saved to {output_path}.")
+    
