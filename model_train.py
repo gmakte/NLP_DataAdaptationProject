@@ -4,33 +4,26 @@ from transformers import (AutoTokenizer, AutoModelForTokenClassification, DataCo
 from torch.utils.data import DataLoader
 import torch
 import argparse
-# import random
-# import evaluate
 from tqdm.auto import tqdm
-# import numpy as np
-
-#######################################################
-# Script contains: dataset preprocessing, tokenization and alignment, training loop and getting predictions on test set
 
 only_trainning = True # train on training data and predict on test set
 
-# Set up - parse command-line arguments for required values
+# argument parsing
 parser = argparse.ArgumentParser(description="Train a token-classification model (NER)")
-# Required positional args per user request
+
 parser.add_argument("path_train", help="Path to training IOB2 file")
 parser.add_argument("model_dir", help="Directory to save the trained model and tokenizer")
 parser.add_argument("max_length", type=int, help="Maximum tokenization length (int)")
-# Optional overrides with sensible defaults
-parser.add_argument("--path_dev", default="data/FIN5_dev.txt", help="Path to development IOB2 file")
-parser.add_argument("--path_test", default="data/FIN3_fixed.txt", help="Path to test IOB2 file")
-parser.add_argument("--model_name", default="google-bert/bert-base-cased", help="Pretrained model name")
+
+parser.add_argument("--path_dev", default="data/FIN5_dev.txt")
+parser.add_argument("--path_test", default="data/FIN3_fixed.txt")
+parser.add_argument("--model_name", default="google-bert/bert-base-cased")
 parser.add_argument("--learning_rate", type=float, default=2e-5, help="Learning rate")
 parser.add_argument("--num_train_epochs", type=int, default=8, help="Number of training epochs")
 parser.add_argument("--batch_size", type=int, default=15, help="Batch size")
 
 args = parser.parse_args()
 
-# Assign variables from parsed args
 path_train = args.path_train
 path_dev = args.path_dev
 path_test = args.path_test
