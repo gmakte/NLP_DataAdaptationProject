@@ -1,43 +1,36 @@
 import sys
-
 from sklearn import metrics
-
-def readNlu(path):
-    # reads labels from last column, assumes conll-like file
-    # with 1 word per line, tab separation, and empty lines
-    # for sentence splits. The BIO annotation is expected in the
-    # third column (index 2), following universalNER.
-    annotations = []
-    cur_annotation = []
-    for line in open(path, encoding='utf-8'):
-        line = line.strip()
-        if line == '':
-            annotations.append(cur_annotation)
-            cur_annotation = []
-        elif line[0] == '#' and len(line.split('\t')) == 1:
-            continue
-        else:
-            cur_annotation.append(line.split('\t')[2])
-    return annotations
+from collections import Counter
 
 def toSpans(tags):
     # Converts a list of tags (corresponding to one sentence) to a list of spans
     # in: ['B-PER', 'I-PER', 'O', 'O', 'O', 'O', 'O', 'B-ORG', 'I-ORG', 'O']
-    # out: {'7-9:ORG', '0-2:PER'} (end is exclusive)
-    spans = set()
-    for beg in range(len(tags)):
-        if tags[beg][0] == 'B': # if the first letter of the current tag is "B", this is the beginning of a new entity span
+    # out: [(7, 9, 'ORG'), (0, 2, 'PER')] (end is exclusive)
+    spans = []
+    i = 0
+    n = len(tags)
+
+    while i < n:
+        if tags[i].startswith("B-"): # if the first letter of the current tag is "B", this is the beginning of a new entity span
+            beg = i
+            label = tags[i][2:]
+
             end = beg
-            for end in range(beg+1, len(tags)):
-                if tags[end][0] != 'I':
-                    break
-            spans.add(str(beg) + '-' + str(end) + ':' + tags[beg][2:])
+            end = beg + 1
+
+            while end < n and tags[end].startswith("I-"):
+                end += 1
+
+            spans.append((beg, end, label))
+            i+=1
+        
+        else:
+            i+= 1
+
     return spans
 
 
-def getBegEnd(span): #e.g. '7-9:ORG' -> [7, 9]
-    return [int(x) for x in span.split(':')[0].split('-')]
-
+########## OVERALL SPAN METRICS: EXACT, UNLABELED, LOOSE ##############
 
 def getLooseOverlap(spans1, spans2): 
     # spans1 represents the set of ground truth spans, spans2 the set of predicted spans
@@ -45,12 +38,10 @@ def getLooseOverlap(spans1, spans2):
     # into account. If entities overlap they also count as found.
     found = 0
     for span1 in spans1:
-        spanBeg, spanEnd = getBegEnd(span1)
-        label = span1.split(':')[1]
+        spanBeg, spanEnd, label = span1
         match = False
         for span2 in spans2:
-            span2Beg, span2End = getBegEnd(span2)
-            label2 = span2.split(':')[1]
+            span2Beg, span2End, label2 = span2
             if label == label2:
                 if span2Beg >= spanBeg and span2Beg <= spanEnd: # right edge of span1 is inside span2
                     match = True
@@ -62,10 +53,14 @@ def getLooseOverlap(spans1, spans2):
             found += 1
     return found
 
+
 def getUnlabeled(spans1, spans2): 
     # measures exact span boundary match ignoring labels completely, e.g. '7-9:ORG' and '7-9:PER' would count as a match
     # Counts the overlap in spans after removing the labels
-    return len(set([x.split(':')[0] for x in spans1]).intersection([x.split(':')[0] for x in spans2]))
+    boundaries1 = {(beg, end) for beg, end, _ in spans1}
+    boundaries2 = {(beg, end) for beg, end, _ in spans2}
+
+    return len(boundaries1.intersection(boundaries2))
 
 
 def calculate_metrics(tp, fp, fn):
@@ -91,8 +86,8 @@ def compute_span_f1(gold_ners, pred_ners):
     fn_ul = 0 
     
     for gold_ner, pred_ner in zip(gold_ners, pred_ners): #assuming nested structure
-        gold_spans = toSpans(gold_ner)
-        pred_spans = toSpans(pred_ner)
+        gold_spans = set(toSpans(gold_ner))
+        pred_spans = set(toSpans(pred_ner))
 
         overlap = len(gold_spans.intersection(pred_spans))  # counting exact matches between gold and predicted spans in a sentence
         tp += overlap

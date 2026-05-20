@@ -8,6 +8,7 @@
 import evaluate
 from util.preprocessing import parse_iob2_file
 from util.span_f1 import compute_span_f1
+from util.confusion_matrix import confusion_matrix
 from config.labels import id2label, label2id
 from datasets import Dataset
 
@@ -43,8 +44,8 @@ def load_and_align(preds: Dataset, refs: Dataset, from_file=False):
         refs_ds["ner_tags"] = [[id2label[id] for id in seq] for seq in ref_labels]
 
     print("Aligning predictions and references...")
-    preds, refs = align_labels(preds_ds, refs_ds)
-    return preds, refs
+    tokens, preds, refs = align_labels(preds_ds, refs_ds)
+    return tokens, preds, refs
 
 
 def align_labels(preds_ds, refs_ds):
@@ -53,6 +54,7 @@ def align_labels(preds_ds, refs_ds):
     pred_tokens = preds_ds["tokens"]
     ref_tokens = refs_ds["tokens"]
 
+    tokens = []
     aligned_preds = []
     aligned_refs = []
 
@@ -60,6 +62,7 @@ def align_labels(preds_ds, refs_ds):
         zip(pred_tokens, ref_tokens, preds, refs)
     ):
         if len(p_tok) == len(r_tok): # perfect match, append the entire list of labels for the sentence
+            tokens.append(r_tok)
             aligned_preds.append(p_lab)
             aligned_refs.append(r_lab)
 
@@ -69,6 +72,7 @@ def align_labels(preds_ds, refs_ds):
                 print(f"Truncated reference tokens from {len(r_tok)} to {len(p_tok)}")
                 aligned_preds.append(p_lab)
                 aligned_refs.append(r_lab[:len(p_tok)])
+                tokens.append(r_tok)
             else:
                 raise ValueError(
                     f"Mismatch not at end for sentence {i}:\n"
@@ -82,7 +86,31 @@ def align_labels(preds_ds, refs_ds):
             )
 
     print("\nAlignment complete.")
-    return aligned_preds, aligned_refs # preds and refs are lists of lists of label strings, aligned at the sentence level
+    return tokens, aligned_preds, aligned_refs # preds and refs are lists of lists of label strings, aligned at the sentence level
+
+
+def write_qualitative_predictions(tokens, gold_labels, pred_labels, output_path):
+    with open(output_path, "w", encoding="utf-8") as f:
+
+        for sent_tokens, sent_gold, sent_pred in zip(
+            tokens, 
+            gold_labels, 
+            pred_labels
+        ):
+
+            f.write(f"\n")
+
+            for token_idx, (token, gold, pred) in enumerate(
+                zip(sent_tokens, sent_gold, sent_pred)
+            ):
+
+                f.write(
+                    f"{token_idx}\t{token}\t{gold}\t{pred}\n"
+                )
+
+            f.write("\n")
+
+        print(f"Aligned gold labels and predictions saved to {output_path}")
 
 
 def compute_metrics(preds, refs):
@@ -93,18 +121,22 @@ def compute_metrics(preds, refs):
     return results
     
 
-def evaluate_predictions(preds, refs, from_file=True):
+def evaluate_predictions(preds, refs, from_file=True, qualitative_output_path = None):
 
     # 1. Load data
-    preds, refs = load_and_align(preds, refs, from_file=from_file)
+    tokens, preds, refs = load_and_align(preds, refs, from_file=from_file)
+    if qualitative_output_path is not None:
+        write_qualitative_predictions(tokens, refs, preds, qualitative_output_path)
 
     # 2. Compute metrics
     seqeval_results = compute_metrics(preds, refs)
     span_results = compute_span_f1(gold_ners=refs, pred_ners=preds)
+    cm = confusion_matrix(all_gold_tags=refs, all_pred_tags=preds)
 
     results = {
         "seqeval": seqeval_results,
-        "span_metrics": span_results
+        "span_metrics": span_results,
+        "confusion_matrix": cm
     }
 
     return results

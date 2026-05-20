@@ -16,6 +16,7 @@ def main():
     parser.add_argument("--ref_path", default="data/FIN3_fixed.txt")
     parser.add_argument("--output_dir", default="results/")
     parser.add_argument("--output_file", default="results_eval.json")
+    parser.add_argument("--qualitative_file")
 
     args = parser.parse_args()
 
@@ -26,9 +27,18 @@ def main():
     #     predict(args)
 
     if args.mode == "evaluate":
+
+        if args.qualitative_file is not None:
+            os.makedirs(args.output_dir, exist_ok=True)
+            qualitative_path = os.path.join(args.output_dir, args.qualitative_file)
+        else:
+            qualitative_path = None
+        
+
         results = evaluate_predictions(
             preds=args.pred_path,
-            refs=args.ref_path
+            refs=args.ref_path,
+            qualitative_output_path=qualitative_path
         )
 
         os.makedirs(args.output_dir, exist_ok=True)
