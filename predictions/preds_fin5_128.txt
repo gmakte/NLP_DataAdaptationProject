@@ -68,17 +68,17 @@
 30	of	I-LOC
 31	China	I-LOC
 32	(“	O
-33	PRC	O
+33	PRC	B-LOC
 34	”	O
 35	or	O
 36	“	B-LOC
 37	China	I-LOC
-38	”)	O
+38	”)	I-LOC
 39	with	O
 40	its	O
 41	address	O
 42	at	O
-43	3	O
+43	3	B-LOC
 44	/	O
 45	F	O
 46	Zhongdian	B-LOC
@@ -139,8 +139,8 @@
 13	,	O
 14	No	O
 15	.	O
-16	1	O
-17	Jinjia	B-LOC
+16	1	B-LOC
+17	Jinjia	I-PER
 18	Village	I-LOC
 19	,	O
 20	Fengtai	B-LOC
@@ -1588,7 +1588,7 @@
 6	shareholder	O
 7	of	O
 8	Borrower	B-PER
-9	Company	O
+9	Company	I-ORG
 10	,	O
 11	Borrower	B-PER
 12	covenants	O
@@ -1685,7 +1685,7 @@
 76	will	O
 77	provide	O
 78	Borrower	B-PER
-79	Company	I-ORG
+79	Company	O
 80	with	O
 81	technical	O
 82	service	O
@@ -2394,7 +2394,7 @@
 66	capital	O
 67	shall	O
 68	be	O
-69	Renminbi	O
+69	Renminbi	B-LOC
 70	Twenty	O
 71	Four	O
 72	Million	O
@@ -2483,7 +2483,7 @@
 5	3	O
 6	cause	O
 7	Borrower	B-PER
-8	Company	O
+8	Company	I-ORG
 9	to	O
 10	engage	O
 11	in	O
@@ -2614,7 +2614,7 @@
 12	Lender	B-PER
 13	and	O
 14	Borrower	B-PER
-15	Company	O
+15	Company	I-ORG
 16	,	O
 17	under	O
 18	which	O
@@ -2867,7 +2867,7 @@
 17	meeting	O
 18	of	O
 19	Borrower	B-PER
-20	Company	O
+20	Company	I-ORG
 21	not	O
 22	to	O
 23	approve	O
@@ -3162,7 +3162,7 @@
 50	shareholders	O
 51	of	O
 52	Borrower	B-PER
-53	Company	O
+53	Company	I-ORG
 54	to	O
 55	waive	O
 56	their	O
@@ -3663,9 +3663,9 @@
 
 1	Lender	B-PER
 2	:	O
-3	3	O
+3	3	B-LOC
 4	/	O
-5	F	O
+5	F	B-LOC
 6	Zhongdian	B-LOC
 7	Information	I-LOC
 8	Tower	I-LOC
@@ -3691,7 +3691,7 @@
 1	China	B-LOC
 2	Attn	O
 3	:	O
-4	Legal	O
+4	Legal	B-ORG
 5	Department	O
 6	Phone	O
 7	:	O
@@ -3742,7 +3742,7 @@
 17	:	O
 18	Bing	B-PER
 19	Yu	I-PER
-20	Tel	O
+20	Tel	I-LOC
 21	:	O
 22	+	O
 23	86	O
@@ -4073,7 +4073,7 @@
 43	under	O
 44	the	O
 45	UNCITRAL	B-ORG
-46	Arbitration	I-ORG
+46	Arbitration	O
 47	Rules	O
 48	as	O
 49	at	O
@@ -4110,7 +4110,7 @@
 15	(	O
 16	the	O
 17	“	O
-18	Board	O
+18	Board	B-ORG
 19	of	I-ORG
 20	Arbitration	I-ORG
 21	”)	O
@@ -4253,7 +4253,7 @@
 2	decision	O
 3	by	O
 4	the	O
-5	Board	O
+5	Board	B-ORG
 6	of	O
 7	Arbitration	O
 8	shall	O
@@ -4372,7 +4372,7 @@
 8	written	O
 9	in	O
 10	both	O
-11	Chinese	O
+11	Chinese	B-LOC
 12	and	O
 13	English	O
 14	language	O
@@ -4414,7 +4414,7 @@
 6	conflict	O
 7	between	O
 8	the	O
-9	Chinese	O
+9	Chinese	B-LOC
 10	version	O
 11	and	O
 12	the	O
@@ -4422,7 +4422,7 @@
 14	version	O
 15	,	O
 16	the	O
-17	Chinese	O
+17	Chinese	B-LOC
 18	version	O
 19	shall	O
 20	prevail	O
