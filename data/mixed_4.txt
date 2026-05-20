@@ -12765,7 +12765,9 @@
 15	first	O
 16	above	O
 17	written	O
-18	.	O1	-DOCSTART-	O
+18	.	O
+
+1	-DOCSTART-	O
 
 1	This	O
 2	LOAN	O
