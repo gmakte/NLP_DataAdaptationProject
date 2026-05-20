@@ -3,6 +3,7 @@ from datasets import Dataset
 from transformers import (AutoTokenizer, AutoModelForTokenClassification, DataCollatorForTokenClassification, AutoConfig, set_seed)
 from torch.utils.data import DataLoader
 import torch
+import argparse
 # import random
 # import evaluate
 from tqdm.auto import tqdm
@@ -13,19 +14,34 @@ from tqdm.auto import tqdm
 
 only_trainning = True # train on training data and predict on test set
 
-# Set up
+# Set up - parse command-line arguments for required values
+parser = argparse.ArgumentParser(description="Train a token-classification model (NER)")
+# Required positional args per user request
+parser.add_argument("path_train", help="Path to training IOB2 file")
+parser.add_argument("model_dir", help="Directory to save the trained model and tokenizer")
+parser.add_argument("max_length", type=int, help="Maximum tokenization length (int)")
+# Optional overrides with sensible defaults
+parser.add_argument("--path_dev", default="data/FIN5_dev.txt", help="Path to development IOB2 file")
+parser.add_argument("--path_test", default="data/FIN3_fixed.txt", help="Path to test IOB2 file")
+parser.add_argument("--model_name", default="google-bert/bert-base-cased", help="Pretrained model name")
+parser.add_argument("--learning_rate", type=float, default=2e-5, help="Learning rate")
+parser.add_argument("--num_train_epochs", type=int, default=8, help="Number of training epochs")
+parser.add_argument("--batch_size", type=int, default=15, help="Batch size")
 
-path_train = "data/mixed_syn_FIN5.txt" #change to synthetic and FIN5 later - train part
-path_dev = "data/FIN5_dev.txt" #change to synthetic and FIN5 later - dev part
-path_test = "data/FIN3_fixed.txt" #change to FIN3 later - test part
+args = parser.parse_args()
 
-model_dir = "model14" # Directory to save the trained model and tokenizer, gitignored since it is huge
-model_name = "google-bert/bert-base-cased"
+# Assign variables from parsed args
+path_train = args.path_train
+path_dev = args.path_dev
+path_test = args.path_test
 
-learning_rate = 2e-5
-num_train_epochs = 8
-batch_size = 15
-max_length = 400
+model_dir = args.model_dir
+model_name = args.model_name
+
+learning_rate = args.learning_rate
+num_train_epochs = args.num_train_epochs
+batch_size = args.batch_size
+max_length = args.max_length
 
 set_seed(42)
 

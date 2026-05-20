@@ -12,7 +12,7 @@ def main():
     parser.add_argument("--mode", required=True)
 
     #useful for evaluation mode
-    parser.add_argument("--pred_path", default="predictions/test_predictions_fin3_aligned.txt")
+    parser.add_argument("--pred_path", default="predictions/preds_mixed_2.txt")
     parser.add_argument("--ref_path", default="data/FIN3_fixed.txt")
     parser.add_argument("--output_dir", default="results/")
     parser.add_argument("--output_file", default="results_eval.json")
