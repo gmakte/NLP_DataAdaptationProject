@@ -1,9 +1,17 @@
 from transformers import AutoTokenizer, AutoModelForTokenClassification
 import torch
+import argparse
 
-input_path = "data/FIN3_fixed.txt"
-output_path = "predictions/preds_model14.txt"
-model_dir = "model14"
+# Parse command-line arguments
+parser = argparse.ArgumentParser(description="Predict labels for tokenized input using a trained model")
+parser.add_argument("input_path", help="Path to the input file")
+parser.add_argument("output_path", help="Path to save the predictions")
+parser.add_argument("model_dir", help="Directory of the trained model")
+args = parser.parse_args()
+
+input_path = args.input_path
+output_path = args.output_path
+model_dir = args.model_dir
 
 model = AutoModelForTokenClassification.from_pretrained(model_dir)
 tokenizer = AutoTokenizer.from_pretrained(model_dir, use_fast=True)
