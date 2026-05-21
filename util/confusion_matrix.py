@@ -141,7 +141,8 @@ def pairstoConfusionMatrix(pairs):
 
     #compute metrics 
     labels = ["PER", "LOC", "ORG", "O"]
-    support = Counter(y_true)
+    raw_support = Counter(y_true)
+    support = {label: raw_support.get(label, 0) for label in labels}
 
     confusion_matrix = metrics.confusion_matrix(y_true, y_pred, labels=labels, normalize="true")
 
