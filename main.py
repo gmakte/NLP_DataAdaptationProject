@@ -12,11 +12,11 @@ def main():
     parser.add_argument("--mode", required=True)
 
     #useful for evaluation mode
-    parser.add_argument("--pred_path", default="predictions/preds_mixed_6.txt")
+    parser.add_argument("--pred_path", default="predictions/preds_synthetic.txt")
     parser.add_argument("--ref_path", default="data/FIN3_fixed.txt")
     parser.add_argument("--output_dir", default="results/")
-    parser.add_argument("--output_file", default="results_mixed_6.json")
-    parser.add_argument("--qualitative_file")
+    parser.add_argument("--output_file", default="results_synthetic.json")
+    parser.add_argument("--qualitative_file", default="results_synthetic.txt")
 
     args = parser.parse_args()
 
