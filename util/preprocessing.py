@@ -1,5 +1,6 @@
 import numpy as np
-from collections import Counter
+import re
+from collections import Counter, defaultdict
 from util.span_f1 import toSpans
 
 def parse_iob2_file(filepath):
@@ -99,3 +100,53 @@ def doc_entity_count(nested_sentences, nested_labels):
         ])
 
     return np.array(entity_matrix)
+
+def normalize_entity_text(text):
+
+    text = text.casefold()
+
+    # remove punctuation
+    text = re.sub(r"[^\w\s]", "", text)
+
+    # normalize whitespace
+    text = " ".join(text.split())
+
+    return text
+
+# entity counter in dataset
+def entityCounter(sentences, labels):
+
+    entity_counts = defaultdict(Counter)
+
+    for sent_tokens, sent_labels in zip(sentences, labels):
+
+        spans = toSpans(sent_labels)
+
+        for start, end, label in spans:
+
+            entity_text = " ".join(sent_tokens[start:end])
+            entity_text = normalize_entity_text(entity_text)
+
+            entity_counts[label][entity_text] += 1
+
+    return entity_counts
+
+
+def entityDiversity(sentences, labels):
+
+    entity_counts = entityCounter(sentences, labels)
+
+    diversity = {}
+
+    label_order = ["PER", "LOC", "ORG"]
+
+    for label in label_order:
+
+        counter = entity_counts[label]
+
+        unique_entities = len(counter)
+        total_mentions = sum(counter.values())
+
+        diversity[label] = unique_entities / total_mentions
+
+    return diversity
