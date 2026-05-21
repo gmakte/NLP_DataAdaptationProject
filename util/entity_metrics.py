@@ -131,7 +131,7 @@ def getConfusions(gold_spans, pred_spans):
 
 
 # takes a list of pairs [(gold_label1, pred_label1), (gold_label2, pred_label2), ...] and returns a confusion matrix
-def pairstoConfusionMatrix(pairs): 
+def pairstoEntityMetrics(pairs): 
     y_true = []
     y_pred = []
 
@@ -144,13 +144,53 @@ def pairstoConfusionMatrix(pairs):
     raw_support = Counter(y_true)
     support = {label: raw_support.get(label, 0) for label in labels}
 
-    confusion_matrix = metrics.confusion_matrix(y_true, y_pred, labels=labels, normalize="true")
+    # confusion matrix
+    confusion_matrix = metrics.confusion_matrix(
+        y_true,
+        y_pred,
+        labels=labels
+    )
 
-    return {"confusion_matrix": confusion_matrix.tolist(), "support": support}
+    # precision per entity
+    precision = metrics.precision_score(
+        y_true,
+        y_pred,
+        labels=labels,
+        average=None,
+        zero_division=0
+    )
+
+    # recall per entity
+    recall = metrics.recall_score(
+        y_true,
+        y_pred,
+        labels=labels,
+        average=None,
+        zero_division=0
+    )
+
+    return {
+        "confusion_matrix": confusion_matrix.tolist(),
+
+        "support": {
+            label: support[label]
+            for label in labels
+        },
+
+        "precision": {
+            label: float(score)
+            for label, score in zip(labels, precision)
+        },
+
+        "recall": {
+            label: float(score)
+            for label, score in zip(labels, recall)
+        }
+    }
 
 
 # create a confusion metrix both for strict and loose span
-def confusion_matrix(all_gold_tags, all_pred_tags):
+def entity_metrics(all_gold_tags, all_pred_tags):
 
     all_strict_pairs = []
     all_loose_pairs = []
@@ -166,7 +206,7 @@ def confusion_matrix(all_gold_tags, all_pred_tags):
         all_strict_pairs.extend(strict_pairs)
         all_loose_pairs.extend(loose_pairs)
 
-    strict_results = pairstoConfusionMatrix(all_strict_pairs)
-    loose_results = pairstoConfusionMatrix(all_loose_pairs)
+    strict_results = pairstoEntityMetrics(all_strict_pairs)
+    loose_results = pairstoEntityMetrics(all_loose_pairs)
 
     return {"strict": strict_results, "loose": loose_results}

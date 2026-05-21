@@ -8,7 +8,7 @@
 import evaluate
 from util.preprocessing import parse_iob2_file
 from util.span_f1 import compute_span_f1
-from util.confusion_matrix import confusion_matrix
+from util.entity_metrics import entity_metrics
 from config.labels import id2label, label2id
 from datasets import Dataset
 
@@ -131,12 +131,12 @@ def evaluate_predictions(preds, refs, from_file=True, qualitative_output_path = 
     # 2. Compute metrics
     seqeval_results = compute_metrics(preds, refs)
     span_results = compute_span_f1(gold_ners=refs, pred_ners=preds)
-    cm = confusion_matrix(all_gold_tags=refs, all_pred_tags=preds)
+    cm = entity_metrics(all_gold_tags=refs, all_pred_tags=preds)
 
     results = {
         "seqeval": seqeval_results,
         "span_metrics": span_results,
-        "confusion_matrix": cm
+        "entity_metrics": cm
     }
 
     return results
