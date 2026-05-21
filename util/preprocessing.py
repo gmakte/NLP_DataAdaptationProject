@@ -1,3 +1,7 @@
+import numpy as np
+from collections import Counter
+from util.span_f1 import toSpans
+
 def parse_iob2_file(filepath):
     sentences = []
     labels = []
@@ -27,3 +31,71 @@ def parse_iob2_file(filepath):
 
     return sentences, labels
 
+
+
+# function for EDA count of word length per doc
+def doc_token_count(nested_sentences):
+    word_lens = []
+    cur_word_count = 0
+
+    for sent in nested_sentences:
+
+        if sent[0] == "-DOCSTART-":
+            word_lens.append(cur_word_count) # append document word count since we are starting a new doc
+            cur_word_count = 0
+            
+            continue
+
+        else:
+            cur_word_count += len(sent)
+
+    if cur_word_count != 0:
+        word_lens.append(cur_word_count)
+        cur_word_count = 0
+
+    return word_lens[1:]
+
+
+
+# compute a matrix of NE span counts per doc, for EDA. rows: documents, cols: PER, LOC, ORG
+def doc_entity_count(nested_sentences, nested_labels):
+    entity_matrix = []
+
+    cur_doc_counter = Counter()
+
+    for sent, sent_labels in zip(nested_sentences, nested_labels):
+
+        # new document 
+        if sent[0] == "-DOCSTART-":
+
+            # save previous document counts
+            if cur_doc_counter:
+
+                entity_matrix.append([
+                    cur_doc_counter["PER"],
+                    cur_doc_counter["LOC"],
+                    cur_doc_counter["ORG"]
+                ])
+
+            # reset counter for next document
+            cur_doc_counter = Counter()
+
+            continue
+
+        # convert sentence bio tags to spans in the format (beg, end, entity)
+        spans = toSpans(sent_labels)
+
+        # count entities in sentence
+        for _, _, label in spans:
+            cur_doc_counter[label] += 1
+
+    # append final document
+    if cur_doc_counter:
+
+        entity_matrix.append([
+            cur_doc_counter["PER"],
+            cur_doc_counter["LOC"],
+            cur_doc_counter["ORG"]
+        ])
+
+    return np.array(entity_matrix)
