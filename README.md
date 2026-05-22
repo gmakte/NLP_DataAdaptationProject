@@ -12,8 +12,8 @@
 
 ## Runtime Notes
 
-- Synthetic contract generation with the Mistral requires about 15 GB of memory, so it should be run on HPC rather than locally.
-- Model training and prediction generation can be done locally, but HPC is recommended if available because these runs can take more than 6 hours.
+- Synthetic contract generation with the Mistral requires about 15 GB of GPU memory, so it should be run on HPC rather than locally.
+- Model training and prediction generation can be done locally, but HPC is recommended if available, as these runs can take more than 6 hours.
 
 ## How to Train the Model
 
