@@ -6,12 +6,12 @@
 - Predictions generated when the model was evaluated on FIN3 are saved in the [`predictions/`](predictions) folder.
 - Evaluation outputs are saved in the [`results/`](results) folder.
 - Synthetic contracts are saved in [`synthetic/contracts/`](synthetic/contracts).
-- Jupyter notebooks for visualization, exploration, and error analysis are stored in the [`results/`](results) folder.
+- Jupyter notebooks for visualization, exploration, and error analysis are stored in the repository as well.
 - Environment setup is documented in `requirements.txt` and `environemnt.yaml`.
 
 ## Runtime Notes
 
-- Synthetic contract generation with the Mistral preset requires about 15 GB of memory, so it should be run on HPC rather than locally.
+- Synthetic contract generation with the Mistral requires about 15 GB of memory, so it should be run on HPC rather than locally.
 - Model training and prediction generation can be done locally, but HPC is recommended if available because these runs can take more than 6 hours.
 
 ## How to Train the Model
@@ -34,7 +34,7 @@ Optional arguments:
 Example:
 
 ```bash
-python model_train.py data/FIN5_train.txt model1 256 --path_dev data/FIN5_dev.txt --path_test data/FIN3_fixed.txt --learning_rate 2e-5 --num_train_epochs 8 --batch_size 15
+python model_train.py data/FIN5_train.txt model1 400 --learning_rate 2e-5 --num_train_epochs 8 --batch_size 15
 ```
 
 What the script does:
@@ -59,7 +59,7 @@ Example:
 python predictions.py data/FIN3_fixed.txt predictions/test_predictions.txt model1
 ```
 
-The input file should contain tokenized sentences in IOB2-like format, with sentences separated by blank lines. The script loads the trained model, predicts labels for each token, and writes the output as `token_id`, `token`, and `label` columns separated by tabs.
+The input file should contain tokenized sentences, with sentences separated by blank lines. The script loads the trained model, predicts labels for each token, and writes the output as `token_id`, `token`, and `label` columns separated by tabs.
 
 ## How to Evaluate Predictions
 
@@ -106,10 +106,10 @@ Example:
 
 ```bash
 cd synthetic
-python generate_synth_data_v2.py --output_file generated_contract.txt --model_name mistral --sectioned --quantized
+python generate_synth_data_v2.py --output_file generated_contract.txt --model_name mistral --sectioned
 ```
 
-This command generates a synthetic contract and saves it to `synthetic/contracts/generated_contract.txt` by default. Supported model presets are `mistral`, `llama`, `qwen`, `deepseek`, `gemma`, and `test`.
+This command generates a synthetic contract and saves it to `synthetic/contracts/generated_contract.txt` by default. Supported model presets are `mistral`, `llama`, `qwen`, `deepseek` and `gemma`.
 
 ## How to Annotate Synthetic Contracts
 
@@ -135,7 +135,7 @@ Useful optional arguments:
 Example:
 
 ```bash
-python annotation/annotate_data.py --mode annotate --input_data synthetic/contracts/generated_contract.txt --output_dir annotation/annotated_contracts --output_file generated_contract_annotated.txt --model_name mistral --quantized
+python annotation/annotate_data.py --mode annotate --input_data synthetic/contracts/generated_contract.txt --output_dir annotation/annotated_contracts --output_file generated_contract_annotated.txt --model_name mistral
 ```
 
 This command splits the contract into chunks, sends each chunk to the model for token-level annotation, and writes the final IOB2-style annotated file to the chosen output directory. The script also saves the chunk structure to `annotation/chunks.json` for reuse unless you run in `repair` mode.
