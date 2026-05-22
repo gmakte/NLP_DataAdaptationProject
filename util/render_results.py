@@ -7,7 +7,7 @@ import numpy as np
 # build an entity level confusion matrix with entity level precision and recall 
 def entityMetricsTable(experiment_name,
                        rule="strict",
-                       results_dir="results/"):
+                       results_dir="./results/"):
 
     filename = f"results_{experiment_name}.json"
 
