@@ -8,6 +8,7 @@
 - Synthetic contracts are saved in [`synthetic/contracts/`](synthetic/contracts).
 - Jupyter notebooks for visualization, exploration, and error analysis are stored in the repository as well.
 - Environment setup is documented in `requirements.txt` and `environemnt.yaml`.
+- Prompts for contracts generation are available in [`synthetic/`](synthetic/).
 
 ## Runtime Notes
 
