@@ -138,4 +138,4 @@ Example:
 python annotation/annotate_data.py --mode annotate --input_data synthetic/contracts/generated_contract.txt --output_dir annotation/annotated_contracts --output_file generated_contract_annotated.txt --model_name mistral
 ```
 
-This command splits the contract into chunks, sends each chunk to the model for token-level annotation, and writes the final IOB2-style annotated file to the chosen output directory. The script also saves the chunk structure to `annotation/chunks.json` for reuse unless you run in `repair` mode.
+This command splits the contract into chunks, sends each chunk to the model for token-level annotation, and writes the final annotated file to the chosen output directory. The script also saves the chunk structure to `annotation/chunks.json` for reuse unless you run in `repair` mode.
